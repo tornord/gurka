@@ -131,7 +131,8 @@ async function bootstrapModel(numberOfPlayers: number, numberOfCards: number, pl
 }
 
 async function main() {
-  const numberOfPlayers = 3;
+  const args = process.argv.slice(2);
+  const numberOfPlayers = args[0] ? parseInt(args[0], 10) : 3;
   for (let numberOfCards = 3; numberOfCards <= 7; numberOfCards++) {
     for (let playerIndex = numberOfPlayers - 1; playerIndex >= 0; playerIndex--) {
       await bootstrapModel(numberOfPlayers, numberOfCards, playerIndex);
