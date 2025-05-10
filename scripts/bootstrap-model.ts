@@ -123,15 +123,16 @@ async function bootstrapModel(numberOfPlayers: number, numberOfCards: number, pl
   }
   const vals = Array.from(cache.entries()); //.sort((a, b) => a[1] - b[1]);
   const data: TrainingSample[] = vals.map(([k, v]) => ({ key: k, value: v.value, seedIndex: v.seedIndex }));
-  writeValuations(data, `data/valuations-${numberOfPlayers}${numberOfCards}${playerIndex}.json`);
   console.log(vals.length); // eslint-disable-line no-console
   if (data.length > 0) {
+    writeValuations(data, `data/valuations-${numberOfPlayers}${numberOfCards}${playerIndex}.json`);
     await trainModel(numberOfPlayers, numberOfCards, playerIndex, data);
   }
 }
 
 async function main() {
-  const numberOfPlayers = 4;
+  const args = process.argv.slice(2);
+  const numberOfPlayers = args[0] ? parseInt(args[0], 10) : 3;
   for (let numberOfCards = 3; numberOfCards <= 7; numberOfCards++) {
     for (let playerIndex = numberOfPlayers - 1; playerIndex >= 0; playerIndex--) {
       await bootstrapModel(numberOfPlayers, numberOfCards, playerIndex);
