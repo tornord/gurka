@@ -28,14 +28,19 @@ function writeValuations(data: TrainingSample[], filename: string) {
 
 async function bootstrapModel(numberOfPlayers: number, numberOfCards: number, playerIndex: number) {
   const models: Record<string, tf.LayersModel> = {};
+  const policyLookups: Record<string, Record<string, string>> = {};
   for (let i = 3; i <= numberOfCards; i++) {
     for (let j = 0; j < numberOfPlayers; j++) {
       const modelName = `${numberOfPlayers}${i}${j}`;
-      const filename = `./data/model-${modelName}.json`;
+      let filename = `./data/model-${modelName}.json`;
       if (!fs.existsSync(filename)) continue;
       const modelJson = JSON.parse(fs.readFileSync(filename, "utf8"));
       const model = await loadModel(modelJson);
       models[modelName] = model;
+      filename = `./data/valuations-${modelName}.json`;
+      if (!fs.existsSync(filename)) continue;
+      const dict = Object.fromEntries(JSON.parse(fs.readFileSync(filename, "utf8")).map((d: TrainingSample) => [d.key, d.value]));
+      policyLookups[modelName] = dict;
     }
   }
   const mn = `${numberOfPlayers}${numberOfCards}${playerIndex}`;
@@ -56,11 +61,24 @@ async function bootstrapModel(numberOfPlayers: number, numberOfCards: number, pl
     // }
     const idx = state.calcPositionIndex();
     const modelName = `${state.players.length}${player.cards.length}${idx}`;
+    const k = toKey(state);
+    const policyLookup = policyLookups[modelName];
+    if (policyLookup) {
+      const p = policyLookup[k];
+      if (p) {
+        const md: Record<string, number> = {};
+        for (let i = 0; i < moves.length; i++) {
+          const m = moves[i];
+          const c = cardToString(player.cards[m]);
+          md[c] = m;
+        }
+        return md[p];
+      }
+    }
     const model = models[modelName];
     if (!model) {
       throw new Error(`Model ${modelName} not found`);
     }
-    const k = toKey(state);
     const p = predictModel(model, k);
     const cs = moves.map((d) => cardValue(player.cards[d]));
     const mi = findMaxIndex(cs.map((c) => p[c]));

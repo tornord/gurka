@@ -8,6 +8,15 @@ https://en.wikipedia.org/wiki/Cucumber_(card_game)
 In swedish:
 https://sv.wikipedia.org/wiki/Gurka_(kortspel)
 
+
+# Install
+
+Install and run on any OS but Tensorflow is tricky to run on Windows.
+
+```sh
+npm i
+```
+
 ## Build the models
 
 To build the models from scratch use the bootstrap script:
