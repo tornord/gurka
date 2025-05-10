@@ -11,7 +11,7 @@ https://sv.wikipedia.org/wiki/Gurka_(kortspel)
 
 # Install
 
-Install and run on any OS but Tensorflow is tricky to run on Windows.
+Install and run it on any operating system, but TensorFlow can be tricky to run on Windows.
 
 ```sh
 npm i
