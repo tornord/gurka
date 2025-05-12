@@ -114,7 +114,7 @@ async function bootstrapModel(
   const NUM_RUNS = 1000;
   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
 
-  for (let i = 0; i < 40000; i++) {
+  for (let i = 0; i < 100_000; i++) {
     const seed = i.toString();
     const rng0 = randomNumberGenerator(seed);
     const s0 = generateRandomGameState(seed, numberOfPlayers, numberOfCards, 0);
