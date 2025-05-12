@@ -158,7 +158,7 @@ async function bootstrapModel(
     cache.set(k, { seedIndex: i, value: cards[mi] });
     // eslint-disable-next-line no-console
     console.log(
-      `${cache.size.toString().padStart(5)} ${i.toString().padStart(5)} ${k.padEnd(10)} ${cards.join("").padEnd(7)} ${
+      `${mn} ${cache.size.toString().padStart(5)} ${i.toString().padStart(5)} ${k.padEnd(10)} ${cards.join("").padEnd(7)} ${
         cards[mi]
       } ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
     );
