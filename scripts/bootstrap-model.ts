@@ -77,9 +77,9 @@ async function bootstrapModel(
       state.highestPlayedIndex !== -1 &&
       numberOfPlayers > 2 &&
       idx > 1 &&
-      !(numberOfCards === 3 && playerIndex === 2)
+      !(numberOfCards === 3 && playerIndex === numberOfPlayers - 1)
     ) {
-      const n = state.players.length;
+      const n = numberOfPlayers;
       const idxDiff = (state.playerIndex + n - state.highestPlayedIndex) % n;
       if (idxDiff < 0 || idx - idxDiff < 0) {
         throw new Error(`idxDiff: ${idxDiff} idx: ${idx}`);
@@ -175,7 +175,7 @@ async function bootstrapModel(
 }
 
 function calcHighestPlayedIndices(numberOfPlayers: number, numberOfCards: number, playerIndex: number) {
-  if (numberOfPlayers === 2 || playerIndex <= 1 || (numberOfCards === 3 && playerIndex === 2)) {
+  if (numberOfPlayers === 2 || playerIndex <= 1 || (numberOfCards === 3 && playerIndex === numberOfPlayers - 1)) {
     return [null];
   }
   return [...Array(playerIndex)].map((_, i) => i);
@@ -183,7 +183,7 @@ function calcHighestPlayedIndices(numberOfPlayers: number, numberOfCards: number
 
 async function main() {
   const args = process.argv.slice(2);
-  const numberOfPlayers = args[0] ? parseInt(args[0], 10) : 3;
+  const numberOfPlayers = args[0] ? parseInt(args.at(-1)!, 10) : 3;
   for (let numberOfCards = 3; numberOfCards <= 7; numberOfCards++) {
     for (let playerIndex = numberOfPlayers - 1; playerIndex >= 0; playerIndex--) {
       const highestPlayedIndices = calcHighestPlayedIndices(numberOfPlayers, numberOfCards, playerIndex);
