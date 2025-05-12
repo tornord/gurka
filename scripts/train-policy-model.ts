@@ -3,7 +3,7 @@ import fs from "fs";
 import * as tf from "@tensorflow/tfjs-node-gpu";
 
 import { cardFromString, cardToString } from "../common/card-game";
-import { cardsToInput, findMaxIndex, loadModel, predictModel, toJson } from "./model-helpers";
+import { cardsToInput, findMaxIndex, loadModel, predictModel, toJson, toModelName } from "./model-helpers";
 
 const { floor } = Math;
 
@@ -61,12 +61,10 @@ function shuffle(data: TrainingSample[]) {
 }
 
 export async function trainModel(
-  numberOfPlayers: number,
+  modelName: string,
   numberOfCards: number,
-  playerIndex: number,
   data: TrainingSample[] | null = null
 ) {
-  const modelName = `${numberOfPlayers}${numberOfCards}${playerIndex}`;
   if (data === null) {
     data = JSON.parse(fs.readFileSync(`data/valuations-${modelName}.json`, "utf8")) as TrainingSample[];
   }
