@@ -77,9 +77,12 @@ export function cardsToInput(cards: string, fillValue: number = -1): number[] {
 
 export function predictModel(model: tf.LayersModel, cards: string): number[] {
   const input = cardsToInput(cards);
-  const predictionTensor = model.predict(tf.tensor2d([input], [1, input.length]));
+  const x = tf.tensor2d([input], [1, input.length]);
+  // const predictionTensor = model.predict(tf.randomNormal([1, input.length]));
+  const predictionTensor = model.predict(x);
   const prediction = (predictionTensor as tf.Tensor).dataSync();
-  return prediction;
+  return Array.from(prediction);
+  // return [...Array(13)].map(() => Math.random());
 }
 
 export function findMaxIndex(a: number[]) {

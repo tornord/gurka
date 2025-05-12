@@ -141,17 +141,19 @@ async function bootstrapModel(
     const vals = moves.map(() => 0);
     const runs = moves.map(() => 0);
     const cards = moves.map((m) => cardToString(s0.players[playerIndex].cards[m]));
-    for (let j = 0; j < NUM_RUNS; j++) {
-      for (let m = 0; m < moves.length; m++) {
-        const rngr = randomNumberGenerator(`${seed}${j}`);
-        const s = s0.clone();
-        s.playCard(moves[m]);
-        const v = valuateMonteCarlo(s, rngr, 1, playerIndex, true, policyNetworkCalc);
-        if (v === null) continue;
-        vals[m] += v.value;
-        runs[m]++;
+    tf.tidy(() => {
+      for (let j = 0; j < NUM_RUNS; j++) {
+        for (let m = 0; m < moves.length; m++) {
+          const rngr = randomNumberGenerator(`${seed}${j}`);
+          const s = s0.clone();
+          s.playCard(moves[m]);
+          const v = valuateMonteCarlo(s, rngr, 1, playerIndex, true, policyNetworkCalc);
+          if (v === null) continue;
+          vals[m] += v.value;
+          runs[m]++;
+        }
       }
-    }
+    });
     const mi = findMaxIndex(vals.map((v, ii) => v / runs[ii]));
     cache.set(k, { seedIndex: i, value: cards[mi] });
     // eslint-disable-next-line no-console
@@ -160,6 +162,8 @@ async function bootstrapModel(
         cards[mi]
       } ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
     );
+    // console.log("numTensors (in tidy): " + tf.memory().numTensors);
+    // tf.dispose();
     if (cache.size >= 5000) {
       break;
     }
@@ -170,6 +174,7 @@ async function bootstrapModel(
     // ); // eslint-disable-line no-console
     // const t2 = performance.now();
   }
+
   const vals = Array.from(cache.entries()); //.sort((a, b) => a[1] - b[1]);
   return vals.map(([k, v]) => ({ key: k, value: v.value, seedIndex: v.seedIndex } as TrainingSample));
 }
