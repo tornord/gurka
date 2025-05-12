@@ -158,9 +158,9 @@ async function bootstrapModel(
     cache.set(k, { seedIndex: i, value: cards[mi] });
     // eslint-disable-next-line no-console
     console.log(
-      `${mn} ${cache.size.toString().padStart(5)} ${i.toString().padStart(5)} ${k.padEnd(10)} ${cards.join("").padEnd(7)} ${
-        cards[mi]
-      } ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
+      `${mn.padEnd(4)} ${cache.size.toString().padStart(5)} ${i.toString().padStart(5)} ${k.padEnd(10)} ${cards
+        .join("")
+        .padEnd(7)} ${cards[mi]} ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
     );
     // console.log("numTensors (in tidy): " + tf.memory().numTensors);
     // tf.dispose();
@@ -206,3 +206,8 @@ async function main() {
 }
 main();
 // bootstrapModel(3, 4, 2);
+
+// const modelName = "3621";
+// const filename = `data/valuations-${modelName}.json`;
+// const data = readValuations(filename);
+// await trainModel(modelName, 6, data);
