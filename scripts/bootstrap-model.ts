@@ -184,7 +184,7 @@ function calcHighestPlayedIndices(numberOfPlayers: number, numberOfCards: number
 async function main() {
   const args = process.argv.slice(2);
   const numberOfPlayers = args[0] ? parseInt(args[0], 10) : 3;
-  for (let numberOfCards = 4; numberOfCards <= 7; numberOfCards++) {
+  for (let numberOfCards = 3; numberOfCards <= 7; numberOfCards++) {
     for (let playerIndex = numberOfPlayers - 1; playerIndex >= 0; playerIndex--) {
       const highestPlayedIndices = calcHighestPlayedIndices(numberOfPlayers, numberOfCards, playerIndex);
       for (const highestPlayedIndex of highestPlayedIndices) {
