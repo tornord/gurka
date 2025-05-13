@@ -7,6 +7,8 @@ import { findMaxIndex, loadModel, predictModel, toModelName } from "./model-help
 import { TrainingSample, trainModel } from "./train-policy-model";
 import { randomNumberGenerator } from "../common/RandomNumberGenerator";
 
+// import { vals as tmpVals } from "./tmp2";
+
 const { floor } = Math;
 
 function toKey(s: GameState) {
@@ -113,6 +115,11 @@ async function bootstrapModel(
 
   const NUM_RUNS = 1000;
   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
+  // if (mn === "360") {
+  //   tmpVals.forEach((item) => {
+  //     cache.set(item.key, { seedIndex: item.seedIndex, value: item.value });
+  //   });
+  // }
 
   for (let i = 0; i < 100_000; i++) {
     const seed = i.toString();
@@ -200,11 +207,16 @@ async function main() {
         // const filename = `data/valuations-${modelName}.json`;
         // const data = readValuations(filename);
         writeValuations(data, `data/valuations-${modelName}.json`);
-        await trainModel(modelName, numberOfCards, data);
+        await new Promise((resolve) => {
+          tf.tidy(() => {
+            trainModel(modelName, numberOfCards, data).then(resolve);
+          });
+        });
       }
     }
   }
 }
+
 main();
 // bootstrapModel(3, 4, 2);
 
