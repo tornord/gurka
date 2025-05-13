@@ -201,17 +201,19 @@ async function main() {
       if (playerIndex === 0 && numberOfCards === 7) continue;
       const highestPlayedIndices = calcHighestPlayedIndices(numberOfPlayers, numberOfCards, playerIndex);
       for (const highestPlayedIndex of highestPlayedIndices) {
+        // if (playerIndex === 2) continue;
         const data = await bootstrapModel(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
         if (!data || data.length === 0) continue;
         const modelName = toModelName(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
+        writeValuations(data, `data/valuations-${modelName}.json`);
         // const filename = `data/valuations-${modelName}.json`;
         // const data = readValuations(filename);
-        writeValuations(data, `data/valuations-${modelName}.json`);
-        await new Promise((resolve) => {
-          tf.tidy(() => {
-            trainModel(modelName, numberOfCards, data).then(resolve);
-          });
-        });
+        // await new Promise((resolve) => {
+        //   tf.tidy(() => {
+        //     trainModel(modelName, numberOfCards, data).then(resolve);
+        //   });
+        // });
+        await trainModel(modelName, numberOfCards, data);
       }
     }
   }
@@ -224,3 +226,6 @@ main();
 // const filename = `data/valuations-${modelName}.json`;
 // const data = readValuations(filename);
 // await trainModel(modelName, 6, data);
+
+// const filename = `data/valuations-${modelName}.json`;
+// const data = readValuations(filename);
