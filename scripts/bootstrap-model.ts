@@ -191,6 +191,7 @@ async function main() {
   const numberOfPlayers = args.at(-1) ? parseInt(args.at(-1)!, 10) : 3;
   for (let numberOfCards = 3; numberOfCards <= 7; numberOfCards++) {
     for (let playerIndex = numberOfPlayers - 1; playerIndex >= 0; playerIndex--) {
+      if (playerIndex === 0 && numberOfCards === 7) continue;
       const highestPlayedIndices = calcHighestPlayedIndices(numberOfPlayers, numberOfCards, playerIndex);
       for (const highestPlayedIndex of highestPlayedIndices) {
         const data = await bootstrapModel(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);

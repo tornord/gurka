@@ -88,7 +88,7 @@ export function predictModel(model: tf.LayersModel, cards: string): number[] {
 export function findMaxIndex(a: number[]) {
   let m: number | null = null;
   let mv: number | null = null;
-  for (let i = 0; i < a.length; i++) {
+  for (let i = a.length - 1; i >= 0; i--) {
     if (mv === null || a[i] > mv!) {
       m = i;
       mv = a[i];
