@@ -1,13 +1,4028 @@
 [
   {
-    "key": "2467-",
+    "key": "2578-",
+    "value": "8",
+    "seedIndex": 0
+  },
+  {
+    "key": "26JQ-",
+    "value": "Q",
+    "seedIndex": 1
+  },
+  {
+    "key": "69JA-",
+    "value": "A",
+    "seedIndex": 2
+  },
+  {
+    "key": "8TQK-",
+    "value": "K",
+    "seedIndex": 3
+  },
+  {
+    "key": "67TA-",
+    "value": "A",
+    "seedIndex": 4
+  },
+  {
+    "key": "6QQK-",
+    "value": "K",
+    "seedIndex": 5
+  },
+  {
+    "key": "8QQA-",
+    "value": "Q",
+    "seedIndex": 6
+  },
+  {
+    "key": "678T-",
+    "value": "T",
+    "seedIndex": 7
+  },
+  {
+    "key": "239Q-",
+    "value": "Q",
+    "seedIndex": 8
+  },
+  {
+    "key": "258A-",
+    "value": "A",
+    "seedIndex": 9
+  },
+  {
+    "key": "9QAA-",
+    "value": "A",
+    "seedIndex": 10
+  },
+  {
+    "key": "249Q-",
+    "value": "Q",
+    "seedIndex": 11
+  },
+  {
+    "key": "445A-",
+    "value": "A",
+    "seedIndex": 12
+  },
+  {
+    "key": "226J-",
+    "value": "J",
+    "seedIndex": 13
+  },
+  {
+    "key": "377A-",
+    "value": "A",
+    "seedIndex": 14
+  },
+  {
+    "key": "36QA-",
+    "value": "A",
+    "seedIndex": 15
+  },
+  {
+    "key": "69QA-",
+    "value": "A",
+    "seedIndex": 16
+  },
+  {
+    "key": "8TTJ-",
+    "value": "J",
+    "seedIndex": 17
+  },
+  {
+    "key": "3KAA-",
+    "value": "A",
+    "seedIndex": 18
+  },
+  {
+    "key": "379Q-",
+    "value": "9",
+    "seedIndex": 19
+  },
+  {
+    "key": "4499-",
+    "value": "9",
+    "seedIndex": 20
+  },
+  {
+    "key": "29QQ-",
+    "value": "Q",
+    "seedIndex": 21
+  },
+  {
+    "key": "445Q-",
+    "value": "Q",
+    "seedIndex": 22
+  },
+  {
+    "key": "499J-",
+    "value": "J",
+    "seedIndex": 23
+  },
+  {
+    "key": "235A-",
+    "value": "A",
+    "seedIndex": 24
+  },
+  {
+    "key": "47TQ-",
+    "value": "T",
+    "seedIndex": 25
+  },
+  {
+    "key": "6TJQ-",
+    "value": "Q",
+    "seedIndex": 26
+  },
+  {
+    "key": "259A-",
+    "value": "A",
+    "seedIndex": 27
+  },
+  {
+    "key": "456Q-",
+    "value": "Q",
+    "seedIndex": 28
+  },
+  {
+    "key": "589A-",
+    "value": "A",
+    "seedIndex": 29
+  },
+  {
+    "key": "237J-",
+    "value": "J",
+    "seedIndex": 30
+  },
+  {
+    "key": "3567-",
     "value": "7",
-    "seedIndex": 1194
+    "seedIndex": 31
+  },
+  {
+    "key": "8JKA-",
+    "value": "K",
+    "seedIndex": 32
+  },
+  {
+    "key": "458Q-",
+    "value": "Q",
+    "seedIndex": 33
+  },
+  {
+    "key": "599Q-",
+    "value": "9",
+    "seedIndex": 34
+  },
+  {
+    "key": "34JA-",
+    "value": "A",
+    "seedIndex": 35
+  },
+  {
+    "key": "2TJJ-",
+    "value": "J",
+    "seedIndex": 36
+  },
+  {
+    "key": "45JA-",
+    "value": "A",
+    "seedIndex": 37
+  },
+  {
+    "key": "344J-",
+    "value": "J",
+    "seedIndex": 38
+  },
+  {
+    "key": "458J-",
+    "value": "J",
+    "seedIndex": 39
+  },
+  {
+    "key": "8QQK-",
+    "value": "K",
+    "seedIndex": 40
+  },
+  {
+    "key": "348J-",
+    "value": "J",
+    "seedIndex": 41
+  },
+  {
+    "key": "69QK-",
+    "value": "K",
+    "seedIndex": 42
+  },
+  {
+    "key": "379T-",
+    "value": "T",
+    "seedIndex": 43
+  },
+  {
+    "key": "5JJK-",
+    "value": "J",
+    "seedIndex": 44
+  },
+  {
+    "key": "3369-",
+    "value": "9",
+    "seedIndex": 45
+  },
+  {
+    "key": "389J-",
+    "value": "J",
+    "seedIndex": 46
+  },
+  {
+    "key": "55TJ-",
+    "value": "J",
+    "seedIndex": 47
+  },
+  {
+    "key": "378Q-",
+    "value": "8",
+    "seedIndex": 48
+  },
+  {
+    "key": "233A-",
+    "value": "A",
+    "seedIndex": 49
+  },
+  {
+    "key": "8TQA-",
+    "value": "Q",
+    "seedIndex": 50
+  },
+  {
+    "key": "245Q-",
+    "value": "Q",
+    "seedIndex": 51
+  },
+  {
+    "key": "3577-",
+    "value": "7",
+    "seedIndex": 54
+  },
+  {
+    "key": "278Q-",
+    "value": "8",
+    "seedIndex": 55
+  },
+  {
+    "key": "2789-",
+    "value": "9",
+    "seedIndex": 56
+  },
+  {
+    "key": "268A-",
+    "value": "A",
+    "seedIndex": 57
+  },
+  {
+    "key": "25TQ-",
+    "value": "Q",
+    "seedIndex": 58
+  },
+  {
+    "key": "378K-",
+    "value": "8",
+    "seedIndex": 59
+  },
+  {
+    "key": "2478-",
+    "value": "8",
+    "seedIndex": 60
+  },
+  {
+    "key": "24JQ-",
+    "value": "Q",
+    "seedIndex": 61
+  },
+  {
+    "key": "233J-",
+    "value": "J",
+    "seedIndex": 62
+  },
+  {
+    "key": "3359-",
+    "value": "9",
+    "seedIndex": 63
+  },
+  {
+    "key": "23TJ-",
+    "value": "J",
+    "seedIndex": 65
+  },
+  {
+    "key": "359J-",
+    "value": "J",
+    "seedIndex": 66
+  },
+  {
+    "key": "88QK-",
+    "value": "K",
+    "seedIndex": 67
+  },
+  {
+    "key": "5899-",
+    "value": "9",
+    "seedIndex": 68
+  },
+  {
+    "key": "45TJ-",
+    "value": "J",
+    "seedIndex": 69
+  },
+  {
+    "key": "6JKA-",
+    "value": "K",
+    "seedIndex": 70
+  },
+  {
+    "key": "689J-",
+    "value": "J",
+    "seedIndex": 71
+  },
+  {
+    "key": "5TQK-",
+    "value": "Q",
+    "seedIndex": 72
+  },
+  {
+    "key": "37KA-",
+    "value": "A",
+    "seedIndex": 73
+  },
+  {
+    "key": "3456-",
+    "value": "6",
+    "seedIndex": 74
+  },
+  {
+    "key": "6JAA-",
+    "value": "A",
+    "seedIndex": 75
+  },
+  {
+    "key": "229A-",
+    "value": "A",
+    "seedIndex": 76
+  },
+  {
+    "key": "77KA-",
+    "value": "A",
+    "seedIndex": 77
+  },
+  {
+    "key": "499K-",
+    "value": "9",
+    "seedIndex": 78
+  },
+  {
+    "key": "67QK-",
+    "value": "K",
+    "seedIndex": 79
+  },
+  {
+    "key": "38AA-",
+    "value": "A",
+    "seedIndex": 81
+  },
+  {
+    "key": "26TJ-",
+    "value": "J",
+    "seedIndex": 82
+  },
+  {
+    "key": "357J-",
+    "value": "J",
+    "seedIndex": 84
+  },
+  {
+    "key": "378T-",
+    "value": "T",
+    "seedIndex": 85
+  },
+  {
+    "key": "257K-",
+    "value": "7",
+    "seedIndex": 86
+  },
+  {
+    "key": "9TQK-",
+    "value": "K",
+    "seedIndex": 87
+  },
+  {
+    "key": "579T-",
+    "value": "T",
+    "seedIndex": 88
+  },
+  {
+    "key": "467Q-",
+    "value": "Q",
+    "seedIndex": 89
+  },
+  {
+    "key": "466A-",
+    "value": "A",
+    "seedIndex": 90
+  },
+  {
+    "key": "44KA-",
+    "value": "A",
+    "seedIndex": 91
+  },
+  {
+    "key": "35TQ-",
+    "value": "Q",
+    "seedIndex": 92
+  },
+  {
+    "key": "68TQ-",
+    "value": "T",
+    "seedIndex": 93
+  },
+  {
+    "key": "2357-",
+    "value": "7",
+    "seedIndex": 94
+  },
+  {
+    "key": "248A-",
+    "value": "A",
+    "seedIndex": 95
+  },
+  {
+    "key": "699K-",
+    "value": "9",
+    "seedIndex": 96
+  },
+  {
+    "key": "347A-",
+    "value": "A",
+    "seedIndex": 97
+  },
+  {
+    "key": "29TJ-",
+    "value": "J",
+    "seedIndex": 98
+  },
+  {
+    "key": "467J-",
+    "value": "J",
+    "seedIndex": 99
+  },
+  {
+    "key": "55QA-",
+    "value": "A",
+    "seedIndex": 100
+  },
+  {
+    "key": "345T-",
+    "value": "T",
+    "seedIndex": 101
+  },
+  {
+    "key": "667K-",
+    "value": "K",
+    "seedIndex": 102
+  },
+  {
+    "key": "378J-",
+    "value": "J",
+    "seedIndex": 103
+  },
+  {
+    "key": "TTQQ-",
+    "value": "Q",
+    "seedIndex": 104
+  },
+  {
+    "key": "355Q-",
+    "value": "Q",
+    "seedIndex": 105
+  },
+  {
+    "key": "23JK-",
+    "value": "K",
+    "seedIndex": 106
+  },
+  {
+    "key": "348K-",
+    "value": "K",
+    "seedIndex": 107
+  },
+  {
+    "key": "4JKA-",
+    "value": "K",
+    "seedIndex": 108
+  },
+  {
+    "key": "456T-",
+    "value": "T",
+    "seedIndex": 109
+  },
+  {
+    "key": "3479-",
+    "value": "9",
+    "seedIndex": 110
+  },
+  {
+    "key": "259J-",
+    "value": "J",
+    "seedIndex": 111
+  },
+  {
+    "key": "29JQ-",
+    "value": "Q",
+    "seedIndex": 112
+  },
+  {
+    "key": "569T-",
+    "value": "T",
+    "seedIndex": 113
+  },
+  {
+    "key": "44TT-",
+    "value": "T",
+    "seedIndex": 114
+  },
+  {
+    "key": "4TJQ-",
+    "value": "Q",
+    "seedIndex": 115
+  },
+  {
+    "key": "47QA-",
+    "value": "A",
+    "seedIndex": 116
+  },
+  {
+    "key": "3TQA-",
+    "value": "Q",
+    "seedIndex": 117
+  },
+  {
+    "key": "3368-",
+    "value": "8",
+    "seedIndex": 118
+  },
+  {
+    "key": "79JA-",
+    "value": "A",
+    "seedIndex": 119
+  },
+  {
+    "key": "238Q-",
+    "value": "8",
+    "seedIndex": 120
+  },
+  {
+    "key": "7JAA-",
+    "value": "A",
+    "seedIndex": 122
+  },
+  {
+    "key": "2388-",
+    "value": "8",
+    "seedIndex": 123
+  },
+  {
+    "key": "789A-",
+    "value": "A",
+    "seedIndex": 124
+  },
+  {
+    "key": "9JQQ-",
+    "value": "Q",
+    "seedIndex": 125
+  },
+  {
+    "key": "3569-",
+    "value": "9",
+    "seedIndex": 126
+  },
+  {
+    "key": "46JQ-",
+    "value": "Q",
+    "seedIndex": 127
+  },
+  {
+    "key": "2479-",
+    "value": "9",
+    "seedIndex": 128
+  },
+  {
+    "key": "49JQ-",
+    "value": "Q",
+    "seedIndex": 129
+  },
+  {
+    "key": "67TK-",
+    "value": "K",
+    "seedIndex": 130
+  },
+  {
+    "key": "458T-",
+    "value": "T",
+    "seedIndex": 131
+  },
+  {
+    "key": "488Q-",
+    "value": "8",
+    "seedIndex": 133
+  },
+  {
+    "key": "3JKA-",
+    "value": "K",
+    "seedIndex": 134
+  },
+  {
+    "key": "37QA-",
+    "value": "A",
+    "seedIndex": 135
+  },
+  {
+    "key": "268Q-",
+    "value": "8",
+    "seedIndex": 136
+  },
+  {
+    "key": "44JQ-",
+    "value": "Q",
+    "seedIndex": 137
+  },
+  {
+    "key": "JKAA-",
+    "value": "A",
+    "seedIndex": 138
+  },
+  {
+    "key": "3799-",
+    "value": "9",
+    "seedIndex": 139
+  },
+  {
+    "key": "278J-",
+    "value": "J",
+    "seedIndex": 140
+  },
+  {
+    "key": "26TQ-",
+    "value": "T",
+    "seedIndex": 141
+  },
+  {
+    "key": "258K-",
+    "value": "8",
+    "seedIndex": 142
+  },
+  {
+    "key": "89TJ-",
+    "value": "J",
+    "seedIndex": 143
+  },
+  {
+    "key": "579A-",
+    "value": "A",
+    "seedIndex": 146
+  },
+  {
+    "key": "237Q-",
+    "value": "Q",
+    "seedIndex": 147
+  },
+  {
+    "key": "29TQ-",
+    "value": "T",
+    "seedIndex": 148
+  },
+  {
+    "key": "566K-",
+    "value": "K",
+    "seedIndex": 149
+  },
+  {
+    "key": "7TJA-",
+    "value": "J",
+    "seedIndex": 150
+  },
+  {
+    "key": "259K-",
+    "value": "9",
+    "seedIndex": 152
+  },
+  {
+    "key": "46JA-",
+    "value": "A",
+    "seedIndex": 153
+  },
+  {
+    "key": "468K-",
+    "value": "8",
+    "seedIndex": 154
+  },
+  {
+    "key": "236J-",
+    "value": "J",
+    "seedIndex": 155
+  },
+  {
+    "key": "5JKA-",
+    "value": "K",
+    "seedIndex": 156
+  },
+  {
+    "key": "889Q-",
+    "value": "Q",
+    "seedIndex": 157
+  },
+  {
+    "key": "89KA-",
+    "value": "A",
+    "seedIndex": 158
+  },
+  {
+    "key": "69TA-",
+    "value": "T",
+    "seedIndex": 159
+  },
+  {
+    "key": "46TJ-",
+    "value": "J",
+    "seedIndex": 160
+  },
+  {
+    "key": "234A-",
+    "value": "A",
+    "seedIndex": 161
+  },
+  {
+    "key": "349K-",
+    "value": "K",
+    "seedIndex": 162
+  },
+  {
+    "key": "24TK-",
+    "value": "T",
+    "seedIndex": 163
+  },
+  {
+    "key": "6TTQ-",
+    "value": "T",
+    "seedIndex": 164
+  },
+  {
+    "key": "3466-",
+    "value": "6",
+    "seedIndex": 165
+  },
+  {
+    "key": "234K-",
+    "value": "K",
+    "seedIndex": 166
+  },
+  {
+    "key": "39JJ-",
+    "value": "J",
+    "seedIndex": 167
+  },
+  {
+    "key": "67JK-",
+    "value": "K",
+    "seedIndex": 168
+  },
+  {
+    "key": "4JKK-",
+    "value": "K",
+    "seedIndex": 169
+  },
+  {
+    "key": "3379-",
+    "value": "9",
+    "seedIndex": 170
+  },
+  {
+    "key": "78TK-",
+    "value": "K",
+    "seedIndex": 171
+  },
+  {
+    "key": "39QA-",
+    "value": "Q",
+    "seedIndex": 172
+  },
+  {
+    "key": "2QKK-",
+    "value": "K",
+    "seedIndex": 173
+  },
+  {
+    "key": "789J-",
+    "value": "J",
+    "seedIndex": 174
+  },
+  {
+    "key": "279Q-",
+    "value": "9",
+    "seedIndex": 175
+  },
+  {
+    "key": "567K-",
+    "value": "K",
+    "seedIndex": 176
+  },
+  {
+    "key": "369Q-",
+    "value": "9",
+    "seedIndex": 177
+  },
+  {
+    "key": "469A-",
+    "value": "A",
+    "seedIndex": 178
+  },
+  {
+    "key": "257Q-",
+    "value": "7",
+    "seedIndex": 179
+  },
+  {
+    "key": "28JK-",
+    "value": "J",
+    "seedIndex": 180
+  },
+  {
+    "key": "49QK-",
+    "value": "Q",
+    "seedIndex": 183
+  },
+  {
+    "key": "27TJ-",
+    "value": "J",
+    "seedIndex": 184
+  },
+  {
+    "key": "3358-",
+    "value": "8",
+    "seedIndex": 185
+  },
+  {
+    "key": "3789-",
+    "value": "9",
+    "seedIndex": 186
+  },
+  {
+    "key": "39KK-",
+    "value": "K",
+    "seedIndex": 187
+  },
+  {
+    "key": "56TA-",
+    "value": "A",
+    "seedIndex": 189
+  },
+  {
+    "key": "79TK-",
+    "value": "T",
+    "seedIndex": 190
+  },
+  {
+    "key": "29TT-",
+    "value": "T",
+    "seedIndex": 191
+  },
+  {
+    "key": "3346-",
+    "value": "6",
+    "seedIndex": 192
+  },
+  {
+    "key": "37AA-",
+    "value": "A",
+    "seedIndex": 193
+  },
+  {
+    "key": "355T-",
+    "value": "T",
+    "seedIndex": 194
+  },
+  {
+    "key": "7QKA-",
+    "value": "A",
+    "seedIndex": 195
+  },
+  {
+    "key": "36TJ-",
+    "value": "J",
+    "seedIndex": 197
+  },
+  {
+    "key": "2889-",
+    "value": "9",
+    "seedIndex": 198
+  },
+  {
+    "key": "89QA-",
+    "value": "A",
+    "seedIndex": 199
+  },
+  {
+    "key": "59TA-",
+    "value": "T",
+    "seedIndex": 200
+  },
+  {
+    "key": "266T-",
+    "value": "T",
+    "seedIndex": 201
+  },
+  {
+    "key": "78KK-",
+    "value": "K",
+    "seedIndex": 202
+  },
+  {
+    "key": "459T-",
+    "value": "T",
+    "seedIndex": 203
+  },
+  {
+    "key": "9TKA-",
+    "value": "A",
+    "seedIndex": 205
+  },
+  {
+    "key": "2457-",
+    "value": "7",
+    "seedIndex": 208
+  },
+  {
+    "key": "467K-",
+    "value": "7",
+    "seedIndex": 209
+  },
+  {
+    "key": "57JQ-",
+    "value": "Q",
+    "seedIndex": 210
+  },
+  {
+    "key": "29QK-",
+    "value": "Q",
+    "seedIndex": 211
+  },
+  {
+    "key": "2358-",
+    "value": "8",
+    "seedIndex": 212
+  },
+  {
+    "key": "59JQ-",
+    "value": "Q",
+    "seedIndex": 213
+  },
+  {
+    "key": "26TK-",
+    "value": "T",
+    "seedIndex": 215
+  },
+  {
+    "key": "2378-",
+    "value": "8",
+    "seedIndex": 216
+  },
+  {
+    "key": "5TTA-",
+    "value": "T",
+    "seedIndex": 218
+  },
+  {
+    "key": "799T-",
+    "value": "T",
+    "seedIndex": 219
+  },
+  {
+    "key": "345K-",
+    "value": "K",
+    "seedIndex": 220
+  },
+  {
+    "key": "57JK-",
+    "value": "J",
+    "seedIndex": 221
+  },
+  {
+    "key": "457A-",
+    "value": "A",
+    "seedIndex": 224
+  },
+  {
+    "key": "3578-",
+    "value": "8",
+    "seedIndex": 225
+  },
+  {
+    "key": "2778-",
+    "value": "8",
+    "seedIndex": 226
+  },
+  {
+    "key": "68KA-",
+    "value": "A",
+    "seedIndex": 229
+  },
+  {
+    "key": "3889-",
+    "value": "9",
+    "seedIndex": 230
+  },
+  {
+    "key": "26JA-",
+    "value": "A",
+    "seedIndex": 231
+  },
+  {
+    "key": "4JQA-",
+    "value": "Q",
+    "seedIndex": 232
+  },
+  {
+    "key": "8JQA-",
+    "value": "Q",
+    "seedIndex": 233
+  },
+  {
+    "key": "9TJQ-",
+    "value": "Q",
+    "seedIndex": 234
+  },
+  {
+    "key": "347T-",
+    "value": "T",
+    "seedIndex": 235
+  },
+  {
+    "key": "2368-",
+    "value": "8",
+    "seedIndex": 236
+  },
+  {
+    "key": "2269-",
+    "value": "9",
+    "seedIndex": 237
+  },
+  {
+    "key": "24QK-",
+    "value": "K",
+    "seedIndex": 238
+  },
+  {
+    "key": "78QA-",
+    "value": "A",
+    "seedIndex": 239
+  },
+  {
+    "key": "356T-",
+    "value": "T",
+    "seedIndex": 242
+  },
+  {
+    "key": "5KKA-",
+    "value": "K",
+    "seedIndex": 243
+  },
+  {
+    "key": "235K-",
+    "value": "K",
+    "seedIndex": 244
+  },
+  {
+    "key": "46TQ-",
+    "value": "Q",
+    "seedIndex": 245
+  },
+  {
+    "key": "4JJK-",
+    "value": "J",
+    "seedIndex": 246
+  },
+  {
+    "key": "4TQK-",
+    "value": "Q",
+    "seedIndex": 247
+  },
+  {
+    "key": "57KA-",
+    "value": "A",
+    "seedIndex": 248
+  },
+  {
+    "key": "78JA-",
+    "value": "A",
+    "seedIndex": 249
+  },
+  {
+    "key": "346T-",
+    "value": "T",
+    "seedIndex": 250
+  },
+  {
+    "key": "57JA-",
+    "value": "A",
+    "seedIndex": 252
+  },
+  {
+    "key": "6TKA-",
+    "value": "K",
+    "seedIndex": 253
+  },
+  {
+    "key": "368T-",
+    "value": "T",
+    "seedIndex": 255
+  },
+  {
+    "key": "6689-",
+    "value": "9",
+    "seedIndex": 256
+  },
+  {
+    "key": "469K-",
+    "value": "9",
+    "seedIndex": 257
+  },
+  {
+    "key": "2558-",
+    "value": "8",
+    "seedIndex": 258
+  },
+  {
+    "key": "249K-",
+    "value": "9",
+    "seedIndex": 259
+  },
+  {
+    "key": "2379-",
+    "value": "9",
+    "seedIndex": 260
+  },
+  {
+    "key": "58JQ-",
+    "value": "Q",
+    "seedIndex": 261
+  },
+  {
+    "key": "5TJA-",
+    "value": "J",
+    "seedIndex": 263
+  },
+  {
+    "key": "57QQ-",
+    "value": "Q",
+    "seedIndex": 264
+  },
+  {
+    "key": "28QK-",
+    "value": "K",
+    "seedIndex": 266
+  },
+  {
+    "key": "56TT-",
+    "value": "T",
+    "seedIndex": 267
+  },
+  {
+    "key": "24JK-",
+    "value": "K",
+    "seedIndex": 268
+  },
+  {
+    "key": "24TQ-",
+    "value": "Q",
+    "seedIndex": 269
+  },
+  {
+    "key": "78TA-",
+    "value": "A",
+    "seedIndex": 270
+  },
+  {
+    "key": "2TQK-",
+    "value": "Q",
+    "seedIndex": 271
+  },
+  {
+    "key": "68JQ-",
+    "value": "Q",
+    "seedIndex": 272
+  },
+  {
+    "key": "3389-",
+    "value": "9",
+    "seedIndex": 273
+  },
+  {
+    "key": "39TA-",
+    "value": "T",
+    "seedIndex": 275
+  },
+  {
+    "key": "24TA-",
+    "value": "A",
+    "seedIndex": 276
+  },
+  {
+    "key": "267K-",
+    "value": "7",
+    "seedIndex": 278
+  },
+  {
+    "key": "2TKK-",
+    "value": "K",
+    "seedIndex": 279
+  },
+  {
+    "key": "489A-",
+    "value": "A",
+    "seedIndex": 280
+  },
+  {
+    "key": "25QA-",
+    "value": "A",
+    "seedIndex": 281
+  },
+  {
+    "key": "346Q-",
+    "value": "Q",
+    "seedIndex": 282
+  },
+  {
+    "key": "267T-",
+    "value": "T",
+    "seedIndex": 283
+  },
+  {
+    "key": "9QQA-",
+    "value": "Q",
+    "seedIndex": 284
+  },
+  {
+    "key": "2677-",
+    "value": "7",
+    "seedIndex": 285
+  },
+  {
+    "key": "448Q-",
+    "value": "Q",
+    "seedIndex": 286
+  },
+  {
+    "key": "588K-",
+    "value": "8",
+    "seedIndex": 287
+  },
+  {
+    "key": "79JK-",
+    "value": "J",
+    "seedIndex": 289
+  },
+  {
+    "key": "69TQ-",
+    "value": "T",
+    "seedIndex": 290
+  },
+  {
+    "key": "4569-",
+    "value": "9",
+    "seedIndex": 291
+  },
+  {
+    "key": "67JA-",
+    "value": "A",
+    "seedIndex": 292
+  },
+  {
+    "key": "368A-",
+    "value": "A",
+    "seedIndex": 293
+  },
+  {
+    "key": "568K-",
+    "value": "K",
+    "seedIndex": 294
+  },
+  {
+    "key": "279K-",
+    "value": "9",
+    "seedIndex": 295
+  },
+  {
+    "key": "899T-",
+    "value": "T",
+    "seedIndex": 297
+  },
+  {
+    "key": "2477-",
+    "value": "7",
+    "seedIndex": 298
+  },
+  {
+    "key": "TQAA-",
+    "value": "A",
+    "seedIndex": 299
+  },
+  {
+    "key": "35AA-",
+    "value": "A",
+    "seedIndex": 300
+  },
+  {
+    "key": "29JK-",
+    "value": "J",
+    "seedIndex": 301
+  },
+  {
+    "key": "47TA-",
+    "value": "A",
+    "seedIndex": 302
+  },
+  {
+    "key": "7JQK-",
+    "value": "K",
+    "seedIndex": 304
+  },
+  {
+    "key": "JJAA-",
+    "value": "A",
+    "seedIndex": 306
+  },
+  {
+    "key": "246A-",
+    "value": "A",
+    "seedIndex": 307
+  },
+  {
+    "key": "36TA-",
+    "value": "A",
+    "seedIndex": 308
+  },
+  {
+    "key": "5669-",
+    "value": "9",
+    "seedIndex": 309
+  },
+  {
+    "key": "267A-",
+    "value": "A",
+    "seedIndex": 310
+  },
+  {
+    "key": "TJAA-",
+    "value": "A",
+    "seedIndex": 312
+  },
+  {
+    "key": "6JQA-",
+    "value": "Q",
+    "seedIndex": 314
+  },
+  {
+    "key": "478J-",
+    "value": "J",
+    "seedIndex": 315
+  },
+  {
+    "key": "99JK-",
+    "value": "K",
+    "seedIndex": 316
+  },
+  {
+    "key": "2QQA-",
+    "value": "Q",
+    "seedIndex": 317
+  },
+  {
+    "key": "347K-",
+    "value": "K",
+    "seedIndex": 320
+  },
+  {
+    "key": "379K-",
+    "value": "9",
+    "seedIndex": 321
+  },
+  {
+    "key": "799Q-",
+    "value": "9",
+    "seedIndex": 322
+  },
+  {
+    "key": "788T-",
+    "value": "T",
+    "seedIndex": 323
+  },
+  {
+    "key": "35TT-",
+    "value": "T",
+    "seedIndex": 324
+  },
+  {
+    "key": "477T-",
+    "value": "T",
+    "seedIndex": 325
+  },
+  {
+    "key": "89TQ-",
+    "value": "Q",
+    "seedIndex": 327
+  },
+  {
+    "key": "447J-",
+    "value": "J",
+    "seedIndex": 328
+  },
+  {
+    "key": "56TK-",
+    "value": "K",
+    "seedIndex": 329
+  },
+  {
+    "key": "245K-",
+    "value": "5",
+    "seedIndex": 330
+  },
+  {
+    "key": "4QQK-",
+    "value": "K",
+    "seedIndex": 331
+  },
+  {
+    "key": "289Q-",
+    "value": "9",
+    "seedIndex": 332
+  },
+  {
+    "key": "269T-",
+    "value": "T",
+    "seedIndex": 333
+  },
+  {
+    "key": "5889-",
+    "value": "9",
+    "seedIndex": 334
+  },
+  {
+    "key": "9JQK-",
+    "value": "K",
+    "seedIndex": 335
+  },
+  {
+    "key": "37QQ-",
+    "value": "Q",
+    "seedIndex": 336
+  },
+  {
+    "key": "78TQ-",
+    "value": "Q",
+    "seedIndex": 337
+  },
+  {
+    "key": "27TK-",
+    "value": "T",
+    "seedIndex": 338
+  },
+  {
+    "key": "37TK-",
+    "value": "T",
+    "seedIndex": 339
+  },
+  {
+    "key": "9TKK-",
+    "value": "K",
+    "seedIndex": 340
+  },
+  {
+    "key": "47QK-",
+    "value": "K",
+    "seedIndex": 341
+  },
+  {
+    "key": "58KA-",
+    "value": "A",
+    "seedIndex": 342
+  },
+  {
+    "key": "367Q-",
+    "value": "7",
+    "seedIndex": 343
+  },
+  {
+    "key": "479J-",
+    "value": "J",
+    "seedIndex": 344
+  },
+  {
+    "key": "46JK-",
+    "value": "K",
+    "seedIndex": 345
+  },
+  {
+    "key": "2335-",
+    "value": "5",
+    "seedIndex": 346
+  },
+  {
+    "key": "377J-",
+    "value": "J",
+    "seedIndex": 348
+  },
+  {
+    "key": "289K-",
+    "value": "9",
+    "seedIndex": 349
+  },
+  {
+    "key": "68TK-",
+    "value": "T",
+    "seedIndex": 350
+  },
+  {
+    "key": "4567-",
+    "value": "7",
+    "seedIndex": 351
+  },
+  {
+    "key": "446T-",
+    "value": "T",
+    "seedIndex": 352
+  },
+  {
+    "key": "49JA-",
+    "value": "J",
+    "seedIndex": 353
+  },
+  {
+    "key": "58QK-",
+    "value": "K",
+    "seedIndex": 355
+  },
+  {
+    "key": "336A-",
+    "value": "A",
+    "seedIndex": 357
+  },
+  {
+    "key": "56AA-",
+    "value": "A",
+    "seedIndex": 359
+  },
+  {
+    "key": "3559-",
+    "value": "9",
+    "seedIndex": 360
+  },
+  {
+    "key": "4579-",
+    "value": "9",
+    "seedIndex": 361
+  },
+  {
+    "key": "23KA-",
+    "value": "A",
+    "seedIndex": 362
+  },
+  {
+    "key": "38QK-",
+    "value": "Q",
+    "seedIndex": 364
+  },
+  {
+    "key": "59JK-",
+    "value": "J",
+    "seedIndex": 365
+  },
+  {
+    "key": "59JA-",
+    "value": "J",
+    "seedIndex": 366
+  },
+  {
+    "key": "7TQA-",
+    "value": "Q",
+    "seedIndex": 367
+  },
+  {
+    "key": "235Q-",
+    "value": "Q",
+    "seedIndex": 368
+  },
+  {
+    "key": "56JQ-",
+    "value": "Q",
+    "seedIndex": 370
+  },
+  {
+    "key": "58TQ-",
+    "value": "T",
+    "seedIndex": 371
+  },
+  {
+    "key": "48KA-",
+    "value": "A",
+    "seedIndex": 372
+  },
+  {
+    "key": "6TQA-",
+    "value": "Q",
+    "seedIndex": 373
+  },
+  {
+    "key": "299T-",
+    "value": "T",
+    "seedIndex": 374
+  },
+  {
+    "key": "778J-",
+    "value": "J",
+    "seedIndex": 375
+  },
+  {
+    "key": "358K-",
+    "value": "8",
+    "seedIndex": 377
+  },
+  {
+    "key": "56QA-",
+    "value": "A",
+    "seedIndex": 378
+  },
+  {
+    "key": "8TJA-",
+    "value": "A",
+    "seedIndex": 379
+  },
+  {
+    "key": "6TJA-",
+    "value": "J",
+    "seedIndex": 381
+  },
+  {
+    "key": "6799-",
+    "value": "9",
+    "seedIndex": 382
+  },
+  {
+    "key": "469J-",
+    "value": "J",
+    "seedIndex": 383
+  },
+  {
+    "key": "4556-",
+    "value": "6",
+    "seedIndex": 386
+  },
+  {
+    "key": "56JA-",
+    "value": "A",
+    "seedIndex": 388
+  },
+  {
+    "key": "457Q-",
+    "value": "Q",
+    "seedIndex": 389
+  },
+  {
+    "key": "356K-",
+    "value": "6",
+    "seedIndex": 390
+  },
+  {
+    "key": "778Q-",
+    "value": "Q",
+    "seedIndex": 391
+  },
+  {
+    "key": "2599-",
+    "value": "9",
+    "seedIndex": 392
+  },
+  {
+    "key": "468A-",
+    "value": "A",
+    "seedIndex": 393
+  },
+  {
+    "key": "228K-",
+    "value": "8",
+    "seedIndex": 394
+  },
+  {
+    "key": "279J-",
+    "value": "J",
+    "seedIndex": 395
+  },
+  {
+    "key": "79QK-",
+    "value": "K",
+    "seedIndex": 396
+  },
+  {
+    "key": "256A-",
+    "value": "A",
+    "seedIndex": 397
+  },
+  {
+    "key": "245J-",
+    "value": "J",
+    "seedIndex": 399
+  },
+  {
+    "key": "5TTK-",
+    "value": "T",
+    "seedIndex": 400
+  },
+  {
+    "key": "25KK-",
+    "value": "K",
+    "seedIndex": 402
+  },
+  {
+    "key": "2679-",
+    "value": "9",
+    "seedIndex": 403
+  },
+  {
+    "key": "223A-",
+    "value": "A",
+    "seedIndex": 406
+  },
+  {
+    "key": "JQQK-",
+    "value": "K",
+    "seedIndex": 408
+  },
+  {
+    "key": "2588-",
+    "value": "8",
+    "seedIndex": 409
+  },
+  {
+    "key": "579J-",
+    "value": "J",
+    "seedIndex": 411
+  },
+  {
+    "key": "38KA-",
+    "value": "K",
+    "seedIndex": 412
+  },
+  {
+    "key": "3445-",
+    "value": "5",
+    "seedIndex": 413
+  },
+  {
+    "key": "9JKA-",
+    "value": "K",
+    "seedIndex": 415
+  },
+  {
+    "key": "78KA-",
+    "value": "A",
+    "seedIndex": 416
+  },
+  {
+    "key": "356A-",
+    "value": "A",
+    "seedIndex": 417
+  },
+  {
+    "key": "357T-",
+    "value": "T",
+    "seedIndex": 418
+  },
+  {
+    "key": "2TQQ-",
+    "value": "Q",
+    "seedIndex": 420
+  },
+  {
+    "key": "457T-",
+    "value": "T",
+    "seedIndex": 421
+  },
+  {
+    "key": "256T-",
+    "value": "T",
+    "seedIndex": 422
+  },
+  {
+    "key": "239J-",
+    "value": "J",
+    "seedIndex": 423
+  },
+  {
+    "key": "356J-",
+    "value": "J",
+    "seedIndex": 424
+  },
+  {
+    "key": "237A-",
+    "value": "A",
+    "seedIndex": 427
+  },
+  {
+    "key": "378A-",
+    "value": "A",
+    "seedIndex": 428
+  },
+  {
+    "key": "246T-",
+    "value": "T",
+    "seedIndex": 429
+  },
+  {
+    "key": "27JJ-",
+    "value": "J",
+    "seedIndex": 430
+  },
+  {
+    "key": "279T-",
+    "value": "T",
+    "seedIndex": 431
+  },
+  {
+    "key": "679T-",
+    "value": "T",
+    "seedIndex": 432
+  },
+  {
+    "key": "58TK-",
+    "value": "T",
+    "seedIndex": 433
+  },
+  {
+    "key": "468Q-",
+    "value": "8",
+    "seedIndex": 435
+  },
+  {
+    "key": "459K-",
+    "value": "K",
+    "seedIndex": 436
+  },
+  {
+    "key": "9TQA-",
+    "value": "A",
+    "seedIndex": 438
+  },
+  {
+    "key": "8TTK-",
+    "value": "T",
+    "seedIndex": 439
+  },
+  {
+    "key": "2JAA-",
+    "value": "A",
+    "seedIndex": 440
+  },
+  {
+    "key": "23QK-",
+    "value": "K",
+    "seedIndex": 442
+  },
+  {
+    "key": "47JK-",
+    "value": "J",
+    "seedIndex": 444
+  },
+  {
+    "key": "349J-",
+    "value": "J",
+    "seedIndex": 447
+  },
+  {
+    "key": "379J-",
+    "value": "J",
+    "seedIndex": 448
+  },
+  {
+    "key": "4599-",
+    "value": "9",
+    "seedIndex": 449
+  },
+  {
+    "key": "24AA-",
+    "value": "A",
+    "seedIndex": 450
+  },
+  {
+    "key": "89JK-",
+    "value": "J",
+    "seedIndex": 451
+  },
+  {
+    "key": "5JAA-",
+    "value": "A",
+    "seedIndex": 453
+  },
+  {
+    "key": "77JK-",
+    "value": "K",
+    "seedIndex": 454
+  },
+  {
+    "key": "58QA-",
+    "value": "A",
+    "seedIndex": 455
+  },
+  {
+    "key": "444J-",
+    "value": "J",
+    "seedIndex": 457
+  },
+  {
+    "key": "369K-",
+    "value": "9",
+    "seedIndex": 458
+  },
+  {
+    "key": "36TQ-",
+    "value": "T",
+    "seedIndex": 459
+  },
+  {
+    "key": "TTKK-",
+    "value": "K",
+    "seedIndex": 461
+  },
+  {
+    "key": "36TK-",
+    "value": "T",
+    "seedIndex": 462
+  },
+  {
+    "key": "34TK-",
+    "value": "K",
+    "seedIndex": 463
+  },
+  {
+    "key": "69TT-",
+    "value": "T",
+    "seedIndex": 464
   },
   {
     "key": "68JK-",
     "value": "J",
-    "seedIndex": 1195
+    "seedIndex": 465
+  },
+  {
+    "key": "8QAA-",
+    "value": "A",
+    "seedIndex": 466
+  },
+  {
+    "key": "37JQ-",
+    "value": "Q",
+    "seedIndex": 467
+  },
+  {
+    "key": "45QK-",
+    "value": "K",
+    "seedIndex": 469
+  },
+  {
+    "key": "2589-",
+    "value": "9",
+    "seedIndex": 470
+  },
+  {
+    "key": "55JK-",
+    "value": "K",
+    "seedIndex": 471
+  },
+  {
+    "key": "55KK-",
+    "value": "K",
+    "seedIndex": 472
+  },
+  {
+    "key": "59KA-",
+    "value": "K",
+    "seedIndex": 473
+  },
+  {
+    "key": "39JA-",
+    "value": "J",
+    "seedIndex": 474
+  },
+  {
+    "key": "48QK-",
+    "value": "Q",
+    "seedIndex": 475
+  },
+  {
+    "key": "79KK-",
+    "value": "K",
+    "seedIndex": 484
+  },
+  {
+    "key": "5JJA-",
+    "value": "J",
+    "seedIndex": 485
+  },
+  {
+    "key": "779J-",
+    "value": "J",
+    "seedIndex": 486
+  },
+  {
+    "key": "258J-",
+    "value": "J",
+    "seedIndex": 487
+  },
+  {
+    "key": "236T-",
+    "value": "T",
+    "seedIndex": 489
+  },
+  {
+    "key": "689T-",
+    "value": "T",
+    "seedIndex": 491
+  },
+  {
+    "key": "8JQK-",
+    "value": "K",
+    "seedIndex": 492
+  },
+  {
+    "key": "268K-",
+    "value": "8",
+    "seedIndex": 493
+  },
+  {
+    "key": "358T-",
+    "value": "T",
+    "seedIndex": 495
+  },
+  {
+    "key": "2347-",
+    "value": "7",
+    "seedIndex": 496
+  },
+  {
+    "key": "4JJQ-",
+    "value": "Q",
+    "seedIndex": 497
+  },
+  {
+    "key": "599K-",
+    "value": "9",
+    "seedIndex": 499
+  },
+  {
+    "key": "3677-",
+    "value": "7",
+    "seedIndex": 501
+  },
+  {
+    "key": "349A-",
+    "value": "A",
+    "seedIndex": 503
+  },
+  {
+    "key": "2456-",
+    "value": "6",
+    "seedIndex": 504
+  },
+  {
+    "key": "45TQ-",
+    "value": "Q",
+    "seedIndex": 506
+  },
+  {
+    "key": "37TQ-",
+    "value": "T",
+    "seedIndex": 507
+  },
+  {
+    "key": "3TJK-",
+    "value": "J",
+    "seedIndex": 508
+  },
+  {
+    "key": "24KA-",
+    "value": "A",
+    "seedIndex": 511
+  },
+  {
+    "key": "28JA-",
+    "value": "J",
+    "seedIndex": 514
+  },
+  {
+    "key": "258T-",
+    "value": "T",
+    "seedIndex": 516
+  },
+  {
+    "key": "59TT-",
+    "value": "T",
+    "seedIndex": 517
+  },
+  {
+    "key": "247Q-",
+    "value": "7",
+    "seedIndex": 520
+  },
+  {
+    "key": "3TJA-",
+    "value": "J",
+    "seedIndex": 522
+  },
+  {
+    "key": "268J-",
+    "value": "J",
+    "seedIndex": 525
+  },
+  {
+    "key": "249J-",
+    "value": "J",
+    "seedIndex": 527
+  },
+  {
+    "key": "2344-",
+    "value": "4",
+    "seedIndex": 528
+  },
+  {
+    "key": "233Q-",
+    "value": "Q",
+    "seedIndex": 532
+  },
+  {
+    "key": "2566-",
+    "value": "6",
+    "seedIndex": 535
+  },
+  {
+    "key": "29TK-",
+    "value": "T",
+    "seedIndex": 536
+  },
+  {
+    "key": "248K-",
+    "value": "8",
+    "seedIndex": 542
+  },
+  {
+    "key": "778A-",
+    "value": "A",
+    "seedIndex": 544
+  },
+  {
+    "key": "49TJ-",
+    "value": "J",
+    "seedIndex": 545
+  },
+  {
+    "key": "4799-",
+    "value": "9",
+    "seedIndex": 546
+  },
+  {
+    "key": "67JQ-",
+    "value": "Q",
+    "seedIndex": 547
+  },
+  {
+    "key": "6TJK-",
+    "value": "J",
+    "seedIndex": 548
+  },
+  {
+    "key": "3699-",
+    "value": "9",
+    "seedIndex": 550
+  },
+  {
+    "key": "778K-",
+    "value": "K",
+    "seedIndex": 551
+  },
+  {
+    "key": "9JAA-",
+    "value": "A",
+    "seedIndex": 552
+  },
+  {
+    "key": "2579-",
+    "value": "9",
+    "seedIndex": 553
+  },
+  {
+    "key": "6678-",
+    "value": "8",
+    "seedIndex": 555
+  },
+  {
+    "key": "999Q-",
+    "value": "Q",
+    "seedIndex": 557
+  },
+  {
+    "key": "379A-",
+    "value": "A",
+    "seedIndex": 559
+  },
+  {
+    "key": "3589-",
+    "value": "9",
+    "seedIndex": 560
+  },
+  {
+    "key": "23JJ-",
+    "value": "J",
+    "seedIndex": 561
+  },
+  {
+    "key": "3468-",
+    "value": "8",
+    "seedIndex": 562
+  },
+  {
+    "key": "2469-",
+    "value": "9",
+    "seedIndex": 564
+  },
+  {
+    "key": "689A-",
+    "value": "A",
+    "seedIndex": 565
+  },
+  {
+    "key": "28TA-",
+    "value": "T",
+    "seedIndex": 566
+  },
+  {
+    "key": "49TQ-",
+    "value": "T",
+    "seedIndex": 568
+  },
+  {
+    "key": "58AA-",
+    "value": "A",
+    "seedIndex": 570
+  },
+  {
+    "key": "257J-",
+    "value": "J",
+    "seedIndex": 571
+  },
+  {
+    "key": "99KK-",
+    "value": "K",
+    "seedIndex": 572
+  },
+  {
+    "key": "9JQA-",
+    "value": "A",
+    "seedIndex": 573
+  },
+  {
+    "key": "26TA-",
+    "value": "A",
+    "seedIndex": 574
+  },
+  {
+    "key": "4489-",
+    "value": "9",
+    "seedIndex": 575
+  },
+  {
+    "key": "366A-",
+    "value": "A",
+    "seedIndex": 576
+  },
+  {
+    "key": "58TA-",
+    "value": "A",
+    "seedIndex": 577
+  },
+  {
+    "key": "277T-",
+    "value": "T",
+    "seedIndex": 580
+  },
+  {
+    "key": "678Q-",
+    "value": "Q",
+    "seedIndex": 581
+  },
+  {
+    "key": "34JQ-",
+    "value": "Q",
+    "seedIndex": 582
+  },
+  {
+    "key": "2238-",
+    "value": "8",
+    "seedIndex": 583
+  },
+  {
+    "key": "88TJ-",
+    "value": "J",
+    "seedIndex": 584
+  },
+  {
+    "key": "5TJQ-",
+    "value": "Q",
+    "seedIndex": 585
+  },
+  {
+    "key": "788Q-",
+    "value": "Q",
+    "seedIndex": 586
+  },
+  {
+    "key": "39TQ-",
+    "value": "T",
+    "seedIndex": 588
+  },
+  {
+    "key": "2356-",
+    "value": "6",
+    "seedIndex": 590
+  },
+  {
+    "key": "2348-",
+    "value": "8",
+    "seedIndex": 592
+  },
+  {
+    "key": "TJKK-",
+    "value": "K",
+    "seedIndex": 594
+  },
+  {
+    "key": "3467-",
+    "value": "7",
+    "seedIndex": 595
+  },
+  {
+    "key": "49QA-",
+    "value": "Q",
+    "seedIndex": 596
+  },
+  {
+    "key": "46QK-",
+    "value": "K",
+    "seedIndex": 598
+  },
+  {
+    "key": "46AA-",
+    "value": "A",
+    "seedIndex": 600
+  },
+  {
+    "key": "46TA-",
+    "value": "A",
+    "seedIndex": 601
+  },
+  {
+    "key": "389A-",
+    "value": "9",
+    "seedIndex": 602
+  },
+  {
+    "key": "3667-",
+    "value": "7",
+    "seedIndex": 603
+  },
+  {
+    "key": "66TA-",
+    "value": "A",
+    "seedIndex": 606
+  },
+  {
+    "key": "35KA-",
+    "value": "A",
+    "seedIndex": 607
+  },
+  {
+    "key": "389K-",
+    "value": "9",
+    "seedIndex": 608
+  },
+  {
+    "key": "27JQ-",
+    "value": "Q",
+    "seedIndex": 610
+  },
+  {
+    "key": "2259-",
+    "value": "9",
+    "seedIndex": 611
+  },
+  {
+    "key": "5QKA-",
+    "value": "A",
+    "seedIndex": 612
+  },
+  {
+    "key": "2346-",
+    "value": "6",
+    "seedIndex": 613
+  },
+  {
+    "key": "358J-",
+    "value": "J",
+    "seedIndex": 615
+  },
+  {
+    "key": "2JKA-",
+    "value": "K",
+    "seedIndex": 616
+  },
+  {
+    "key": "59QK-",
+    "value": "K",
+    "seedIndex": 619
+  },
+  {
+    "key": "8JAA-",
+    "value": "A",
+    "seedIndex": 620
+  },
+  {
+    "key": "78JQ-",
+    "value": "Q",
+    "seedIndex": 621
+  },
+  {
+    "key": "36AA-",
+    "value": "A",
+    "seedIndex": 622
+  },
+  {
+    "key": "27QK-",
+    "value": "K",
+    "seedIndex": 623
+  },
+  {
+    "key": "456A-",
+    "value": "A",
+    "seedIndex": 624
+  },
+  {
+    "key": "238K-",
+    "value": "8",
+    "seedIndex": 625
+  },
+  {
+    "key": "78TJ-",
+    "value": "J",
+    "seedIndex": 626
+  },
+  {
+    "key": "3459-",
+    "value": "9",
+    "seedIndex": 627
+  },
+  {
+    "key": "44QA-",
+    "value": "A",
+    "seedIndex": 628
+  },
+  {
+    "key": "668T-",
+    "value": "T",
+    "seedIndex": 630
+  },
+  {
+    "key": "25JK-",
+    "value": "K",
+    "seedIndex": 632
+  },
+  {
+    "key": "455Q-",
+    "value": "Q",
+    "seedIndex": 633
+  },
+  {
+    "key": "77JQ-",
+    "value": "Q",
+    "seedIndex": 637
+  },
+  {
+    "key": "679Q-",
+    "value": "Q",
+    "seedIndex": 638
+  },
+  {
+    "key": "249T-",
+    "value": "T",
+    "seedIndex": 640
+  },
+  {
+    "key": "228J-",
+    "value": "J",
+    "seedIndex": 644
+  },
+  {
+    "key": "334J-",
+    "value": "J",
+    "seedIndex": 645
+  },
+  {
+    "key": "3477-",
+    "value": "7",
+    "seedIndex": 646
+  },
+  {
+    "key": "47TK-",
+    "value": "T",
+    "seedIndex": 647
+  },
+  {
+    "key": "2359-",
+    "value": "9",
+    "seedIndex": 649
+  },
+  {
+    "key": "337K-",
+    "value": "K",
+    "seedIndex": 650
+  },
+  {
+    "key": "24JJ-",
+    "value": "J",
+    "seedIndex": 651
+  },
+  {
+    "key": "JQAA-",
+    "value": "A",
+    "seedIndex": 653
+  },
+  {
+    "key": "6QKA-",
+    "value": "A",
+    "seedIndex": 655
+  },
+  {
+    "key": "3478-",
+    "value": "8",
+    "seedIndex": 659
+  },
+  {
+    "key": "367T-",
+    "value": "T",
+    "seedIndex": 661
+  },
+  {
+    "key": "22TA-",
+    "value": "A",
+    "seedIndex": 662
+  },
+  {
+    "key": "4889-",
+    "value": "9",
+    "seedIndex": 664
+  },
+  {
+    "key": "568Q-",
+    "value": "Q",
+    "seedIndex": 665
+  },
+  {
+    "key": "489J-",
+    "value": "J",
+    "seedIndex": 666
+  },
+  {
+    "key": "339K-",
+    "value": "K",
+    "seedIndex": 667
+  },
+  {
+    "key": "88AA-",
+    "value": "A",
+    "seedIndex": 669
+  },
+  {
+    "key": "89TK-",
+    "value": "T",
+    "seedIndex": 671
+  },
+  {
+    "key": "234T-",
+    "value": "T",
+    "seedIndex": 672
+  },
+  {
+    "key": "248T-",
+    "value": "T",
+    "seedIndex": 678
+  },
+  {
+    "key": "4TKA-",
+    "value": "K",
+    "seedIndex": 679
+  },
+  {
+    "key": "38TK-",
+    "value": "T",
+    "seedIndex": 681
+  },
+  {
+    "key": "688J-",
+    "value": "J",
+    "seedIndex": 682
+  },
+  {
+    "key": "446Q-",
+    "value": "Q",
+    "seedIndex": 683
+  },
+  {
+    "key": "556T-",
+    "value": "T",
+    "seedIndex": 685
+  },
+  {
+    "key": "258Q-",
+    "value": "8",
+    "seedIndex": 689
+  },
+  {
+    "key": "679A-",
+    "value": "A",
+    "seedIndex": 690
+  },
+  {
+    "key": "2668-",
+    "value": "8",
+    "seedIndex": 691
+  },
+  {
+    "key": "558K-",
+    "value": "K",
+    "seedIndex": 692
+  },
+  {
+    "key": "3TJQ-",
+    "value": "Q",
+    "seedIndex": 693
+  },
+  {
+    "key": "3668-",
+    "value": "8",
+    "seedIndex": 694
+  },
+  {
+    "key": "57TQ-",
+    "value": "Q",
+    "seedIndex": 695
+  },
+  {
+    "key": "89JQ-",
+    "value": "Q",
+    "seedIndex": 697
+  },
+  {
+    "key": "567Q-",
+    "value": "Q",
+    "seedIndex": 701
+  },
+  {
+    "key": "233T-",
+    "value": "T",
+    "seedIndex": 702
+  },
+  {
+    "key": "3457-",
+    "value": "7",
+    "seedIndex": 703
+  },
+  {
+    "key": "25JQ-",
+    "value": "Q",
+    "seedIndex": 705
+  },
+  {
+    "key": "566T-",
+    "value": "T",
+    "seedIndex": 706
+  },
+  {
+    "key": "245A-",
+    "value": "A",
+    "seedIndex": 707
+  },
+  {
+    "key": "33TA-",
+    "value": "A",
+    "seedIndex": 708
+  },
+  {
+    "key": "357K-",
+    "value": "7",
+    "seedIndex": 709
+  },
+  {
+    "key": "2489-",
+    "value": "9",
+    "seedIndex": 710
+  },
+  {
+    "key": "24TJ-",
+    "value": "J",
+    "seedIndex": 711
+  },
+  {
+    "key": "255A-",
+    "value": "A",
+    "seedIndex": 713
+  },
+  {
+    "key": "23TK-",
+    "value": "K",
+    "seedIndex": 716
+  },
+  {
+    "key": "35QA-",
+    "value": "A",
+    "seedIndex": 717
+  },
+  {
+    "key": "4578-",
+    "value": "8",
+    "seedIndex": 719
+  },
+  {
+    "key": "358A-",
+    "value": "A",
+    "seedIndex": 720
+  },
+  {
+    "key": "348A-",
+    "value": "A",
+    "seedIndex": 722
+  },
+  {
+    "key": "6TAA-",
+    "value": "A",
+    "seedIndex": 724
+  },
+  {
+    "key": "7TQK-",
+    "value": "Q",
+    "seedIndex": 725
+  },
+  {
+    "key": "39KA-",
+    "value": "K",
+    "seedIndex": 727
+  },
+  {
+    "key": "4JQK-",
+    "value": "K",
+    "seedIndex": 729
+  },
+  {
+    "key": "377T-",
+    "value": "T",
+    "seedIndex": 731
+  },
+  {
+    "key": "225T-",
+    "value": "T",
+    "seedIndex": 732
+  },
+  {
+    "key": "2TJA-",
+    "value": "J",
+    "seedIndex": 733
+  },
+  {
+    "key": "4577-",
+    "value": "7",
+    "seedIndex": 735
+  },
+  {
+    "key": "67TJ-",
+    "value": "J",
+    "seedIndex": 736
+  },
+  {
+    "key": "699Q-",
+    "value": "9",
+    "seedIndex": 737
+  },
+  {
+    "key": "59TK-",
+    "value": "T",
+    "seedIndex": 738
+  },
+  {
+    "key": "247A-",
+    "value": "A",
+    "seedIndex": 739
+  },
+  {
+    "key": "37KK-",
+    "value": "K",
+    "seedIndex": 740
+  },
+  {
+    "key": "55TQ-",
+    "value": "Q",
+    "seedIndex": 743
+  },
+  {
+    "key": "23QA-",
+    "value": "A",
+    "seedIndex": 744
+  },
+  {
+    "key": "JJQQ-",
+    "value": "Q",
+    "seedIndex": 745
+  },
+  {
+    "key": "589J-",
+    "value": "J",
+    "seedIndex": 746
+  },
+  {
+    "key": "3TQK-",
+    "value": "Q",
+    "seedIndex": 747
+  },
+  {
+    "key": "39TJ-",
+    "value": "J",
+    "seedIndex": 748
+  },
+  {
+    "key": "57QA-",
+    "value": "A",
+    "seedIndex": 750
+  },
+  {
+    "key": "3469-",
+    "value": "9",
+    "seedIndex": 752
+  },
+  {
+    "key": "35TA-",
+    "value": "A",
+    "seedIndex": 754
+  },
+  {
+    "key": "39QK-",
+    "value": "K",
+    "seedIndex": 757
+  },
+  {
+    "key": "48TA-",
+    "value": "T",
+    "seedIndex": 761
+  },
+  {
+    "key": "478T-",
+    "value": "T",
+    "seedIndex": 762
+  },
+  {
+    "key": "48JK-",
+    "value": "J",
+    "seedIndex": 763
+  },
+  {
+    "key": "2256-",
+    "value": "6",
+    "seedIndex": 764
+  },
+  {
+    "key": "69TK-",
+    "value": "T",
+    "seedIndex": 766
+  },
+  {
+    "key": "239K-",
+    "value": "K",
+    "seedIndex": 767
+  },
+  {
+    "key": "246K-",
+    "value": "6",
+    "seedIndex": 768
+  },
+  {
+    "key": "8TJJ-",
+    "value": "J",
+    "seedIndex": 770
+  },
+  {
+    "key": "235J-",
+    "value": "J",
+    "seedIndex": 771
+  },
+  {
+    "key": "4899-",
+    "value": "9",
+    "seedIndex": 772
+  },
+  {
+    "key": "679J-",
+    "value": "J",
+    "seedIndex": 773
+  },
+  {
+    "key": "246J-",
+    "value": "J",
+    "seedIndex": 774
+  },
+  {
+    "key": "2TAA-",
+    "value": "A",
+    "seedIndex": 777
+  },
+  {
+    "key": "9QKA-",
+    "value": "K",
+    "seedIndex": 778
+  },
+  {
+    "key": "56JK-",
+    "value": "K",
+    "seedIndex": 781
+  },
+  {
+    "key": "5689-",
+    "value": "9",
+    "seedIndex": 783
+  },
+  {
+    "key": "69KK-",
+    "value": "K",
+    "seedIndex": 786
+  },
+  {
+    "key": "236K-",
+    "value": "K",
+    "seedIndex": 787
+  },
+  {
+    "key": "489K-",
+    "value": "9",
+    "seedIndex": 791
+  },
+  {
+    "key": "34TJ-",
+    "value": "J",
+    "seedIndex": 792
+  },
+  {
+    "key": "489Q-",
+    "value": "9",
+    "seedIndex": 793
+  },
+  {
+    "key": "4678-",
+    "value": "8",
+    "seedIndex": 794
+  },
+  {
+    "key": "289A-",
+    "value": "9",
+    "seedIndex": 795
+  },
+  {
+    "key": "568A-",
+    "value": "A",
+    "seedIndex": 796
+  },
+  {
+    "key": "349T-",
+    "value": "T",
+    "seedIndex": 799
+  },
+  {
+    "key": "38TJ-",
+    "value": "J",
+    "seedIndex": 800
+  },
+  {
+    "key": "448K-",
+    "value": "K",
+    "seedIndex": 802
+  },
+  {
+    "key": "48QA-",
+    "value": "Q",
+    "seedIndex": 804
+  },
+  {
+    "key": "3669-",
+    "value": "9",
+    "seedIndex": 805
+  },
+  {
+    "key": "TQKA-",
+    "value": "A",
+    "seedIndex": 807
+  },
+  {
+    "key": "48TT-",
+    "value": "T",
+    "seedIndex": 811
+  },
+  {
+    "key": "7JKA-",
+    "value": "K",
+    "seedIndex": 812
+  },
+  {
+    "key": "4689-",
+    "value": "9",
+    "seedIndex": 814
+  },
+  {
+    "key": "7TJK-",
+    "value": "J",
+    "seedIndex": 817
+  },
+  {
+    "key": "233K-",
+    "value": "K",
+    "seedIndex": 819
+  },
+  {
+    "key": "44QK-",
+    "value": "K",
+    "seedIndex": 820
+  },
+  {
+    "key": "5TKK-",
+    "value": "K",
+    "seedIndex": 822
+  },
+  {
+    "key": "3TQQ-",
+    "value": "Q",
+    "seedIndex": 823
+  },
+  {
+    "key": "38TQ-",
+    "value": "T",
+    "seedIndex": 824
+  },
+  {
+    "key": "348T-",
+    "value": "T",
+    "seedIndex": 825
+  },
+  {
+    "key": "245T-",
+    "value": "T",
+    "seedIndex": 826
+  },
+  {
+    "key": "558T-",
+    "value": "T",
+    "seedIndex": 828
+  },
+  {
+    "key": "69JK-",
+    "value": "J",
+    "seedIndex": 829
+  },
+  {
+    "key": "234J-",
+    "value": "J",
+    "seedIndex": 830
+  },
+  {
+    "key": "7JQA-",
+    "value": "Q",
+    "seedIndex": 831
+  },
+  {
+    "key": "69AA-",
+    "value": "A",
+    "seedIndex": 832
+  },
+  {
+    "key": "569Q-",
+    "value": "Q",
+    "seedIndex": 833
+  },
+  {
+    "key": "239T-",
+    "value": "T",
+    "seedIndex": 834
+  },
+  {
+    "key": "25JA-",
+    "value": "A",
+    "seedIndex": 837
+  },
+  {
+    "key": "336T-",
+    "value": "T",
+    "seedIndex": 838
+  },
+  {
+    "key": "348Q-",
+    "value": "Q",
+    "seedIndex": 840
+  },
+  {
+    "key": "789T-",
+    "value": "T",
+    "seedIndex": 842
+  },
+  {
+    "key": "236A-",
+    "value": "A",
+    "seedIndex": 844
+  },
+  {
+    "key": "578J-",
+    "value": "J",
+    "seedIndex": 845
+  },
+  {
+    "key": "5QQA-",
+    "value": "Q",
+    "seedIndex": 846
+  },
+  {
+    "key": "28JQ-",
+    "value": "Q",
+    "seedIndex": 847
+  },
+  {
+    "key": "499Q-",
+    "value": "9",
+    "seedIndex": 849
+  },
+  {
+    "key": "7TTQ-",
+    "value": "T",
+    "seedIndex": 850
+  },
+  {
+    "key": "8TQQ-",
+    "value": "Q",
+    "seedIndex": 851
+  },
+  {
+    "key": "389Q-",
+    "value": "9",
+    "seedIndex": 852
+  },
+  {
+    "key": "668A-",
+    "value": "A",
+    "seedIndex": 855
+  },
+  {
+    "key": "2247-",
+    "value": "7",
+    "seedIndex": 859
+  },
+  {
+    "key": "588A-",
+    "value": "A",
+    "seedIndex": 860
+  },
+  {
+    "key": "45JK-",
+    "value": "K",
+    "seedIndex": 861
+  },
+  {
+    "key": "46QQ-",
+    "value": "Q",
+    "seedIndex": 863
+  },
+  {
+    "key": "68QA-",
+    "value": "A",
+    "seedIndex": 864
+  },
+  {
+    "key": "79TA-",
+    "value": "A",
+    "seedIndex": 866
+  },
+  {
+    "key": "22TJ-",
+    "value": "J",
+    "seedIndex": 868
+  },
+  {
+    "key": "479K-",
+    "value": "9",
+    "seedIndex": 869
+  },
+  {
+    "key": "34QK-",
+    "value": "K",
+    "seedIndex": 870
+  },
+  {
+    "key": "89QK-",
+    "value": "K",
+    "seedIndex": 871
+  },
+  {
+    "key": "49JK-",
+    "value": "J",
+    "seedIndex": 872
+  },
+  {
+    "key": "699A-",
+    "value": "9",
+    "seedIndex": 874
+  },
+  {
+    "key": "455J-",
+    "value": "J",
+    "seedIndex": 879
+  },
+  {
+    "key": "458A-",
+    "value": "A",
+    "seedIndex": 881
+  },
+  {
+    "key": "237T-",
+    "value": "T",
+    "seedIndex": 891
+  },
+  {
+    "key": "23TT-",
+    "value": "T",
+    "seedIndex": 892
+  },
+  {
+    "key": "56TQ-",
+    "value": "Q",
+    "seedIndex": 895
+  },
+  {
+    "key": "48TQ-",
+    "value": "T",
+    "seedIndex": 896
+  },
+  {
+    "key": "36JQ-",
+    "value": "Q",
+    "seedIndex": 897
+  },
+  {
+    "key": "2799-",
+    "value": "9",
+    "seedIndex": 898
+  },
+  {
+    "key": "388J-",
+    "value": "J",
+    "seedIndex": 900
+  },
+  {
+    "key": "78JK-",
+    "value": "K",
+    "seedIndex": 901
+  },
+  {
+    "key": "47TJ-",
+    "value": "J",
+    "seedIndex": 902
+  },
+  {
+    "key": "333A-",
+    "value": "A",
+    "seedIndex": 903
+  },
+  {
+    "key": "6QAA-",
+    "value": "A",
+    "seedIndex": 904
+  },
+  {
+    "key": "79KA-",
+    "value": "A",
+    "seedIndex": 908
+  },
+  {
+    "key": "244K-",
+    "value": "K",
+    "seedIndex": 909
+  },
+  {
+    "key": "89QQ-",
+    "value": "Q",
+    "seedIndex": 913
+  },
+  {
+    "key": "288J-",
+    "value": "8",
+    "seedIndex": 918
+  },
+  {
+    "key": "66TK-",
+    "value": "K",
+    "seedIndex": 919
+  },
+  {
+    "key": "479Q-",
+    "value": "9",
+    "seedIndex": 920
+  },
+  {
+    "key": "38TT-",
+    "value": "T",
+    "seedIndex": 921
+  },
+  {
+    "key": "68QK-",
+    "value": "K",
+    "seedIndex": 923
+  },
+  {
+    "key": "2459-",
+    "value": "9",
+    "seedIndex": 930
+  },
+  {
+    "key": "77JA-",
+    "value": "A",
+    "seedIndex": 931
+  },
+  {
+    "key": "557Q-",
+    "value": "Q",
+    "seedIndex": 932
+  },
+  {
+    "key": "337Q-",
+    "value": "Q",
+    "seedIndex": 933
+  },
+  {
+    "key": "579K-",
+    "value": "9",
+    "seedIndex": 937
+  },
+  {
+    "key": "6JJQ-",
+    "value": "Q",
+    "seedIndex": 938
+  },
+  {
+    "key": "35TK-",
+    "value": "K",
+    "seedIndex": 942
+  },
+  {
+    "key": "2245-",
+    "value": "5",
+    "seedIndex": 944
+  },
+  {
+    "key": "3TJJ-",
+    "value": "J",
+    "seedIndex": 945
+  },
+  {
+    "key": "357Q-",
+    "value": "7",
+    "seedIndex": 948
+  },
+  {
+    "key": "567A-",
+    "value": "A",
+    "seedIndex": 950
+  },
+  {
+    "key": "28KA-",
+    "value": "K",
+    "seedIndex": 951
+  },
+  {
+    "key": "67KA-",
+    "value": "A",
+    "seedIndex": 953
+  },
+  {
+    "key": "49KA-",
+    "value": "K",
+    "seedIndex": 955
+  },
+  {
+    "key": "347Q-",
+    "value": "Q",
+    "seedIndex": 958
+  },
+  {
+    "key": "359T-",
+    "value": "T",
+    "seedIndex": 960
+  },
+  {
+    "key": "4TQA-",
+    "value": "Q",
+    "seedIndex": 963
+  },
+  {
+    "key": "37JK-",
+    "value": "J",
+    "seedIndex": 965
+  },
+  {
+    "key": "23TQ-",
+    "value": "Q",
+    "seedIndex": 966
+  },
+  {
+    "key": "456J-",
+    "value": "J",
+    "seedIndex": 967
+  },
+  {
+    "key": "267Q-",
+    "value": "7",
+    "seedIndex": 968
+  },
+  {
+    "key": "588T-",
+    "value": "T",
+    "seedIndex": 970
+  },
+  {
+    "key": "677K-",
+    "value": "K",
+    "seedIndex": 971
+  },
+  {
+    "key": "667Q-",
+    "value": "Q",
+    "seedIndex": 973
+  },
+  {
+    "key": "35QK-",
+    "value": "K",
+    "seedIndex": 974
+  },
+  {
+    "key": "28JJ-",
+    "value": "J",
+    "seedIndex": 975
+  },
+  {
+    "key": "44JK-",
+    "value": "K",
+    "seedIndex": 977
+  },
+  {
+    "key": "TTKA-",
+    "value": "A",
+    "seedIndex": 979
+  },
+  {
+    "key": "2336-",
+    "value": "6",
+    "seedIndex": 980
+  },
+  {
+    "key": "345Q-",
+    "value": "Q",
+    "seedIndex": 981
+  },
+  {
+    "key": "38QA-",
+    "value": "Q",
+    "seedIndex": 982
+  },
+  {
+    "key": "88JK-",
+    "value": "K",
+    "seedIndex": 984
+  },
+  {
+    "key": "2678-",
+    "value": "8",
+    "seedIndex": 987
+  },
+  {
+    "key": "39TK-",
+    "value": "T",
+    "seedIndex": 990
+  },
+  {
+    "key": "456K-",
+    "value": "K",
+    "seedIndex": 991
+  },
+  {
+    "key": "2QKA-",
+    "value": "K",
+    "seedIndex": 993
+  },
+  {
+    "key": "34TQ-",
+    "value": "Q",
+    "seedIndex": 995
+  },
+  {
+    "key": "JKKA-",
+    "value": "A",
+    "seedIndex": 996
+  },
+  {
+    "key": "34KK-",
+    "value": "K",
+    "seedIndex": 998
+  },
+  {
+    "key": "36JK-",
+    "value": "J",
+    "seedIndex": 999
+  },
+  {
+    "key": "22JK-",
+    "value": "K",
+    "seedIndex": 1000
+  },
+  {
+    "key": "58TT-",
+    "value": "T",
+    "seedIndex": 1002
+  },
+  {
+    "key": "4568-",
+    "value": "8",
+    "seedIndex": 1006
+  },
+  {
+    "key": "248J-",
+    "value": "J",
+    "seedIndex": 1008
+  },
+  {
+    "key": "345J-",
+    "value": "J",
+    "seedIndex": 1010
+  },
+  {
+    "key": "23TA-",
+    "value": "A",
+    "seedIndex": 1013
+  },
+  {
+    "key": "449Q-",
+    "value": "Q",
+    "seedIndex": 1015
+  },
+  {
+    "key": "68TA-",
+    "value": "A",
+    "seedIndex": 1016
+  },
+  {
+    "key": "339J-",
+    "value": "J",
+    "seedIndex": 1017
+  },
+  {
+    "key": "246Q-",
+    "value": "Q",
+    "seedIndex": 1018
+  },
+  {
+    "key": "377Q-",
+    "value": "7",
+    "seedIndex": 1019
+  },
+  {
+    "key": "567T-",
+    "value": "T",
+    "seedIndex": 1022
+  },
+  {
+    "key": "678A-",
+    "value": "A",
+    "seedIndex": 1025
+  },
+  {
+    "key": "2TKA-",
+    "value": "K",
+    "seedIndex": 1026
+  },
+  {
+    "key": "69JQ-",
+    "value": "Q",
+    "seedIndex": 1027
+  },
+  {
+    "key": "58TJ-",
+    "value": "J",
+    "seedIndex": 1028
+  },
+  {
+    "key": "7JJA-",
+    "value": "J",
+    "seedIndex": 1031
+  },
+  {
+    "key": "2JQA-",
+    "value": "Q",
+    "seedIndex": 1032
+  },
+  {
+    "key": "3JQK-",
+    "value": "K",
+    "seedIndex": 1034
+  },
+  {
+    "key": "28TQ-",
+    "value": "T",
+    "seedIndex": 1035
+  },
+  {
+    "key": "79TJ-",
+    "value": "J",
+    "seedIndex": 1036
+  },
+  {
+    "key": "478Q-",
+    "value": "8",
+    "seedIndex": 1037
+  },
+  {
+    "key": "468J-",
+    "value": "J",
+    "seedIndex": 1038
+  },
+  {
+    "key": "223Q-",
+    "value": "Q",
+    "seedIndex": 1039
+  },
+  {
+    "key": "57KK-",
+    "value": "K",
+    "seedIndex": 1041
+  },
+  {
+    "key": "57TK-",
+    "value": "T",
+    "seedIndex": 1043
+  },
+  {
+    "key": "278T-",
+    "value": "T",
+    "seedIndex": 1049
+  },
+  {
+    "key": "28QQ-",
+    "value": "Q",
+    "seedIndex": 1050
+  },
+  {
+    "key": "367K-",
+    "value": "7",
+    "seedIndex": 1051
+  },
+  {
+    "key": "569J-",
+    "value": "J",
+    "seedIndex": 1054
+  },
+  {
+    "key": "239A-",
+    "value": "A",
+    "seedIndex": 1055
+  },
+  {
+    "key": "56TJ-",
+    "value": "J",
+    "seedIndex": 1056
+  },
+  {
+    "key": "368Q-",
+    "value": "8",
+    "seedIndex": 1058
+  },
+  {
+    "key": "2268-",
+    "value": "8",
+    "seedIndex": 1059
+  },
+  {
+    "key": "589T-",
+    "value": "T",
+    "seedIndex": 1061
+  },
+  {
+    "key": "4588-",
+    "value": "8",
+    "seedIndex": 1066
+  },
+  {
+    "key": "QQKA-",
+    "value": "A",
+    "seedIndex": 1069
+  },
+  {
+    "key": "288T-",
+    "value": "T",
+    "seedIndex": 1075
+  },
+  {
+    "key": "28TJ-",
+    "value": "J",
+    "seedIndex": 1076
+  },
+  {
+    "key": "255J-",
+    "value": "J",
+    "seedIndex": 1077
+  },
+  {
+    "key": "37JA-",
+    "value": "A",
+    "seedIndex": 1079
+  },
+  {
+    "key": "2JQK-",
+    "value": "K",
+    "seedIndex": 1081
+  },
+  {
+    "key": "39QQ-",
+    "value": "Q",
+    "seedIndex": 1083
+  },
+  {
+    "key": "5TTQ-",
+    "value": "T",
+    "seedIndex": 1084
+  },
+  {
+    "key": "478K-",
+    "value": "8",
+    "seedIndex": 1090
+  },
+  {
+    "key": "347J-",
+    "value": "J",
+    "seedIndex": 1091
+  },
+  {
+    "key": "678K-",
+    "value": "K",
+    "seedIndex": 1093
+  },
+  {
+    "key": "48JA-",
+    "value": "J",
+    "seedIndex": 1095
+  },
+  {
+    "key": "477J-",
+    "value": "J",
+    "seedIndex": 1099
+  },
+  {
+    "key": "266Q-",
+    "value": "6",
+    "seedIndex": 1101
+  },
+  {
+    "key": "5TQQ-",
+    "value": "Q",
+    "seedIndex": 1102
+  },
+  {
+    "key": "299J-",
+    "value": "J",
+    "seedIndex": 1103
+  },
+  {
+    "key": "6789-",
+    "value": "9",
+    "seedIndex": 1106
+  },
+  {
+    "key": "3568-",
+    "value": "8",
+    "seedIndex": 1107
+  },
+  {
+    "key": "227J-",
+    "value": "J",
+    "seedIndex": 1108
+  },
+  {
+    "key": "48TK-",
+    "value": "T",
+    "seedIndex": 1113
+  },
+  {
+    "key": "49AA-",
+    "value": "A",
+    "seedIndex": 1114
+  },
+  {
+    "key": "368J-",
+    "value": "J",
+    "seedIndex": 1115
+  },
+  {
+    "key": "36QK-",
+    "value": "K",
+    "seedIndex": 1116
+  },
+  {
+    "key": "56KA-",
+    "value": "A",
+    "seedIndex": 1120
+  },
+  {
+    "key": "238T-",
+    "value": "T",
+    "seedIndex": 1121
+  },
+  {
+    "key": "33TQ-",
+    "value": "Q",
+    "seedIndex": 1123
+  },
+  {
+    "key": "558A-",
+    "value": "A",
+    "seedIndex": 1124
+  },
+  {
+    "key": "2278-",
+    "value": "8",
+    "seedIndex": 1125
+  },
+  {
+    "key": "469Q-",
+    "value": "9",
+    "seedIndex": 1126
+  },
+  {
+    "key": "4469-",
+    "value": "9",
+    "seedIndex": 1128
+  },
+  {
+    "key": "38JJ-",
+    "value": "J",
+    "seedIndex": 1130
+  },
+  {
+    "key": "8QKA-",
+    "value": "K",
+    "seedIndex": 1133
+  },
+  {
+    "key": "339Q-",
+    "value": "Q",
+    "seedIndex": 1134
+  },
+  {
+    "key": "28TT-",
+    "value": "T",
+    "seedIndex": 1135
+  },
+  {
+    "key": "35JA-",
+    "value": "A",
+    "seedIndex": 1137
+  },
+  {
+    "key": "468T-",
+    "value": "T",
+    "seedIndex": 1139
+  },
+  {
+    "key": "66KA-",
+    "value": "A",
+    "seedIndex": 1141
+  },
+  {
+    "key": "79TQ-",
+    "value": "Q",
+    "seedIndex": 1148
+  },
+  {
+    "key": "499A-",
+    "value": "9",
+    "seedIndex": 1152
+  },
+  {
+    "key": "3778-",
+    "value": "8",
+    "seedIndex": 1153
+  },
+  {
+    "key": "369A-",
+    "value": "A",
+    "seedIndex": 1154
+  },
+  {
+    "key": "3349-",
+    "value": "9",
+    "seedIndex": 1158
+  },
+  {
+    "key": "79QA-",
+    "value": "A",
+    "seedIndex": 1162
+  },
+  {
+    "key": "99TA-",
+    "value": "A",
+    "seedIndex": 1167
+  },
+  {
+    "key": "2266-",
+    "value": "6",
+    "seedIndex": 1170
+  },
+  {
+    "key": "6JQK-",
+    "value": "K",
+    "seedIndex": 1174
+  },
+  {
+    "key": "45TK-",
+    "value": "K",
+    "seedIndex": 1175
+  },
+  {
+    "key": "25TA-",
+    "value": "A",
+    "seedIndex": 1176
+  },
+  {
+    "key": "357A-",
+    "value": "A",
+    "seedIndex": 1178
+  },
+  {
+    "key": "7KAA-",
+    "value": "A",
+    "seedIndex": 1180
+  },
+  {
+    "key": "3678-",
+    "value": "8",
+    "seedIndex": 1181
+  },
+  {
+    "key": "346A-",
+    "value": "A",
+    "seedIndex": 1182
+  },
+  {
+    "key": "4456-",
+    "value": "6",
+    "seedIndex": 1183
+  },
+  {
+    "key": "29JA-",
+    "value": "J",
+    "seedIndex": 1186
+  },
+  {
+    "key": "449T-",
+    "value": "T",
+    "seedIndex": 1188
+  },
+  {
+    "key": "2467-",
+    "value": "7",
+    "seedIndex": 1189
+  },
+  {
+    "key": "259T-",
+    "value": "T",
+    "seedIndex": 1190
   },
   {
     "key": "557A-",
@@ -15,69 +4030,9 @@
     "seedIndex": 1196
   },
   {
-    "key": "266T-",
-    "value": "T",
-    "seedIndex": 1197
-  },
-  {
-    "key": "2JQA-",
-    "value": "Q",
-    "seedIndex": 1198
-  },
-  {
-    "key": "278J-",
-    "value": "J",
-    "seedIndex": 1199
-  },
-  {
-    "key": "778A-",
-    "value": "A",
-    "seedIndex": 1200
-  },
-  {
-    "key": "23QA-",
-    "value": "A",
-    "seedIndex": 1201
-  },
-  {
-    "key": "35KA-",
-    "value": "A",
-    "seedIndex": 1202
-  },
-  {
-    "key": "268K-",
-    "value": "8",
-    "seedIndex": 1203
-  },
-  {
-    "key": "2357-",
-    "value": "7",
-    "seedIndex": 1204
-  },
-  {
-    "key": "24QK-",
-    "value": "K",
-    "seedIndex": 1205
-  },
-  {
-    "key": "347A-",
-    "value": "A",
-    "seedIndex": 1206
-  },
-  {
-    "key": "89TJ-",
-    "value": "J",
-    "seedIndex": 1207
-  },
-  {
     "key": "TTQK-",
     "value": "K",
     "seedIndex": 1208
-  },
-  {
-    "key": "579J-",
-    "value": "J",
-    "seedIndex": 1209
   },
   {
     "key": "799J-",
@@ -90,29 +4045,9 @@
     "seedIndex": 1211
   },
   {
-    "key": "26TJ-",
-    "value": "J",
-    "seedIndex": 1213
-  },
-  {
-    "key": "69TQ-",
-    "value": "T",
-    "seedIndex": 1215
-  },
-  {
-    "key": "38QA-",
-    "value": "Q",
-    "seedIndex": 1216
-  },
-  {
     "key": "277Q-",
     "value": "7",
     "seedIndex": 1217
-  },
-  {
-    "key": "7TJA-",
-    "value": "A",
-    "seedIndex": 1218
   },
   {
     "key": "256K-",
@@ -120,29 +4055,9 @@
     "seedIndex": 1219
   },
   {
-    "key": "679A-",
-    "value": "A",
-    "seedIndex": 1220
-  },
-  {
-    "key": "2558-",
-    "value": "8",
-    "seedIndex": 1221
-  },
-  {
     "key": "45KA-",
     "value": "A",
     "seedIndex": 1222
-  },
-  {
-    "key": "3569-",
-    "value": "9",
-    "seedIndex": 1223
-  },
-  {
-    "key": "489K-",
-    "value": "9",
-    "seedIndex": 1224
   },
   {
     "key": "35JK-",
@@ -150,54 +4065,14 @@
     "seedIndex": 1225
   },
   {
-    "key": "29JQ-",
-    "value": "Q",
-    "seedIndex": 1226
-  },
-  {
-    "key": "247Q-",
-    "value": "Q",
-    "seedIndex": 1228
-  },
-  {
     "key": "26KA-",
     "value": "A",
     "seedIndex": 1229
   },
   {
-    "key": "489J-",
-    "value": "J",
-    "seedIndex": 1230
-  },
-  {
     "key": "3489-",
     "value": "9",
     "seedIndex": 1231
-  },
-  {
-    "key": "27QK-",
-    "value": "Q",
-    "seedIndex": 1232
-  },
-  {
-    "key": "237A-",
-    "value": "A",
-    "seedIndex": 1233
-  },
-  {
-    "key": "248T-",
-    "value": "T",
-    "seedIndex": 1234
-  },
-  {
-    "key": "478J-",
-    "value": "J",
-    "seedIndex": 1235
-  },
-  {
-    "key": "679T-",
-    "value": "T",
-    "seedIndex": 1236
   },
   {
     "key": "35JQ-",
@@ -213,31 +4088,6 @@
     "key": "688A-",
     "value": "A",
     "seedIndex": 1239
-  },
-  {
-    "key": "49JK-",
-    "value": "J",
-    "seedIndex": 1240
-  },
-  {
-    "key": "3478-",
-    "value": "8",
-    "seedIndex": 1241
-  },
-  {
-    "key": "8QQK-",
-    "value": "K",
-    "seedIndex": 1242
-  },
-  {
-    "key": "36JK-",
-    "value": "K",
-    "seedIndex": 1243
-  },
-  {
-    "key": "236T-",
-    "value": "T",
-    "seedIndex": 1244
   },
   {
     "key": "689Q-",
@@ -260,16 +4110,6 @@
     "seedIndex": 1248
   },
   {
-    "key": "2678-",
-    "value": "8",
-    "seedIndex": 1249
-  },
-  {
-    "key": "79JK-",
-    "value": "J",
-    "seedIndex": 1250
-  },
-  {
     "key": "56QK-",
     "value": "K",
     "seedIndex": 1251
@@ -285,39 +4125,9 @@
     "seedIndex": 1253
   },
   {
-    "key": "668A-",
-    "value": "A",
-    "seedIndex": 1254
-  },
-  {
-    "key": "234A-",
-    "value": "A",
-    "seedIndex": 1255
-  },
-  {
     "key": "37TJ-",
     "value": "J",
     "seedIndex": 1256
-  },
-  {
-    "key": "2479-",
-    "value": "9",
-    "seedIndex": 1257
-  },
-  {
-    "key": "24KA-",
-    "value": "A",
-    "seedIndex": 1258
-  },
-  {
-    "key": "468J-",
-    "value": "J",
-    "seedIndex": 1259
-  },
-  {
-    "key": "457T-",
-    "value": "T",
-    "seedIndex": 1260
   },
   {
     "key": "47JA-",
@@ -330,26 +4140,6 @@
     "seedIndex": 1262
   },
   {
-    "key": "48KA-",
-    "value": "K",
-    "seedIndex": 1263
-  },
-  {
-    "key": "55JK-",
-    "value": "K",
-    "seedIndex": 1264
-  },
-  {
-    "key": "236J-",
-    "value": "J",
-    "seedIndex": 1265
-  },
-  {
-    "key": "57QA-",
-    "value": "A",
-    "seedIndex": 1266
-  },
-  {
     "key": "39JQ-",
     "value": "Q",
     "seedIndex": 1267
@@ -358,11 +4148,6 @@
     "key": "699J-",
     "value": "J",
     "seedIndex": 1268
-  },
-  {
-    "key": "46JK-",
-    "value": "K",
-    "seedIndex": 1269
   },
   {
     "key": "266J-",
@@ -380,19 +4165,9 @@
     "seedIndex": 1273
   },
   {
-    "key": "2589-",
-    "value": "9",
-    "seedIndex": 1274
-  },
-  {
     "key": "8TJK-",
     "value": "J",
     "seedIndex": 1275
-  },
-  {
-    "key": "59QK-",
-    "value": "Q",
-    "seedIndex": 1276
   },
   {
     "key": "223T-",
@@ -405,34 +4180,9 @@
     "seedIndex": 1278
   },
   {
-    "key": "478K-",
-    "value": "8",
-    "seedIndex": 1279
-  },
-  {
-    "key": "39TJ-",
-    "value": "J",
-    "seedIndex": 1280
-  },
-  {
-    "key": "267Q-",
-    "value": "7",
-    "seedIndex": 1282
-  },
-  {
-    "key": "349T-",
-    "value": "T",
-    "seedIndex": 1283
-  },
-  {
     "key": "7KKA-",
     "value": "A",
     "seedIndex": 1284
-  },
-  {
-    "key": "246Q-",
-    "value": "Q",
-    "seedIndex": 1285
   },
   {
     "key": "77TQ-",
@@ -440,24 +4190,9 @@
     "seedIndex": 1286
   },
   {
-    "key": "256T-",
-    "value": "T",
-    "seedIndex": 1287
-  },
-  {
-    "key": "3668-",
-    "value": "8",
-    "seedIndex": 1288
-  },
-  {
     "key": "9TJA-",
     "value": "A",
     "seedIndex": 1289
-  },
-  {
-    "key": "467J-",
-    "value": "J",
-    "seedIndex": 1290
   },
   {
     "key": "479T-",
@@ -475,24 +4210,9 @@
     "seedIndex": 1293
   },
   {
-    "key": "368Q-",
-    "value": "8",
-    "seedIndex": 1294
-  },
-  {
-    "key": "45TQ-",
-    "value": "Q",
-    "seedIndex": 1295
-  },
-  {
     "key": "47AA-",
     "value": "A",
     "seedIndex": 1296
-  },
-  {
-    "key": "59TK-",
-    "value": "T",
-    "seedIndex": 1297
   },
   {
     "key": "27TA-",
@@ -500,34 +4220,9 @@
     "seedIndex": 1298
   },
   {
-    "key": "6TJQ-",
-    "value": "Q",
-    "seedIndex": 1299
-  },
-  {
-    "key": "89QQ-",
-    "value": "Q",
-    "seedIndex": 1300
-  },
-  {
-    "key": "3456-",
-    "value": "6",
-    "seedIndex": 1301
-  },
-  {
     "key": "599A-",
     "value": "9",
     "seedIndex": 1302
-  },
-  {
-    "key": "25JK-",
-    "value": "J",
-    "seedIndex": 1304
-  },
-  {
-    "key": "9TJQ-",
-    "value": "Q",
-    "seedIndex": 1305
   },
   {
     "key": "4KKA-",
@@ -560,29 +4255,9 @@
     "seedIndex": 1311
   },
   {
-    "key": "449T-",
-    "value": "T",
-    "seedIndex": 1312
-  },
-  {
-    "key": "79TA-",
-    "value": "A",
-    "seedIndex": 1313
-  },
-  {
     "key": "88KA-",
     "value": "A",
     "seedIndex": 1314
-  },
-  {
-    "key": "78KA-",
-    "value": "A",
-    "seedIndex": 1316
-  },
-  {
-    "key": "345J-",
-    "value": "J",
-    "seedIndex": 1317
   },
   {
     "key": "79AA-",
@@ -590,24 +4265,9 @@
     "seedIndex": 1318
   },
   {
-    "key": "249T-",
-    "value": "T",
-    "seedIndex": 1319
-  },
-  {
     "key": "2288-",
     "value": "8",
     "seedIndex": 1320
-  },
-  {
-    "key": "356A-",
-    "value": "A",
-    "seedIndex": 1321
-  },
-  {
-    "key": "3578-",
-    "value": "8",
-    "seedIndex": 1322
   },
   {
     "key": "238A-",
@@ -615,39 +4275,9 @@
     "seedIndex": 1323
   },
   {
-    "key": "35QA-",
-    "value": "A",
-    "seedIndex": 1324
-  },
-  {
-    "key": "3567-",
-    "value": "7",
-    "seedIndex": 1325
-  },
-  {
-    "key": "337K-",
-    "value": "K",
-    "seedIndex": 1326
-  },
-  {
-    "key": "2379-",
-    "value": "9",
-    "seedIndex": 1327
-  },
-  {
     "key": "48TJ-",
     "value": "J",
     "seedIndex": 1328
-  },
-  {
-    "key": "6789-",
-    "value": "9",
-    "seedIndex": 1329
-  },
-  {
-    "key": "468K-",
-    "value": "8",
-    "seedIndex": 1330
   },
   {
     "key": "569K-",
@@ -655,29 +4285,14 @@
     "seedIndex": 1331
   },
   {
-    "key": "8TQA-",
-    "value": "A",
-    "seedIndex": 1332
-  },
-  {
     "key": "366J-",
     "value": "J",
     "seedIndex": 1333
   },
   {
-    "key": "89JQ-",
-    "value": "Q",
-    "seedIndex": 1334
-  },
-  {
     "key": "59QA-",
     "value": "Q",
     "seedIndex": 1335
-  },
-  {
-    "key": "3358-",
-    "value": "8",
-    "seedIndex": 1336
   },
   {
     "key": "256Q-",
@@ -695,69 +4310,14 @@
     "seedIndex": 1340
   },
   {
-    "key": "67TK-",
-    "value": "K",
-    "seedIndex": 1342
-  },
-  {
     "key": "35TJ-",
     "value": "J",
     "seedIndex": 1343
   },
   {
-    "key": "38TK-",
-    "value": "T",
-    "seedIndex": 1344
-  },
-  {
-    "key": "57TK-",
-    "value": "T",
-    "seedIndex": 1346
-  },
-  {
-    "key": "56JA-",
-    "value": "A",
-    "seedIndex": 1347
-  },
-  {
-    "key": "3JKA-",
-    "value": "K",
-    "seedIndex": 1348
-  },
-  {
-    "key": "58TJ-",
-    "value": "J",
-    "seedIndex": 1350
-  },
-  {
-    "key": "28JA-",
-    "value": "J",
-    "seedIndex": 1351
-  },
-  {
-    "key": "2388-",
-    "value": "8",
-    "seedIndex": 1352
-  },
-  {
-    "key": "36QA-",
-    "value": "A",
-    "seedIndex": 1355
-  },
-  {
     "key": "24QA-",
     "value": "A",
     "seedIndex": 1356
-  },
-  {
-    "key": "26TA-",
-    "value": "A",
-    "seedIndex": 1357
-  },
-  {
-    "key": "58TA-",
-    "value": "A",
-    "seedIndex": 1358
   },
   {
     "key": "229K-",
@@ -768,21 +4328,6 @@
     "key": "TTJA-",
     "value": "A",
     "seedIndex": 1361
-  },
-  {
-    "key": "378J-",
-    "value": "J",
-    "seedIndex": 1362
-  },
-  {
-    "key": "248J-",
-    "value": "J",
-    "seedIndex": 1363
-  },
-  {
-    "key": "337Q-",
-    "value": "Q",
-    "seedIndex": 1364
   },
   {
     "key": "227Q-",
@@ -800,11 +4345,6 @@
     "seedIndex": 1367
   },
   {
-    "key": "588A-",
-    "value": "A",
-    "seedIndex": 1368
-  },
-  {
     "key": "9QQK-",
     "value": "K",
     "seedIndex": 1369
@@ -815,19 +4355,9 @@
     "seedIndex": 1370
   },
   {
-    "key": "379K-",
-    "value": "9",
-    "seedIndex": 1371
-  },
-  {
     "key": "45TA-",
     "value": "A",
     "seedIndex": 1375
-  },
-  {
-    "key": "389J-",
-    "value": "J",
-    "seedIndex": 1376
   },
   {
     "key": "259Q-",
@@ -838,41 +4368,6 @@
     "key": "6788-",
     "value": "8",
     "seedIndex": 1380
-  },
-  {
-    "key": "57JK-",
-    "value": "J",
-    "seedIndex": 1381
-  },
-  {
-    "key": "245K-",
-    "value": "K",
-    "seedIndex": 1382
-  },
-  {
-    "key": "469Q-",
-    "value": "Q",
-    "seedIndex": 1383
-  },
-  {
-    "key": "348K-",
-    "value": "K",
-    "seedIndex": 1384
-  },
-  {
-    "key": "799Q-",
-    "value": "9",
-    "seedIndex": 1385
-  },
-  {
-    "key": "36TA-",
-    "value": "A",
-    "seedIndex": 1386
-  },
-  {
-    "key": "79KK-",
-    "value": "K",
-    "seedIndex": 1387
   },
   {
     "key": "269Q-",
@@ -890,21 +4385,6 @@
     "seedIndex": 1390
   },
   {
-    "key": "257Q-",
-    "value": "7",
-    "seedIndex": 1391
-  },
-  {
-    "key": "67JK-",
-    "value": "K",
-    "seedIndex": 1393
-  },
-  {
-    "key": "345T-",
-    "value": "T",
-    "seedIndex": 1394
-  },
-  {
     "key": "244Q-",
     "value": "Q",
     "seedIndex": 1396
@@ -915,24 +4395,9 @@
     "seedIndex": 1397
   },
   {
-    "key": "26TK-",
-    "value": "T",
-    "seedIndex": 1398
-  },
-  {
-    "key": "678A-",
-    "value": "A",
-    "seedIndex": 1399
-  },
-  {
     "key": "368K-",
     "value": "8",
     "seedIndex": 1400
-  },
-  {
-    "key": "6JQA-",
-    "value": "Q",
-    "seedIndex": 1401
   },
   {
     "key": "TJJK-",
@@ -945,24 +4410,9 @@
     "seedIndex": 1404
   },
   {
-    "key": "459K-",
-    "value": "K",
-    "seedIndex": 1405
-  },
-  {
     "key": "3JKK-",
     "value": "K",
     "seedIndex": 1406
-  },
-  {
-    "key": "248A-",
-    "value": "A",
-    "seedIndex": 1407
-  },
-  {
-    "key": "27JQ-",
-    "value": "Q",
-    "seedIndex": 1409
   },
   {
     "key": "2779-",
@@ -975,26 +4425,6 @@
     "seedIndex": 1411
   },
   {
-    "key": "356T-",
-    "value": "T",
-    "seedIndex": 1412
-  },
-  {
-    "key": "778K-",
-    "value": "K",
-    "seedIndex": 1413
-  },
-  {
-    "key": "5TTA-",
-    "value": "T",
-    "seedIndex": 1415
-  },
-  {
-    "key": "458T-",
-    "value": "T",
-    "seedIndex": 1416
-  },
-  {
     "key": "2249-",
     "value": "9",
     "seedIndex": 1417
@@ -1003,16 +4433,6 @@
     "key": "3378-",
     "value": "8",
     "seedIndex": 1418
-  },
-  {
-    "key": "239T-",
-    "value": "T",
-    "seedIndex": 1420
-  },
-  {
-    "key": "57TQ-",
-    "value": "T",
-    "seedIndex": 1421
   },
   {
     "key": "TTJQ-",
@@ -1025,24 +4445,9 @@
     "seedIndex": 1423
   },
   {
-    "key": "8TTJ-",
-    "value": "J",
-    "seedIndex": 1425
-  },
-  {
     "key": "25TJ-",
     "value": "J",
     "seedIndex": 1426
-  },
-  {
-    "key": "38TJ-",
-    "value": "J",
-    "seedIndex": 1428
-  },
-  {
-    "key": "567K-",
-    "value": "K",
-    "seedIndex": 1429
   },
   {
     "key": "789Q-",
@@ -1051,23 +4456,13 @@
   },
   {
     "key": "8KKA-",
-    "value": "A",
+    "value": "K",
     "seedIndex": 1431
   },
   {
     "key": "344K-",
     "value": "K",
     "seedIndex": 1433
-  },
-  {
-    "key": "358J-",
-    "value": "J",
-    "seedIndex": 1434
-  },
-  {
-    "key": "8JQA-",
-    "value": "A",
-    "seedIndex": 1435
   },
   {
     "key": "49QQ-",
@@ -1085,24 +4480,9 @@
     "seedIndex": 1439
   },
   {
-    "key": "4TKA-",
-    "value": "K",
-    "seedIndex": 1440
-  },
-  {
     "key": "47KA-",
     "value": "A",
     "seedIndex": 1441
-  },
-  {
-    "key": "469K-",
-    "value": "9",
-    "seedIndex": 1442
-  },
-  {
-    "key": "56TT-",
-    "value": "T",
-    "seedIndex": 1443
   },
   {
     "key": "44JA-",
@@ -1120,11 +4500,6 @@
     "seedIndex": 1447
   },
   {
-    "key": "4JQA-",
-    "value": "Q",
-    "seedIndex": 1449
-  },
-  {
     "key": "26QK-",
     "value": "K",
     "seedIndex": 1450
@@ -1135,34 +4510,14 @@
     "seedIndex": 1452
   },
   {
-    "key": "67KA-",
-    "value": "A",
-    "seedIndex": 1453
-  },
-  {
     "key": "4789-",
     "value": "9",
     "seedIndex": 1454
   },
   {
-    "key": "346Q-",
-    "value": "Q",
-    "seedIndex": 1455
-  },
-  {
-    "key": "26JA-",
-    "value": "A",
-    "seedIndex": 1456
-  },
-  {
     "key": "224A-",
     "value": "A",
     "seedIndex": 1457
-  },
-  {
-    "key": "56JQ-",
-    "value": "Q",
-    "seedIndex": 1459
   },
   {
     "key": "47JQ-",
@@ -1178,11 +4533,6 @@
     "key": "578A-",
     "value": "A",
     "seedIndex": 1462
-  },
-  {
-    "key": "47QK-",
-    "value": "K",
-    "seedIndex": 1463
   },
   {
     "key": "2458-",
@@ -1205,34 +4555,9 @@
     "seedIndex": 1469
   },
   {
-    "key": "47JK-",
-    "value": "J",
-    "seedIndex": 1471
-  },
-  {
-    "key": "46TA-",
-    "value": "A",
-    "seedIndex": 1473
-  },
-  {
-    "key": "34TJ-",
-    "value": "J",
-    "seedIndex": 1475
-  },
-  {
-    "key": "5TJQ-",
-    "value": "Q",
-    "seedIndex": 1476
-  },
-  {
     "key": "557K-",
     "value": "K",
     "seedIndex": 1477
-  },
-  {
-    "key": "258Q-",
-    "value": "8",
-    "seedIndex": 1479
   },
   {
     "key": "99TQ-",
@@ -1255,16 +4580,6 @@
     "seedIndex": 1484
   },
   {
-    "key": "357J-",
-    "value": "J",
-    "seedIndex": 1486
-  },
-  {
-    "key": "227J-",
-    "value": "J",
-    "seedIndex": 1487
-  },
-  {
     "key": "68TJ-",
     "value": "J",
     "seedIndex": 1488
@@ -1275,34 +4590,9 @@
     "seedIndex": 1489
   },
   {
-    "key": "368J-",
-    "value": "J",
-    "seedIndex": 1490
-  },
-  {
-    "key": "245T-",
-    "value": "T",
-    "seedIndex": 1492
-  },
-  {
     "key": "2277-",
     "value": "7",
     "seedIndex": 1493
-  },
-  {
-    "key": "3789-",
-    "value": "9",
-    "seedIndex": 1495
-  },
-  {
-    "key": "56TJ-",
-    "value": "J",
-    "seedIndex": 1498
-  },
-  {
-    "key": "468Q-",
-    "value": "8",
-    "seedIndex": 1500
   },
   {
     "key": "8TKA-",
@@ -1325,31 +4615,6 @@
     "seedIndex": 1504
   },
   {
-    "key": "345K-",
-    "value": "K",
-    "seedIndex": 1506
-  },
-  {
-    "key": "237J-",
-    "value": "J",
-    "seedIndex": 1507
-  },
-  {
-    "key": "579A-",
-    "value": "A",
-    "seedIndex": 1508
-  },
-  {
-    "key": "45TJ-",
-    "value": "J",
-    "seedIndex": 1510
-  },
-  {
-    "key": "23JK-",
-    "value": "K",
-    "seedIndex": 1511
-  },
-  {
     "key": "5779-",
     "value": "9",
     "seedIndex": 1512
@@ -1360,29 +4625,9 @@
     "seedIndex": 1513
   },
   {
-    "key": "349J-",
-    "value": "J",
-    "seedIndex": 1514
-  },
-  {
-    "key": "37TK-",
-    "value": "T",
-    "seedIndex": 1515
-  },
-  {
     "key": "788A-",
     "value": "A",
     "seedIndex": 1517
-  },
-  {
-    "key": "236A-",
-    "value": "A",
-    "seedIndex": 1518
-  },
-  {
-    "key": "479K-",
-    "value": "9",
-    "seedIndex": 1519
   },
   {
     "key": "229J-",
@@ -1395,59 +4640,14 @@
     "seedIndex": 1522
   },
   {
-    "key": "49KA-",
-    "value": "K",
-    "seedIndex": 1523
-  },
-  {
     "key": "2246-",
     "value": "6",
     "seedIndex": 1524
   },
   {
-    "key": "5689-",
-    "value": "9",
-    "seedIndex": 1525
-  },
-  {
-    "key": "3778-",
-    "value": "8",
-    "seedIndex": 1526
-  },
-  {
-    "key": "5TJA-",
-    "value": "J",
-    "seedIndex": 1527
-  },
-  {
-    "key": "78TK-",
-    "value": "K",
-    "seedIndex": 1528
-  },
-  {
     "key": "346J-",
     "value": "J",
     "seedIndex": 1529
-  },
-  {
-    "key": "458A-",
-    "value": "A",
-    "seedIndex": 1530
-  },
-  {
-    "key": "89KA-",
-    "value": "A",
-    "seedIndex": 1531
-  },
-  {
-    "key": "4678-",
-    "value": "8",
-    "seedIndex": 1532
-  },
-  {
-    "key": "7TJK-",
-    "value": "J",
-    "seedIndex": 1534
   },
   {
     "key": "23JA-",
@@ -1470,11 +4670,6 @@
     "seedIndex": 1540
   },
   {
-    "key": "6TKA-",
-    "value": "K",
-    "seedIndex": 1541
-  },
-  {
     "key": "9TTQ-",
     "value": "Q",
     "seedIndex": 1542
@@ -1483,16 +4678,6 @@
     "key": "457J-",
     "value": "J",
     "seedIndex": 1543
-  },
-  {
-    "key": "49TJ-",
-    "value": "J",
-    "seedIndex": 1545
-  },
-  {
-    "key": "256A-",
-    "value": "A",
-    "seedIndex": 1546
   },
   {
     "key": "5678-",
@@ -1510,24 +4695,9 @@
     "seedIndex": 1550
   },
   {
-    "key": "9QAA-",
-    "value": "A",
-    "seedIndex": 1551
-  },
-  {
-    "key": "3457-",
-    "value": "7",
-    "seedIndex": 1552
-  },
-  {
     "key": "36KK-",
     "value": "K",
     "seedIndex": 1553
-  },
-  {
-    "key": "789J-",
-    "value": "J",
-    "seedIndex": 1554
   },
   {
     "key": "446J-",
@@ -1545,34 +4715,9 @@
     "seedIndex": 1557
   },
   {
-    "key": "79QA-",
-    "value": "A",
-    "seedIndex": 1559
-  },
-  {
-    "key": "8QKA-",
-    "value": "A",
-    "seedIndex": 1560
-  },
-  {
-    "key": "233K-",
-    "value": "K",
-    "seedIndex": 1561
-  },
-  {
     "key": "2JJQ-",
     "value": "Q",
     "seedIndex": 1562
-  },
-  {
-    "key": "46JA-",
-    "value": "A",
-    "seedIndex": 1563
-  },
-  {
-    "key": "357A-",
-    "value": "A",
-    "seedIndex": 1564
   },
   {
     "key": "6TTJ-",
@@ -1580,34 +4725,9 @@
     "seedIndex": 1565
   },
   {
-    "key": "2489-",
-    "value": "9",
-    "seedIndex": 1566
-  },
-  {
     "key": "577Q-",
     "value": "Q",
     "seedIndex": 1567
-  },
-  {
-    "key": "59JQ-",
-    "value": "Q",
-    "seedIndex": 1568
-  },
-  {
-    "key": "5669-",
-    "value": "9",
-    "seedIndex": 1569
-  },
-  {
-    "key": "349A-",
-    "value": "A",
-    "seedIndex": 1571
-  },
-  {
-    "key": "246K-",
-    "value": "6",
-    "seedIndex": 1572
   },
   {
     "key": "367J-",
@@ -1620,29 +4740,14 @@
     "seedIndex": 1574
   },
   {
-    "key": "358K-",
-    "value": "8",
-    "seedIndex": 1576
-  },
-  {
     "key": "TQKK-",
     "value": "K",
     "seedIndex": 1578
   },
   {
-    "key": "68QK-",
-    "value": "K",
-    "seedIndex": 1579
-  },
-  {
     "key": "226A-",
     "value": "A",
     "seedIndex": 1581
-  },
-  {
-    "key": "288T-",
-    "value": "T",
-    "seedIndex": 1582
   },
   {
     "key": "3QAA-",
@@ -1655,49 +4760,14 @@
     "seedIndex": 1587
   },
   {
-    "key": "37KA-",
-    "value": "A",
-    "seedIndex": 1588
-  },
-  {
     "key": "889K-",
     "value": "K",
     "seedIndex": 1591
   },
   {
-    "key": "69TK-",
-    "value": "T",
-    "seedIndex": 1593
-  },
-  {
-    "key": "23TK-",
-    "value": "K",
-    "seedIndex": 1594
-  },
-  {
-    "key": "357Q-",
-    "value": "7",
-    "seedIndex": 1595
-  },
-  {
-    "key": "237T-",
-    "value": "T",
-    "seedIndex": 1596
-  },
-  {
-    "key": "3479-",
-    "value": "9",
-    "seedIndex": 1600
-  },
-  {
     "key": "788K-",
     "value": "K",
     "seedIndex": 1602
-  },
-  {
-    "key": "9JKA-",
-    "value": "A",
-    "seedIndex": 1604
   },
   {
     "key": "4QQA-",
@@ -1715,11 +4785,6 @@
     "seedIndex": 1608
   },
   {
-    "key": "8JAA-",
-    "value": "A",
-    "seedIndex": 1610
-  },
-  {
     "key": "35QQ-",
     "value": "Q",
     "seedIndex": 1611
@@ -1728,16 +4793,6 @@
     "key": "59TQ-",
     "value": "T",
     "seedIndex": 1612
-  },
-  {
-    "key": "36TQ-",
-    "value": "Q",
-    "seedIndex": 1614
-  },
-  {
-    "key": "245A-",
-    "value": "A",
-    "seedIndex": 1615
   },
   {
     "key": "4TTQ-",
@@ -1765,19 +4820,9 @@
     "seedIndex": 1622
   },
   {
-    "key": "4568-",
-    "value": "8",
-    "seedIndex": 1623
-  },
-  {
     "key": "2355-",
     "value": "5",
     "seedIndex": 1626
-  },
-  {
-    "key": "347Q-",
-    "value": "Q",
-    "seedIndex": 1627
   },
   {
     "key": "55TT-",
@@ -1785,34 +4830,14 @@
     "seedIndex": 1628
   },
   {
-    "key": "56KA-",
-    "value": "A",
-    "seedIndex": 1630
-  },
-  {
-    "key": "69QA-",
-    "value": "A",
-    "seedIndex": 1631
-  },
-  {
     "key": "457K-",
     "value": "K",
     "seedIndex": 1633
   },
   {
-    "key": "25TA-",
-    "value": "A",
-    "seedIndex": 1635
-  },
-  {
     "key": "3679-",
     "value": "9",
     "seedIndex": 1636
-  },
-  {
-    "key": "38TQ-",
-    "value": "T",
-    "seedIndex": 1638
   },
   {
     "key": "488K-",
@@ -1825,21 +4850,6 @@
     "seedIndex": 1640
   },
   {
-    "key": "59JA-",
-    "value": "J",
-    "seedIndex": 1641
-  },
-  {
-    "key": "69JK-",
-    "value": "J",
-    "seedIndex": 1642
-  },
-  {
-    "key": "55QA-",
-    "value": "A",
-    "seedIndex": 1643
-  },
-  {
     "key": "23JQ-",
     "value": "Q",
     "seedIndex": 1644
@@ -1850,19 +4860,9 @@
     "seedIndex": 1645
   },
   {
-    "key": "23TA-",
-    "value": "A",
-    "seedIndex": 1648
-  },
-  {
     "key": "2TQA-",
     "value": "Q",
     "seedIndex": 1649
-  },
-  {
-    "key": "268Q-",
-    "value": "8",
-    "seedIndex": 1651
   },
   {
     "key": "56JJ-",
@@ -1870,19 +4870,9 @@
     "seedIndex": 1654
   },
   {
-    "key": "2347-",
-    "value": "7",
-    "seedIndex": 1655
-  },
-  {
     "key": "45KK-",
     "value": "K",
     "seedIndex": 1656
-  },
-  {
-    "key": "788Q-",
-    "value": "Q",
-    "seedIndex": 1661
   },
   {
     "key": "334Q-",
@@ -1890,74 +4880,14 @@
     "seedIndex": 1662
   },
   {
-    "key": "258A-",
-    "value": "A",
-    "seedIndex": 1664
-  },
-  {
-    "key": "35TT-",
-    "value": "T",
-    "seedIndex": 1665
-  },
-  {
-    "key": "239K-",
-    "value": "9",
-    "seedIndex": 1666
-  },
-  {
-    "key": "78JQ-",
-    "value": "Q",
-    "seedIndex": 1668
-  },
-  {
     "key": "358Q-",
     "value": "8",
     "seedIndex": 1669
   },
   {
-    "key": "9QQA-",
-    "value": "Q",
-    "seedIndex": 1670
-  },
-  {
-    "key": "678Q-",
-    "value": "Q",
-    "seedIndex": 1671
-  },
-  {
     "key": "67TT-",
     "value": "T",
     "seedIndex": 1673
-  },
-  {
-    "key": "589T-",
-    "value": "T",
-    "seedIndex": 1674
-  },
-  {
-    "key": "39TA-",
-    "value": "T",
-    "seedIndex": 1675
-  },
-  {
-    "key": "45JA-",
-    "value": "A",
-    "seedIndex": 1676
-  },
-  {
-    "key": "238T-",
-    "value": "T",
-    "seedIndex": 1679
-  },
-  {
-    "key": "24TQ-",
-    "value": "Q",
-    "seedIndex": 1680
-  },
-  {
-    "key": "29TK-",
-    "value": "T",
-    "seedIndex": 1681
   },
   {
     "key": "488J-",
@@ -1970,64 +4900,14 @@
     "seedIndex": 1683
   },
   {
-    "key": "35TA-",
-    "value": "A",
-    "seedIndex": 1685
-  },
-  {
     "key": "588Q-",
     "value": "8",
     "seedIndex": 1686
   },
   {
-    "key": "558K-",
-    "value": "K",
-    "seedIndex": 1687
-  },
-  {
-    "key": "5TKK-",
-    "value": "K",
-    "seedIndex": 1688
-  },
-  {
-    "key": "4456-",
-    "value": "6",
-    "seedIndex": 1690
-  },
-  {
-    "key": "79JA-",
-    "value": "A",
-    "seedIndex": 1691
-  },
-  {
     "key": "TJKA-",
     "value": "A",
     "seedIndex": 1692
-  },
-  {
-    "key": "267A-",
-    "value": "A",
-    "seedIndex": 1693
-  },
-  {
-    "key": "68JQ-",
-    "value": "Q",
-    "seedIndex": 1695
-  },
-  {
-    "key": "25QA-",
-    "value": "A",
-    "seedIndex": 1696
-  },
-  {
-    "key": "238K-",
-    "value": "8",
-    "seedIndex": 1698
-  },
-  {
-    "key": "68KA-",
-    "value": "A",
-    "seedIndex": 1699
   },
   {
     "key": "68JA-",
@@ -2043,11 +4923,6 @@
     "key": "4TTK-",
     "value": "T",
     "seedIndex": 1702
-  },
-  {
-    "key": "4JKA-",
-    "value": "K",
-    "seedIndex": 1705
   },
   {
     "key": "558Q-",
@@ -2070,34 +4945,9 @@
     "seedIndex": 1710
   },
   {
-    "key": "457A-",
-    "value": "A",
-    "seedIndex": 1711
-  },
-  {
     "key": "34TT-",
     "value": "T",
     "seedIndex": 1712
-  },
-  {
-    "key": "9TQK-",
-    "value": "K",
-    "seedIndex": 1714
-  },
-  {
-    "key": "445Q-",
-    "value": "Q",
-    "seedIndex": 1715
-  },
-  {
-    "key": "568Q-",
-    "value": "Q",
-    "seedIndex": 1717
-  },
-  {
-    "key": "3469-",
-    "value": "9",
-    "seedIndex": 1719
   },
   {
     "key": "369J-",
@@ -2108,16 +4958,6 @@
     "key": "6TQK-",
     "value": "Q",
     "seedIndex": 1721
-  },
-  {
-    "key": "379A-",
-    "value": "A",
-    "seedIndex": 1722
-  },
-  {
-    "key": "49TQ-",
-    "value": "T",
-    "seedIndex": 1723
   },
   {
     "key": "5578-",
@@ -2135,16 +4975,6 @@
     "seedIndex": 1726
   },
   {
-    "key": "479Q-",
-    "value": "9",
-    "seedIndex": 1727
-  },
-  {
-    "key": "24TK-",
-    "value": "T",
-    "seedIndex": 1728
-  },
-  {
     "key": "39JK-",
     "value": "J",
     "seedIndex": 1730
@@ -2153,11 +4983,6 @@
     "key": "9JKK-",
     "value": "K",
     "seedIndex": 1731
-  },
-  {
-    "key": "3TQK-",
-    "value": "Q",
-    "seedIndex": 1732
   },
   {
     "key": "57TJ-",
@@ -2180,19 +5005,9 @@
     "seedIndex": 1736
   },
   {
-    "key": "46TQ-",
-    "value": "Q",
-    "seedIndex": 1738
-  },
-  {
     "key": "44KK-",
     "value": "K",
     "seedIndex": 1739
-  },
-  {
-    "key": "7JQA-",
-    "value": "A",
-    "seedIndex": 1742
   },
   {
     "key": "99JQ-",
@@ -2210,19 +5025,9 @@
     "seedIndex": 1748
   },
   {
-    "key": "278Q-",
-    "value": "8",
-    "seedIndex": 1749
-  },
-  {
     "key": "278A-",
     "value": "A",
     "seedIndex": 1750
-  },
-  {
-    "key": "7JQK-",
-    "value": "K",
-    "seedIndex": 1751
   },
   {
     "key": "5QAA-",
@@ -2230,44 +5035,9 @@
     "seedIndex": 1752
   },
   {
-    "key": "4489-",
-    "value": "9",
-    "seedIndex": 1753
-  },
-  {
-    "key": "44KA-",
-    "value": "A",
-    "seedIndex": 1754
-  },
-  {
-    "key": "49JQ-",
-    "value": "Q",
-    "seedIndex": 1755
-  },
-  {
-    "key": "79TK-",
-    "value": "T",
-    "seedIndex": 1756
-  },
-  {
-    "key": "367K-",
-    "value": "7",
-    "seedIndex": 1757
-  },
-  {
     "key": "455T-",
     "value": "T",
     "seedIndex": 1758
-  },
-  {
-    "key": "4579-",
-    "value": "9",
-    "seedIndex": 1759
-  },
-  {
-    "key": "25JQ-",
-    "value": "Q",
-    "seedIndex": 1762
   },
   {
     "key": "2289-",
@@ -2285,39 +5055,9 @@
     "seedIndex": 1769
   },
   {
-    "key": "78QA-",
-    "value": "A",
-    "seedIndex": 1771
-  },
-  {
-    "key": "37JQ-",
-    "value": "Q",
-    "seedIndex": 1772
-  },
-  {
-    "key": "58AA-",
-    "value": "A",
-    "seedIndex": 1773
-  },
-  {
-    "key": "36TK-",
-    "value": "T",
-    "seedIndex": 1774
-  },
-  {
     "key": "2669-",
     "value": "9",
     "seedIndex": 1775
-  },
-  {
-    "key": "2TKA-",
-    "value": "K",
-    "seedIndex": 1776
-  },
-  {
-    "key": "589J-",
-    "value": "J",
-    "seedIndex": 1778
   },
   {
     "key": "36JA-",
@@ -2325,44 +5065,9 @@
     "seedIndex": 1782
   },
   {
-    "key": "2789-",
-    "value": "9",
-    "seedIndex": 1784
-  },
-  {
     "key": "59QQ-",
     "value": "Q",
     "seedIndex": 1785
-  },
-  {
-    "key": "469J-",
-    "value": "J",
-    "seedIndex": 1786
-  },
-  {
-    "key": "JJAA-",
-    "value": "A",
-    "seedIndex": 1787
-  },
-  {
-    "key": "499J-",
-    "value": "J",
-    "seedIndex": 1789
-  },
-  {
-    "key": "8TJA-",
-    "value": "A",
-    "seedIndex": 1790
-  },
-  {
-    "key": "456Q-",
-    "value": "Q",
-    "seedIndex": 1792
-  },
-  {
-    "key": "29JA-",
-    "value": "J",
-    "seedIndex": 1795
   },
   {
     "key": "26JJ-",
@@ -2370,39 +5075,9 @@
     "seedIndex": 1796
   },
   {
-    "key": "24JK-",
-    "value": "K",
-    "seedIndex": 1797
-  },
-  {
-    "key": "234J-",
-    "value": "J",
-    "seedIndex": 1798
-  },
-  {
     "key": "335T-",
     "value": "T",
     "seedIndex": 1799
-  },
-  {
-    "key": "3568-",
-    "value": "8",
-    "seedIndex": 1800
-  },
-  {
-    "key": "35QK-",
-    "value": "K",
-    "seedIndex": 1801
-  },
-  {
-    "key": "7TQK-",
-    "value": "Q",
-    "seedIndex": 1802
-  },
-  {
-    "key": "49QA-",
-    "value": "Q",
-    "seedIndex": 1803
   },
   {
     "key": "46KA-",
@@ -2413,26 +5088,6 @@
     "key": "234Q-",
     "value": "Q",
     "seedIndex": 1805
-  },
-  {
-    "key": "5JKA-",
-    "value": "K",
-    "seedIndex": 1808
-  },
-  {
-    "key": "JQQK-",
-    "value": "Q",
-    "seedIndex": 1810
-  },
-  {
-    "key": "348A-",
-    "value": "A",
-    "seedIndex": 1812
-  },
-  {
-    "key": "689A-",
-    "value": "A",
-    "seedIndex": 1813
   },
   {
     "key": "27JK-",
@@ -2450,11 +5105,6 @@
     "seedIndex": 1817
   },
   {
-    "key": "245J-",
-    "value": "J",
-    "seedIndex": 1820
-  },
-  {
     "key": "JJKK-",
     "value": "K",
     "seedIndex": 1821
@@ -2463,11 +5113,6 @@
     "key": "58JA-",
     "value": "A",
     "seedIndex": 1822
-  },
-  {
-    "key": "567T-",
-    "value": "T",
-    "seedIndex": 1823
   },
   {
     "key": "689K-",
@@ -2480,11 +5125,6 @@
     "seedIndex": 1826
   },
   {
-    "key": "489A-",
-    "value": "9",
-    "seedIndex": 1827
-  },
-  {
     "key": "355A-",
     "value": "A",
     "seedIndex": 1828
@@ -2495,19 +5135,9 @@
     "seedIndex": 1829
   },
   {
-    "key": "JJQQ-",
-    "value": "Q",
-    "seedIndex": 1830
-  },
-  {
     "key": "6669-",
     "value": "9",
     "seedIndex": 1831
-  },
-  {
-    "key": "2348-",
-    "value": "8",
-    "seedIndex": 1833
   },
   {
     "key": "359A-",
@@ -2515,34 +5145,9 @@
     "seedIndex": 1838
   },
   {
-    "key": "379J-",
-    "value": "J",
-    "seedIndex": 1840
-  },
-  {
-    "key": "46QK-",
-    "value": "K",
-    "seedIndex": 1841
-  },
-  {
-    "key": "28TQ-",
-    "value": "T",
-    "seedIndex": 1842
-  },
-  {
-    "key": "359J-",
-    "value": "J",
-    "seedIndex": 1844
-  },
-  {
     "key": "4JAA-",
     "value": "A",
     "seedIndex": 1846
-  },
-  {
-    "key": "4599-",
-    "value": "9",
-    "seedIndex": 1847
   },
   {
     "key": "TJQK-",
@@ -2550,39 +5155,14 @@
     "seedIndex": 1848
   },
   {
-    "key": "23TQ-",
-    "value": "Q",
-    "seedIndex": 1849
-  },
-  {
     "key": "2468-",
     "value": "8",
     "seedIndex": 1851
   },
   {
-    "key": "4TQK-",
-    "value": "Q",
-    "seedIndex": 1852
-  },
-  {
-    "key": "678K-",
-    "value": "K",
-    "seedIndex": 1853
-  },
-  {
-    "key": "3589-",
-    "value": "9",
-    "seedIndex": 1854
-  },
-  {
     "key": "36JJ-",
     "value": "J",
     "seedIndex": 1855
-  },
-  {
-    "key": "24JQ-",
-    "value": "Q",
-    "seedIndex": 1857
   },
   {
     "key": "488A-",
@@ -2595,11 +5175,6 @@
     "seedIndex": 1861
   },
   {
-    "key": "279K-",
-    "value": "9",
-    "seedIndex": 1862
-  },
-  {
     "key": "5TJK-",
     "value": "J",
     "seedIndex": 1863
@@ -2608,11 +5183,6 @@
     "key": "2568-",
     "value": "8",
     "seedIndex": 1865
-  },
-  {
-    "key": "23TJ-",
-    "value": "J",
-    "seedIndex": 1866
   },
   {
     "key": "469T-",
@@ -2635,11 +5205,6 @@
     "seedIndex": 1871
   },
   {
-    "key": "34JA-",
-    "value": "A",
-    "seedIndex": 1872
-  },
-  {
     "key": "25TT-",
     "value": "T",
     "seedIndex": 1874
@@ -2648,11 +5213,6 @@
     "key": "247T-",
     "value": "T",
     "seedIndex": 1876
-  },
-  {
-    "key": "225T-",
-    "value": "T",
-    "seedIndex": 1877
   },
   {
     "key": "24JA-",
@@ -2665,29 +5225,14 @@
     "seedIndex": 1880
   },
   {
-    "key": "67JQ-",
-    "value": "Q",
-    "seedIndex": 1881
-  },
-  {
     "key": "TKKA-",
     "value": "A",
     "seedIndex": 1883
   },
   {
-    "key": "369A-",
-    "value": "A",
-    "seedIndex": 1884
-  },
-  {
     "key": "2569-",
     "value": "9",
     "seedIndex": 1886
-  },
-  {
-    "key": "4899-",
-    "value": "9",
-    "seedIndex": 1888
   },
   {
     "key": "59TJ-",
@@ -2710,11 +5255,6 @@
     "seedIndex": 1895
   },
   {
-    "key": "448K-",
-    "value": "K",
-    "seedIndex": 1898
-  },
-  {
     "key": "7789-",
     "value": "9",
     "seedIndex": 1901
@@ -2735,16 +5275,6 @@
     "seedIndex": 1907
   },
   {
-    "key": "68TK-",
-    "value": "T",
-    "seedIndex": 1908
-  },
-  {
-    "key": "249J-",
-    "value": "J",
-    "seedIndex": 1909
-  },
-  {
     "key": "68KK-",
     "value": "K",
     "seedIndex": 1910
@@ -2760,19 +5290,9 @@
     "seedIndex": 1912
   },
   {
-    "key": "379Q-",
-    "value": "9",
-    "seedIndex": 1915
-  },
-  {
     "key": "27KK-",
     "value": "K",
     "seedIndex": 1917
-  },
-  {
-    "key": "279J-",
-    "value": "J",
-    "seedIndex": 1919
   },
   {
     "key": "88QA-",
@@ -2785,11 +5305,6 @@
     "seedIndex": 1922
   },
   {
-    "key": "259A-",
-    "value": "A",
-    "seedIndex": 1923
-  },
-  {
     "key": "57QK-",
     "value": "K",
     "seedIndex": 1924
@@ -2800,11 +5315,6 @@
     "seedIndex": 1925
   },
   {
-    "key": "48QK-",
-    "value": "K",
-    "seedIndex": 1929
-  },
-  {
     "key": "459A-",
     "value": "A",
     "seedIndex": 1930
@@ -2813,11 +5323,6 @@
     "key": "3JQA-",
     "value": "Q",
     "seedIndex": 1933
-  },
-  {
-    "key": "25TQ-",
-    "value": "Q",
-    "seedIndex": 1935
   },
   {
     "key": "367A-",
@@ -2855,11 +5360,6 @@
     "seedIndex": 1944
   },
   {
-    "key": "59KA-",
-    "value": "K",
-    "seedIndex": 1945
-  },
-  {
     "key": "89JA-",
     "value": "A",
     "seedIndex": 1947
@@ -2875,44 +5375,14 @@
     "seedIndex": 1954
   },
   {
-    "key": "359T-",
-    "value": "T",
-    "seedIndex": 1961
-  },
-  {
     "key": "479A-",
     "value": "A",
     "seedIndex": 1962
   },
   {
-    "key": "237Q-",
-    "value": "Q",
-    "seedIndex": 1964
-  },
-  {
-    "key": "4578-",
-    "value": "8",
-    "seedIndex": 1965
-  },
-  {
     "key": "77QQ-",
     "value": "Q",
     "seedIndex": 1966
-  },
-  {
-    "key": "9QKA-",
-    "value": "A",
-    "seedIndex": 1969
-  },
-  {
-    "key": "239J-",
-    "value": "J",
-    "seedIndex": 1970
-  },
-  {
-    "key": "47QA-",
-    "value": "A",
-    "seedIndex": 1971
   },
   {
     "key": "33TK-",
@@ -2935,24 +5405,9 @@
     "seedIndex": 1980
   },
   {
-    "key": "48TK-",
-    "value": "T",
-    "seedIndex": 1981
-  },
-  {
     "key": "9TQQ-",
     "value": "Q",
     "seedIndex": 1982
-  },
-  {
-    "key": "36TJ-",
-    "value": "J",
-    "seedIndex": 1983
-  },
-  {
-    "key": "378A-",
-    "value": "A",
-    "seedIndex": 1984
   },
   {
     "key": "2TJQ-",
@@ -2963,26 +5418,6 @@
     "key": "566J-",
     "value": "J",
     "seedIndex": 1988
-  },
-  {
-    "key": "2578-",
-    "value": "8",
-    "seedIndex": 1989
-  },
-  {
-    "key": "56QA-",
-    "value": "A",
-    "seedIndex": 1992
-  },
-  {
-    "key": "5QKA-",
-    "value": "A",
-    "seedIndex": 1993
-  },
-  {
-    "key": "6JQK-",
-    "value": "K",
-    "seedIndex": 1994
   },
   {
     "key": "789K-",
@@ -3045,11 +5480,6 @@
     "seedIndex": 2014
   },
   {
-    "key": "78JK-",
-    "value": "K",
-    "seedIndex": 2016
-  },
-  {
     "key": "55QK-",
     "value": "K",
     "seedIndex": 2017
@@ -3058,26 +5488,6 @@
     "key": "69TJ-",
     "value": "J",
     "seedIndex": 2019
-  },
-  {
-    "key": "799T-",
-    "value": "T",
-    "seedIndex": 2021
-  },
-  {
-    "key": "67QK-",
-    "value": "K",
-    "seedIndex": 2022
-  },
-  {
-    "key": "89TQ-",
-    "value": "Q",
-    "seedIndex": 2023
-  },
-  {
-    "key": "234K-",
-    "value": "K",
-    "seedIndex": 2024
   },
   {
     "key": "4457-",
@@ -3090,21 +5500,6 @@
     "seedIndex": 2027
   },
   {
-    "key": "9JQQ-",
-    "value": "Q",
-    "seedIndex": 2028
-  },
-  {
-    "key": "22TA-",
-    "value": "A",
-    "seedIndex": 2030
-  },
-  {
-    "key": "69TA-",
-    "value": "A",
-    "seedIndex": 2032
-  },
-  {
     "key": "999K-",
     "value": "K",
     "seedIndex": 2035
@@ -3113,11 +5508,6 @@
     "key": "489T-",
     "value": "T",
     "seedIndex": 2039
-  },
-  {
-    "key": "9JQK-",
-    "value": "K",
-    "seedIndex": 2040
   },
   {
     "key": "377K-",
@@ -3150,11 +5540,6 @@
     "seedIndex": 2055
   },
   {
-    "key": "355Q-",
-    "value": "Q",
-    "seedIndex": 2057
-  },
-  {
     "key": "36QQ-",
     "value": "Q",
     "seedIndex": 2058
@@ -3185,79 +5570,14 @@
     "seedIndex": 2065
   },
   {
-    "key": "23QK-",
-    "value": "K",
-    "seedIndex": 2066
-  },
-  {
-    "key": "2269-",
-    "value": "9",
-    "seedIndex": 2069
-  },
-  {
     "key": "77TA-",
     "value": "A",
     "seedIndex": 2071
   },
   {
-    "key": "468T-",
-    "value": "T",
-    "seedIndex": 2072
-  },
-  {
-    "key": "57JQ-",
-    "value": "Q",
-    "seedIndex": 2075
-  },
-  {
-    "key": "467K-",
-    "value": "7",
-    "seedIndex": 2077
-  },
-  {
-    "key": "23KA-",
-    "value": "A",
-    "seedIndex": 2080
-  },
-  {
-    "key": "26TQ-",
-    "value": "T",
-    "seedIndex": 2083
-  },
-  {
     "key": "667A-",
     "value": "A",
     "seedIndex": 2084
-  },
-  {
-    "key": "4469-",
-    "value": "9",
-    "seedIndex": 2085
-  },
-  {
-    "key": "26JQ-",
-    "value": "Q",
-    "seedIndex": 2086
-  },
-  {
-    "key": "68TA-",
-    "value": "A",
-    "seedIndex": 2089
-  },
-  {
-    "key": "29TJ-",
-    "value": "J",
-    "seedIndex": 2090
-  },
-  {
-    "key": "566T-",
-    "value": "T",
-    "seedIndex": 2092
-  },
-  {
-    "key": "223Q-",
-    "value": "Q",
-    "seedIndex": 2100
   },
   {
     "key": "678J-",
@@ -3270,29 +5590,9 @@
     "seedIndex": 2103
   },
   {
-    "key": "2588-",
-    "value": "8",
-    "seedIndex": 2105
-  },
-  {
-    "key": "289A-",
-    "value": "9",
-    "seedIndex": 2108
-  },
-  {
-    "key": "569J-",
-    "value": "J",
-    "seedIndex": 2111
-  },
-  {
     "key": "444Q-",
     "value": "Q",
     "seedIndex": 2112
-  },
-  {
-    "key": "2889-",
-    "value": "9",
-    "seedIndex": 2114
   },
   {
     "key": "3689-",
@@ -3300,24 +5600,9 @@
     "seedIndex": 2115
   },
   {
-    "key": "4JQK-",
-    "value": "K",
-    "seedIndex": 2116
-  },
-  {
     "key": "3557-",
     "value": "7",
     "seedIndex": 2119
-  },
-  {
-    "key": "255J-",
-    "value": "J",
-    "seedIndex": 2120
-  },
-  {
-    "key": "35TK-",
-    "value": "K",
-    "seedIndex": 2121
   },
   {
     "key": "559J-",
@@ -3325,29 +5610,9 @@
     "seedIndex": 2122
   },
   {
-    "key": "699K-",
-    "value": "9",
-    "seedIndex": 2125
-  },
-  {
-    "key": "48TA-",
-    "value": "A",
-    "seedIndex": 2126
-  },
-  {
     "key": "2567-",
     "value": "7",
     "seedIndex": 2127
-  },
-  {
-    "key": "259K-",
-    "value": "9",
-    "seedIndex": 2130
-  },
-  {
-    "key": "29TQ-",
-    "value": "T",
-    "seedIndex": 2131
   },
   {
     "key": "3788-",
@@ -3360,31 +5625,6 @@
     "seedIndex": 2134
   },
   {
-    "key": "58JQ-",
-    "value": "Q",
-    "seedIndex": 2136
-  },
-  {
-    "key": "788T-",
-    "value": "T",
-    "seedIndex": 2139
-  },
-  {
-    "key": "35TQ-",
-    "value": "Q",
-    "seedIndex": 2143
-  },
-  {
-    "key": "257J-",
-    "value": "J",
-    "seedIndex": 2148
-  },
-  {
-    "key": "456J-",
-    "value": "J",
-    "seedIndex": 2149
-  },
-  {
     "key": "477Q-",
     "value": "7",
     "seedIndex": 2152
@@ -3393,11 +5633,6 @@
     "key": "237K-",
     "value": "7",
     "seedIndex": 2154
-  },
-  {
-    "key": "2268-",
-    "value": "8",
-    "seedIndex": 2155
   },
   {
     "key": "777T-",
@@ -3410,11 +5645,6 @@
     "seedIndex": 2160
   },
   {
-    "key": "48TQ-",
-    "value": "T",
-    "seedIndex": 2161
-  },
-  {
     "key": "2236-",
     "value": "6",
     "seedIndex": 2165
@@ -3423,26 +5653,6 @@
     "key": "577T-",
     "value": "T",
     "seedIndex": 2166
-  },
-  {
-    "key": "6TJK-",
-    "value": "J",
-    "seedIndex": 2169
-  },
-  {
-    "key": "78TQ-",
-    "value": "Q",
-    "seedIndex": 2170
-  },
-  {
-    "key": "367T-",
-    "value": "T",
-    "seedIndex": 2171
-  },
-  {
-    "key": "2356-",
-    "value": "6",
-    "seedIndex": 2172
   },
   {
     "key": "3TKK-",
@@ -3470,21 +5680,6 @@
     "seedIndex": 2177
   },
   {
-    "key": "289Q-",
-    "value": "9",
-    "seedIndex": 2178
-  },
-  {
-    "key": "58KA-",
-    "value": "A",
-    "seedIndex": 2180
-  },
-  {
-    "key": "39QK-",
-    "value": "Q",
-    "seedIndex": 2181
-  },
-  {
     "key": "56KK-",
     "value": "K",
     "seedIndex": 2182
@@ -3495,49 +5690,9 @@
     "seedIndex": 2184
   },
   {
-    "key": "589A-",
-    "value": "A",
-    "seedIndex": 2185
-  },
-  {
-    "key": "235A-",
-    "value": "A",
-    "seedIndex": 2186
-  },
-  {
-    "key": "267T-",
-    "value": "T",
-    "seedIndex": 2188
-  },
-  {
-    "key": "79TQ-",
-    "value": "Q",
-    "seedIndex": 2189
-  },
-  {
-    "key": "239A-",
-    "value": "A",
-    "seedIndex": 2195
-  },
-  {
-    "key": "77JK-",
-    "value": "K",
-    "seedIndex": 2196
-  },
-  {
-    "key": "48QA-",
-    "value": "Q",
-    "seedIndex": 2197
-  },
-  {
     "key": "34KA-",
     "value": "A",
     "seedIndex": 2200
-  },
-  {
-    "key": "39QA-",
-    "value": "Q",
-    "seedIndex": 2203
   },
   {
     "key": "779K-",
@@ -3545,34 +5700,9 @@
     "seedIndex": 2205
   },
   {
-    "key": "78TJ-",
-    "value": "J",
-    "seedIndex": 2206
-  },
-  {
-    "key": "345Q-",
-    "value": "Q",
-    "seedIndex": 2212
-  },
-  {
-    "key": "266Q-",
-    "value": "6",
-    "seedIndex": 2214
-  },
-  {
     "key": "9TTK-",
     "value": "T",
     "seedIndex": 2216
-  },
-  {
-    "key": "25JA-",
-    "value": "A",
-    "seedIndex": 2219
-  },
-  {
-    "key": "2378-",
-    "value": "8",
-    "seedIndex": 2222
   },
   {
     "key": "4TAA-",
@@ -3583,16 +5713,6 @@
     "key": "TJJA-",
     "value": "A",
     "seedIndex": 2225
-  },
-  {
-    "key": "69AA-",
-    "value": "A",
-    "seedIndex": 2229
-  },
-  {
-    "key": "2359-",
-    "value": "9",
-    "seedIndex": 2230
   },
   {
     "key": "4589-",
@@ -3620,34 +5740,14 @@
     "seedIndex": 2241
   },
   {
-    "key": "246A-",
-    "value": "A",
-    "seedIndex": 2242
-  },
-  {
-    "key": "2368-",
-    "value": "8",
-    "seedIndex": 2244
-  },
-  {
-    "key": "37JK-",
-    "value": "J",
-    "seedIndex": 2245
-  },
-  {
     "key": "66QK-",
     "value": "K",
     "seedIndex": 2246
   },
   {
     "key": "8JJA-",
-    "value": "A",
+    "value": "J",
     "seedIndex": 2247
-  },
-  {
-    "key": "499K-",
-    "value": "9",
-    "seedIndex": 2251
   },
   {
     "key": "599T-",
@@ -3655,34 +5755,9 @@
     "seedIndex": 2252
   },
   {
-    "key": "3JQK-",
-    "value": "K",
-    "seedIndex": 2253
-  },
-  {
-    "key": "347J-",
-    "value": "J",
-    "seedIndex": 2256
-  },
-  {
     "key": "48QQ-",
     "value": "Q",
     "seedIndex": 2259
-  },
-  {
-    "key": "2457-",
-    "value": "7",
-    "seedIndex": 2260
-  },
-  {
-    "key": "278T-",
-    "value": "T",
-    "seedIndex": 2265
-  },
-  {
-    "key": "3459-",
-    "value": "9",
-    "seedIndex": 2266
   },
   {
     "key": "2338-",
@@ -3695,54 +5770,14 @@
     "seedIndex": 2269
   },
   {
-    "key": "59JK-",
-    "value": "J",
-    "seedIndex": 2272
-  },
-  {
-    "key": "34JQ-",
-    "value": "Q",
-    "seedIndex": 2273
-  },
-  {
-    "key": "89JK-",
-    "value": "K",
-    "seedIndex": 2274
-  },
-  {
-    "key": "4889-",
-    "value": "9",
-    "seedIndex": 2277
-  },
-  {
-    "key": "258K-",
-    "value": "8",
-    "seedIndex": 2281
-  },
-  {
-    "key": "3468-",
-    "value": "8",
-    "seedIndex": 2282
-  },
-  {
     "key": "344Q-",
     "value": "Q",
     "seedIndex": 2287
   },
   {
-    "key": "789T-",
-    "value": "T",
-    "seedIndex": 2290
-  },
-  {
     "key": "578Q-",
     "value": "8",
     "seedIndex": 2291
-  },
-  {
-    "key": "578J-",
-    "value": "J",
-    "seedIndex": 2295
   },
   {
     "key": "3446-",
@@ -3755,19 +5790,9 @@
     "seedIndex": 2302
   },
   {
-    "key": "377J-",
-    "value": "J",
-    "seedIndex": 2305
-  },
-  {
     "key": "37QK-",
     "value": "K",
     "seedIndex": 2307
-  },
-  {
-    "key": "348Q-",
-    "value": "Q",
-    "seedIndex": 2309
   },
   {
     "key": "27JA-",
@@ -3775,19 +5800,9 @@
     "seedIndex": 2312
   },
   {
-    "key": "2668-",
-    "value": "8",
-    "seedIndex": 2313
-  },
-  {
     "key": "79JQ-",
     "value": "Q",
     "seedIndex": 2322
-  },
-  {
-    "key": "358A-",
-    "value": "A",
-    "seedIndex": 2323
   },
   {
     "key": "4KAA-",
@@ -3796,23 +5811,8 @@
   },
   {
     "key": "9KKA-",
-    "value": "A",
-    "seedIndex": 2325
-  },
-  {
-    "key": "245Q-",
-    "value": "Q",
-    "seedIndex": 2326
-  },
-  {
-    "key": "66KA-",
-    "value": "A",
-    "seedIndex": 2328
-  },
-  {
-    "key": "244K-",
     "value": "K",
-    "seedIndex": 2330
+    "seedIndex": 2325
   },
   {
     "key": "99KA-",
@@ -3820,69 +5820,14 @@
     "seedIndex": 2332
   },
   {
-    "key": "48JK-",
-    "value": "J",
-    "seedIndex": 2333
-  },
-  {
-    "key": "6TQA-",
-    "value": "Q",
-    "seedIndex": 2334
-  },
-  {
-    "key": "5889-",
-    "value": "9",
-    "seedIndex": 2335
-  },
-  {
     "key": "59KK-",
     "value": "K",
     "seedIndex": 2338
   },
   {
-    "key": "389A-",
-    "value": "9",
-    "seedIndex": 2339
-  },
-  {
     "key": "29KA-",
     "value": "K",
     "seedIndex": 2341
-  },
-  {
-    "key": "39KA-",
-    "value": "K",
-    "seedIndex": 2343
-  },
-  {
-    "key": "36AA-",
-    "value": "A",
-    "seedIndex": 2348
-  },
-  {
-    "key": "348J-",
-    "value": "J",
-    "seedIndex": 2351
-  },
-  {
-    "key": "567A-",
-    "value": "A",
-    "seedIndex": 2354
-  },
-  {
-    "key": "67JA-",
-    "value": "A",
-    "seedIndex": 2355
-  },
-  {
-    "key": "37TQ-",
-    "value": "T",
-    "seedIndex": 2357
-  },
-  {
-    "key": "269T-",
-    "value": "T",
-    "seedIndex": 2359
   },
   {
     "key": "67QA-",
@@ -3900,39 +5845,9 @@
     "seedIndex": 2370
   },
   {
-    "key": "68QA-",
-    "value": "A",
-    "seedIndex": 2371
-  },
-  {
-    "key": "5JJA-",
-    "value": "J",
-    "seedIndex": 2372
-  },
-  {
-    "key": "2478-",
-    "value": "8",
-    "seedIndex": 2373
-  },
-  {
     "key": "677T-",
     "value": "T",
     "seedIndex": 2374
-  },
-  {
-    "key": "48TT-",
-    "value": "T",
-    "seedIndex": 2375
-  },
-  {
-    "key": "TQKA-",
-    "value": "A",
-    "seedIndex": 2384
-  },
-  {
-    "key": "389Q-",
-    "value": "9",
-    "seedIndex": 2385
   },
   {
     "key": "57TT-",
@@ -3960,54 +5875,14 @@
     "seedIndex": 2402
   },
   {
-    "key": "235K-",
-    "value": "K",
-    "seedIndex": 2405
-  },
-  {
-    "key": "56TK-",
-    "value": "K",
-    "seedIndex": 2407
-  },
-  {
-    "key": "2799-",
-    "value": "9",
-    "seedIndex": 2408
-  },
-  {
     "key": "224T-",
     "value": "T",
     "seedIndex": 2409
   },
   {
-    "key": "259T-",
-    "value": "T",
-    "seedIndex": 2410
-  },
-  {
-    "key": "2TQK-",
-    "value": "Q",
-    "seedIndex": 2411
-  },
-  {
-    "key": "367Q-",
-    "value": "7",
-    "seedIndex": 2412
-  },
-  {
     "key": "3JJA-",
     "value": "J",
     "seedIndex": 2415
-  },
-  {
-    "key": "249Q-",
-    "value": "9",
-    "seedIndex": 2416
-  },
-  {
-    "key": "2JKA-",
-    "value": "K",
-    "seedIndex": 2420
   },
   {
     "key": "2TTQ-",
@@ -4020,34 +5895,9 @@
     "seedIndex": 2422
   },
   {
-    "key": "27TK-",
-    "value": "T",
-    "seedIndex": 2426
-  },
-  {
-    "key": "2259-",
-    "value": "9",
-    "seedIndex": 2429
-  },
-  {
     "key": "36KA-",
     "value": "A",
     "seedIndex": 2430
-  },
-  {
-    "key": "248K-",
-    "value": "8",
-    "seedIndex": 2432
-  },
-  {
-    "key": "JKAA-",
-    "value": "A",
-    "seedIndex": 2433
-  },
-  {
-    "key": "39TK-",
-    "value": "T",
-    "seedIndex": 2435
   },
   {
     "key": "225J-",
@@ -4070,24 +5920,9 @@
     "seedIndex": 2446
   },
   {
-    "key": "4577-",
-    "value": "7",
-    "seedIndex": 2448
-  },
-  {
-    "key": "255A-",
-    "value": "A",
-    "seedIndex": 2449
-  },
-  {
     "key": "23KK-",
     "value": "K",
     "seedIndex": 2452
-  },
-  {
-    "key": "47TJ-",
-    "value": "J",
-    "seedIndex": 2454
   },
   {
     "key": "6JJK-",
@@ -4095,19 +5930,9 @@
     "seedIndex": 2455
   },
   {
-    "key": "558T-",
-    "value": "T",
-    "seedIndex": 2457
-  },
-  {
     "key": "444A-",
     "value": "A",
     "seedIndex": 2458
-  },
-  {
-    "key": "378K-",
-    "value": "8",
-    "seedIndex": 2461
   },
   {
     "key": "556Q-",
@@ -4120,29 +5945,9 @@
     "seedIndex": 2468
   },
   {
-    "key": "9JAA-",
-    "value": "A",
-    "seedIndex": 2473
-  },
-  {
-    "key": "233T-",
-    "value": "T",
-    "seedIndex": 2474
-  },
-  {
     "key": "TJQQ-",
     "value": "Q",
     "seedIndex": 2478
-  },
-  {
-    "key": "9TKK-",
-    "value": "K",
-    "seedIndex": 2481
-  },
-  {
-    "key": "24TA-",
-    "value": "A",
-    "seedIndex": 2482
   },
   {
     "key": "99TK-",
@@ -4150,34 +5955,9 @@
     "seedIndex": 2485
   },
   {
-    "key": "88TJ-",
-    "value": "J",
-    "seedIndex": 2493
-  },
-  {
-    "key": "344J-",
-    "value": "J",
-    "seedIndex": 2494
-  },
-  {
     "key": "58JK-",
     "value": "J",
     "seedIndex": 2496
-  },
-  {
-    "key": "5KKA-",
-    "value": "A",
-    "seedIndex": 2500
-  },
-  {
-    "key": "588K-",
-    "value": "8",
-    "seedIndex": 2501
-  },
-  {
-    "key": "47TA-",
-    "value": "A",
-    "seedIndex": 2502
   },
   {
     "key": "37TA-",
@@ -4195,54 +5975,14 @@
     "seedIndex": 2510
   },
   {
-    "key": "5TQK-",
-    "value": "K",
-    "seedIndex": 2511
-  },
-  {
-    "key": "59TA-",
-    "value": "A",
-    "seedIndex": 2514
-  },
-  {
-    "key": "267K-",
-    "value": "7",
-    "seedIndex": 2516
-  },
-  {
-    "key": "89TK-",
-    "value": "T",
-    "seedIndex": 2518
-  },
-  {
-    "key": "388J-",
-    "value": "J",
-    "seedIndex": 2519
-  },
-  {
     "key": "289J-",
     "value": "J",
     "seedIndex": 2521
   },
   {
-    "key": "477T-",
-    "value": "T",
-    "seedIndex": 2524
-  },
-  {
     "key": "8JJK-",
     "value": "J",
     "seedIndex": 2527
-  },
-  {
-    "key": "347T-",
-    "value": "T",
-    "seedIndex": 2529
-  },
-  {
-    "key": "448Q-",
-    "value": "Q",
-    "seedIndex": 2531
   },
   {
     "key": "777A-",
@@ -4255,31 +5995,6 @@
     "seedIndex": 2536
   },
   {
-    "key": "228K-",
-    "value": "8",
-    "seedIndex": 2537
-  },
-  {
-    "key": "44QA-",
-    "value": "A",
-    "seedIndex": 2538
-  },
-  {
-    "key": "36QK-",
-    "value": "K",
-    "seedIndex": 2543
-  },
-  {
-    "key": "349K-",
-    "value": "K",
-    "seedIndex": 2544
-  },
-  {
-    "key": "49JA-",
-    "value": "J",
-    "seedIndex": 2545
-  },
-  {
     "key": "4QAA-",
     "value": "A",
     "seedIndex": 2549
@@ -4290,39 +6005,14 @@
     "seedIndex": 2550
   },
   {
-    "key": "6689-",
-    "value": "9",
-    "seedIndex": 2554
-  },
-  {
     "key": "55JQ-",
     "value": "Q",
     "seedIndex": 2560
   },
   {
-    "key": "22JK-",
-    "value": "K",
-    "seedIndex": 2561
-  },
-  {
-    "key": "55TQ-",
-    "value": "Q",
-    "seedIndex": 2562
-  },
-  {
-    "key": "35JA-",
-    "value": "A",
-    "seedIndex": 2563
-  },
-  {
     "key": "899A-",
     "value": "A",
     "seedIndex": 2575
-  },
-  {
-    "key": "2456-",
-    "value": "6",
-    "seedIndex": 2577
   },
   {
     "key": "9TAA-",
@@ -4340,11 +6030,6 @@
     "seedIndex": 2585
   },
   {
-    "key": "69TT-",
-    "value": "T",
-    "seedIndex": 2586
-  },
-  {
     "key": "238J-",
     "value": "J",
     "seedIndex": 2587
@@ -4355,16 +6040,6 @@
     "seedIndex": 2588
   },
   {
-    "key": "568A-",
-    "value": "A",
-    "seedIndex": 2594
-  },
-  {
-    "key": "6678-",
-    "value": "8",
-    "seedIndex": 2596
-  },
-  {
     "key": "6889-",
     "value": "9",
     "seedIndex": 2598
@@ -4373,21 +6048,6 @@
     "key": "227A-",
     "value": "A",
     "seedIndex": 2599
-  },
-  {
-    "key": "579K-",
-    "value": "9",
-    "seedIndex": 2600
-  },
-  {
-    "key": "7QKA-",
-    "value": "A",
-    "seedIndex": 2604
-  },
-  {
-    "key": "2336-",
-    "value": "6",
-    "seedIndex": 2606
   },
   {
     "key": "5TAA-",
@@ -4410,24 +6070,9 @@
     "seedIndex": 2616
   },
   {
-    "key": "28TA-",
-    "value": "T",
-    "seedIndex": 2621
-  },
-  {
-    "key": "339J-",
-    "value": "J",
-    "seedIndex": 2625
-  },
-  {
     "key": "889A-",
     "value": "A",
     "seedIndex": 2627
-  },
-  {
-    "key": "789A-",
-    "value": "A",
-    "seedIndex": 2629
   },
   {
     "key": "33TJ-",
@@ -4435,44 +6080,14 @@
     "seedIndex": 2637
   },
   {
-    "key": "78JA-",
-    "value": "A",
-    "seedIndex": 2638
-  },
-  {
-    "key": "456A-",
-    "value": "A",
-    "seedIndex": 2643
-  },
-  {
     "key": "7JJQ-",
     "value": "Q",
     "seedIndex": 2647
   },
   {
-    "key": "45QK-",
-    "value": "K",
-    "seedIndex": 2651
-  },
-  {
-    "key": "5JJK-",
-    "value": "J",
-    "seedIndex": 2653
-  },
-  {
     "key": "27AA-",
     "value": "A",
     "seedIndex": 2655
-  },
-  {
-    "key": "TJAA-",
-    "value": "A",
-    "seedIndex": 2659
-  },
-  {
-    "key": "679J-",
-    "value": "J",
-    "seedIndex": 2662
   },
   {
     "key": "244T-",
@@ -4490,24 +6105,9 @@
     "seedIndex": 2666
   },
   {
-    "key": "455Q-",
-    "value": "Q",
-    "seedIndex": 2667
-  },
-  {
     "key": "49TA-",
     "value": "T",
     "seedIndex": 2673
-  },
-  {
-    "key": "38AA-",
-    "value": "A",
-    "seedIndex": 2674
-  },
-  {
-    "key": "499Q-",
-    "value": "9",
-    "seedIndex": 2676
   },
   {
     "key": "45TT-",
@@ -4515,29 +6115,9 @@
     "seedIndex": 2678
   },
   {
-    "key": "56TQ-",
-    "value": "Q",
-    "seedIndex": 2680
-  },
-  {
-    "key": "34QK-",
-    "value": "K",
-    "seedIndex": 2683
-  },
-  {
     "key": "255Q-",
     "value": "Q",
     "seedIndex": 2684
-  },
-  {
-    "key": "88QK-",
-    "value": "K",
-    "seedIndex": 2685
-  },
-  {
-    "key": "46JQ-",
-    "value": "Q",
-    "seedIndex": 2686
   },
   {
     "key": "4699-",
@@ -4560,24 +6140,9 @@
     "seedIndex": 2694
   },
   {
-    "key": "378T-",
-    "value": "T",
-    "seedIndex": 2696
-  },
-  {
     "key": "389T-",
     "value": "T",
     "seedIndex": 2698
-  },
-  {
-    "key": "467Q-",
-    "value": "7",
-    "seedIndex": 2699
-  },
-  {
-    "key": "37AA-",
-    "value": "A",
-    "seedIndex": 2707
   },
   {
     "key": "67TQ-",
@@ -4595,11 +6160,6 @@
     "seedIndex": 2711
   },
   {
-    "key": "3678-",
-    "value": "8",
-    "seedIndex": 2712
-  },
-  {
     "key": "266A-",
     "value": "A",
     "seedIndex": 2714
@@ -4613,11 +6173,6 @@
     "key": "799K-",
     "value": "9",
     "seedIndex": 2716
-  },
-  {
-    "key": "78KK-",
-    "value": "K",
-    "seedIndex": 2720
   },
   {
     "key": "3TTQ-",
@@ -4635,11 +6190,6 @@
     "seedIndex": 2725
   },
   {
-    "key": "QQKA-",
-    "value": "A",
-    "seedIndex": 2726
-  },
-  {
     "key": "3JJK-",
     "value": "J",
     "seedIndex": 2727
@@ -4650,19 +6200,9 @@
     "seedIndex": 2733
   },
   {
-    "key": "688J-",
-    "value": "J",
-    "seedIndex": 2736
-  },
-  {
     "key": "2446-",
     "value": "6",
     "seedIndex": 2740
-  },
-  {
-    "key": "3577-",
-    "value": "7",
-    "seedIndex": 2743
   },
   {
     "key": "356Q-",
@@ -4670,44 +6210,14 @@
     "seedIndex": 2746
   },
   {
-    "key": "45TK-",
-    "value": "K",
-    "seedIndex": 2748
-  },
-  {
-    "key": "268J-",
-    "value": "J",
-    "seedIndex": 2750
-  },
-  {
-    "key": "28KA-",
-    "value": "K",
-    "seedIndex": 2753
-  },
-  {
-    "key": "259J-",
-    "value": "J",
-    "seedIndex": 2755
-  },
-  {
     "key": "29QA-",
     "value": "Q",
     "seedIndex": 2762
   },
   {
-    "key": "2459-",
-    "value": "9",
-    "seedIndex": 2763
-  },
-  {
     "key": "577A-",
     "value": "A",
     "seedIndex": 2766
-  },
-  {
-    "key": "226J-",
-    "value": "J",
-    "seedIndex": 2768
   },
   {
     "key": "56QQ-",
@@ -4725,44 +6235,14 @@
     "seedIndex": 2780
   },
   {
-    "key": "2TJA-",
-    "value": "J",
-    "seedIndex": 2785
-  },
-  {
-    "key": "4569-",
-    "value": "9",
-    "seedIndex": 2786
-  },
-  {
     "key": "6QKK-",
     "value": "K",
     "seedIndex": 2788
   },
   {
-    "key": "47TQ-",
-    "value": "T",
-    "seedIndex": 2790
-  },
-  {
-    "key": "235Q-",
-    "value": "Q",
-    "seedIndex": 2792
-  },
-  {
     "key": "5789-",
     "value": "9",
     "seedIndex": 2794
-  },
-  {
-    "key": "49QK-",
-    "value": "Q",
-    "seedIndex": 2796
-  },
-  {
-    "key": "69KK-",
-    "value": "K",
-    "seedIndex": 2797
   },
   {
     "key": "4JJA-",
@@ -4780,11 +6260,6 @@
     "seedIndex": 2805
   },
   {
-    "key": "466A-",
-    "value": "A",
-    "seedIndex": 2810
-  },
-  {
     "key": "88KK-",
     "value": "K",
     "seedIndex": 2812
@@ -4793,11 +6268,6 @@
     "key": "26QA-",
     "value": "A",
     "seedIndex": 2813
-  },
-  {
-    "key": "2QQA-",
-    "value": "Q",
-    "seedIndex": 2815
   },
   {
     "key": "447T-",
@@ -4820,11 +6290,6 @@
     "seedIndex": 2821
   },
   {
-    "key": "24TJ-",
-    "value": "J",
-    "seedIndex": 2823
-  },
-  {
     "key": "7TAA-",
     "value": "A",
     "seedIndex": 2825
@@ -4845,11 +6310,6 @@
     "seedIndex": 2834
   },
   {
-    "key": "48JA-",
-    "value": "J",
-    "seedIndex": 2835
-  },
-  {
     "key": "589Q-",
     "value": "9",
     "seedIndex": 2840
@@ -4860,24 +6320,9 @@
     "seedIndex": 2842
   },
   {
-    "key": "6TAA-",
-    "value": "A",
-    "seedIndex": 2845
-  },
-  {
     "key": "28AA-",
     "value": "A",
     "seedIndex": 2849
-  },
-  {
-    "key": "279Q-",
-    "value": "9",
-    "seedIndex": 2851
-  },
-  {
-    "key": "449Q-",
-    "value": "Q",
-    "seedIndex": 2853
   },
   {
     "key": "467T-",
@@ -4885,49 +6330,9 @@
     "seedIndex": 2855
   },
   {
-    "key": "24AA-",
-    "value": "A",
-    "seedIndex": 2861
-  },
-  {
-    "key": "67TA-",
-    "value": "A",
-    "seedIndex": 2863
-  },
-  {
-    "key": "JQAA-",
-    "value": "A",
-    "seedIndex": 2864
-  },
-  {
     "key": "338Q-",
     "value": "Q",
     "seedIndex": 2865
-  },
-  {
-    "key": "889Q-",
-    "value": "Q",
-    "seedIndex": 2873
-  },
-  {
-    "key": "TJKK-",
-    "value": "K",
-    "seedIndex": 2874
-  },
-  {
-    "key": "88AA-",
-    "value": "A",
-    "seedIndex": 2875
-  },
-  {
-    "key": "58QK-",
-    "value": "Q",
-    "seedIndex": 2878
-  },
-  {
-    "key": "56JK-",
-    "value": "K",
-    "seedIndex": 2890
   },
   {
     "key": "2345-",
@@ -4940,24 +6345,9 @@
     "seedIndex": 2897
   },
   {
-    "key": "489Q-",
-    "value": "9",
-    "seedIndex": 2899
-  },
-  {
     "key": "788J-",
     "value": "J",
     "seedIndex": 2900
-  },
-  {
-    "key": "46AA-",
-    "value": "A",
-    "seedIndex": 2902
-  },
-  {
-    "key": "58TQ-",
-    "value": "T",
-    "seedIndex": 2912
   },
   {
     "key": "4679-",
@@ -4980,21 +6370,6 @@
     "seedIndex": 2921
   },
   {
-    "key": "2477-",
-    "value": "7",
-    "seedIndex": 2931
-  },
-  {
-    "key": "3559-",
-    "value": "9",
-    "seedIndex": 2935
-  },
-  {
-    "key": "6TJA-",
-    "value": "J",
-    "seedIndex": 2936
-  },
-  {
     "key": "227T-",
     "value": "T",
     "seedIndex": 2939
@@ -5005,44 +6380,9 @@
     "seedIndex": 2943
   },
   {
-    "key": "233A-",
-    "value": "A",
-    "seedIndex": 2945
-  },
-  {
-    "key": "499A-",
-    "value": "9",
-    "seedIndex": 2952
-  },
-  {
-    "key": "4JKK-",
-    "value": "K",
-    "seedIndex": 2958
-  },
-  {
-    "key": "66TA-",
-    "value": "A",
-    "seedIndex": 2960
-  },
-  {
     "key": "5688-",
     "value": "8",
     "seedIndex": 2961
-  },
-  {
-    "key": "8JQK-",
-    "value": "K",
-    "seedIndex": 2966
-  },
-  {
-    "key": "2TJJ-",
-    "value": "J",
-    "seedIndex": 2970
-  },
-  {
-    "key": "236K-",
-    "value": "6",
-    "seedIndex": 2971
   },
   {
     "key": "669K-",
@@ -5055,11 +6395,6 @@
     "seedIndex": 2982
   },
   {
-    "key": "45JK-",
-    "value": "K",
-    "seedIndex": 2986
-  },
-  {
     "key": "4479-",
     "value": "9",
     "seedIndex": 2989
@@ -5070,19 +6405,9 @@
     "seedIndex": 2996
   },
   {
-    "key": "2QKA-",
-    "value": "A",
-    "seedIndex": 2997
-  },
-  {
     "key": "467A-",
     "value": "A",
     "seedIndex": 2999
-  },
-  {
-    "key": "249K-",
-    "value": "9",
-    "seedIndex": 3000
   },
   {
     "key": "478A-",
@@ -5098,16 +6423,6 @@
     "key": "557T-",
     "value": "T",
     "seedIndex": 3030
-  },
-  {
-    "key": "57KA-",
-    "value": "A",
-    "seedIndex": 3032
-  },
-  {
-    "key": "299J-",
-    "value": "J",
-    "seedIndex": 3040
   },
   {
     "key": "3367-",
@@ -5130,24 +6445,9 @@
     "seedIndex": 3048
   },
   {
-    "key": "2256-",
-    "value": "6",
-    "seedIndex": 3049
-  },
-  {
-    "key": "38JJ-",
-    "value": "J",
-    "seedIndex": 3053
-  },
-  {
     "key": "334K-",
     "value": "K",
     "seedIndex": 3054
-  },
-  {
-    "key": "39KK-",
-    "value": "K",
-    "seedIndex": 3057
   },
   {
     "key": "688T-",
@@ -5155,29 +6455,9 @@
     "seedIndex": 3063
   },
   {
-    "key": "7TQA-",
-    "value": "Q",
-    "seedIndex": 3068
-  },
-  {
     "key": "59AA-",
     "value": "A",
     "seedIndex": 3070
-  },
-  {
-    "key": "3369-",
-    "value": "9",
-    "seedIndex": 3074
-  },
-  {
-    "key": "77JA-",
-    "value": "A",
-    "seedIndex": 3081
-  },
-  {
-    "key": "7TTQ-",
-    "value": "T",
-    "seedIndex": 3095
   },
   {
     "key": "455A-",
@@ -5190,39 +6470,14 @@
     "seedIndex": 3100
   },
   {
-    "key": "5JAA-",
-    "value": "A",
-    "seedIndex": 3105
-  },
-  {
     "key": "47JJ-",
     "value": "J",
     "seedIndex": 3108
   },
   {
-    "key": "29TT-",
-    "value": "T",
-    "seedIndex": 3109
-  },
-  {
     "key": "66KK-",
     "value": "K",
     "seedIndex": 3112
-  },
-  {
-    "key": "357T-",
-    "value": "T",
-    "seedIndex": 3113
-  },
-  {
-    "key": "4499-",
-    "value": "9",
-    "seedIndex": 3119
-  },
-  {
-    "key": "7JJA-",
-    "value": "J",
-    "seedIndex": 3120
   },
   {
     "key": "2TJK-",
@@ -5233,11 +6488,6 @@
     "key": "459Q-",
     "value": "Q",
     "seedIndex": 3123
-  },
-  {
-    "key": "2QKK-",
-    "value": "K",
-    "seedIndex": 3125
   },
   {
     "key": "7889-",
@@ -5255,11 +6505,6 @@
     "seedIndex": 3136
   },
   {
-    "key": "27TJ-",
-    "value": "J",
-    "seedIndex": 3137
-  },
-  {
     "key": "3334-",
     "value": "4",
     "seedIndex": 3141
@@ -5270,29 +6515,9 @@
     "seedIndex": 3143
   },
   {
-    "key": "3TQQ-",
-    "value": "Q",
-    "seedIndex": 3147
-  },
-  {
-    "key": "346T-",
-    "value": "T",
-    "seedIndex": 3148
-  },
-  {
     "key": "5799-",
     "value": "9",
     "seedIndex": 3151
-  },
-  {
-    "key": "258T-",
-    "value": "T",
-    "seedIndex": 3157
-  },
-  {
-    "key": "9TKA-",
-    "value": "A",
-    "seedIndex": 3161
   },
   {
     "key": "28QA-",
@@ -5305,29 +6530,14 @@
     "seedIndex": 3168
   },
   {
-    "key": "288J-",
-    "value": "8",
-    "seedIndex": 3170
-  },
-  {
     "key": "44TA-",
     "value": "A",
     "seedIndex": 3173
   },
   {
-    "key": "357K-",
-    "value": "7",
-    "seedIndex": 3181
-  },
-  {
     "key": "3347-",
     "value": "7",
     "seedIndex": 3184
-  },
-  {
-    "key": "6JJQ-",
-    "value": "Q",
-    "seedIndex": 3186
   },
   {
     "key": "69JJ-",
@@ -5340,29 +6550,9 @@
     "seedIndex": 3196
   },
   {
-    "key": "4JJQ-",
-    "value": "Q",
-    "seedIndex": 3198
-  },
-  {
-    "key": "679Q-",
-    "value": "Q",
-    "seedIndex": 3202
-  },
-  {
-    "key": "2778-",
-    "value": "8",
-    "seedIndex": 3207
-  },
-  {
     "key": "46KK-",
     "value": "K",
     "seedIndex": 3210
-  },
-  {
-    "key": "2245-",
-    "value": "5",
-    "seedIndex": 3212
   },
   {
     "key": "69QQ-",
@@ -5375,16 +6565,6 @@
     "seedIndex": 3218
   },
   {
-    "key": "246J-",
-    "value": "J",
-    "seedIndex": 3226
-  },
-  {
-    "key": "569T-",
-    "value": "T",
-    "seedIndex": 3230
-  },
-  {
     "key": "2258-",
     "value": "8",
     "seedIndex": 3238
@@ -5395,54 +6575,14 @@
     "seedIndex": 3239
   },
   {
-    "key": "469A-",
-    "value": "A",
-    "seedIndex": 3240
-  },
-  {
-    "key": "3677-",
-    "value": "7",
-    "seedIndex": 3243
-  },
-  {
-    "key": "4567-",
-    "value": "7",
-    "seedIndex": 3254
-  },
-  {
     "key": "466K-",
     "value": "6",
     "seedIndex": 3267
   },
   {
-    "key": "459T-",
-    "value": "T",
-    "seedIndex": 3271
-  },
-  {
     "key": "3558-",
     "value": "8",
     "seedIndex": 3274
-  },
-  {
-    "key": "8JKA-",
-    "value": "K",
-    "seedIndex": 3284
-  },
-  {
-    "key": "468A-",
-    "value": "A",
-    "seedIndex": 3285
-  },
-  {
-    "key": "28JK-",
-    "value": "J",
-    "seedIndex": 3286
-  },
-  {
-    "key": "27JJ-",
-    "value": "J",
-    "seedIndex": 3295
   },
   {
     "key": "4TJK-",
@@ -5453,11 +6593,6 @@
     "key": "2TTJ-",
     "value": "J",
     "seedIndex": 3297
-  },
-  {
-    "key": "37JA-",
-    "value": "A",
-    "seedIndex": 3299
   },
   {
     "key": "599J-",
@@ -5475,44 +6610,9 @@
     "seedIndex": 3313
   },
   {
-    "key": "579T-",
-    "value": "T",
-    "seedIndex": 3323
-  },
-  {
-    "key": "379T-",
-    "value": "T",
-    "seedIndex": 3324
-  },
-  {
-    "key": "4TQA-",
-    "value": "Q",
-    "seedIndex": 3330
-  },
-  {
-    "key": "66TK-",
-    "value": "K",
-    "seedIndex": 3344
-  },
-  {
-    "key": "369K-",
-    "value": "9",
-    "seedIndex": 3346
-  },
-  {
-    "key": "68TQ-",
-    "value": "T",
-    "seedIndex": 3347
-  },
-  {
     "key": "559A-",
     "value": "A",
     "seedIndex": 3361
-  },
-  {
-    "key": "28QQ-",
-    "value": "Q",
-    "seedIndex": 3363
   },
   {
     "key": "5699-",
@@ -5520,44 +6620,14 @@
     "seedIndex": 3368
   },
   {
-    "key": "33TQ-",
-    "value": "Q",
-    "seedIndex": 3370
-  },
-  {
-    "key": "58QA-",
-    "value": "A",
-    "seedIndex": 3373
-  },
-  {
     "key": "337T-",
     "value": "T",
     "seedIndex": 3375
   },
   {
-    "key": "28QK-",
-    "value": "Q",
-    "seedIndex": 3376
-  },
-  {
     "key": "33QK-",
     "value": "K",
     "seedIndex": 3383
-  },
-  {
-    "key": "347K-",
-    "value": "K",
-    "seedIndex": 3390
-  },
-  {
-    "key": "89QA-",
-    "value": "A",
-    "seedIndex": 3393
-  },
-  {
-    "key": "88JK-",
-    "value": "K",
-    "seedIndex": 3401
   },
   {
     "key": "67JJ-",
@@ -5590,29 +6660,9 @@
     "seedIndex": 3424
   },
   {
-    "key": "778J-",
-    "value": "J",
-    "seedIndex": 3427
-  },
-  {
-    "key": "6QAA-",
-    "value": "A",
-    "seedIndex": 3434
-  },
-  {
-    "key": "9JQA-",
-    "value": "A",
-    "seedIndex": 3435
-  },
-  {
     "key": "229Q-",
     "value": "Q",
     "seedIndex": 3438
-  },
-  {
-    "key": "299T-",
-    "value": "T",
-    "seedIndex": 3439
   },
   {
     "key": "5JQQ-",
@@ -5623,16 +6673,6 @@
     "key": "QKAA-",
     "value": "A",
     "seedIndex": 3446
-  },
-  {
-    "key": "229A-",
-    "value": "A",
-    "seedIndex": 3447
-  },
-  {
-    "key": "33TA-",
-    "value": "A",
-    "seedIndex": 3451
   },
   {
     "key": "58JJ-",
@@ -5655,39 +6695,9 @@
     "seedIndex": 3464
   },
   {
-    "key": "3TQA-",
-    "value": "Q",
-    "seedIndex": 3466
-  },
-  {
-    "key": "356J-",
-    "value": "J",
-    "seedIndex": 3467
-  },
-  {
-    "key": "69QK-",
-    "value": "K",
-    "seedIndex": 3469
-  },
-  {
     "key": "46QA-",
     "value": "A",
     "seedIndex": 3470
-  },
-  {
-    "key": "389K-",
-    "value": "9",
-    "seedIndex": 3473
-  },
-  {
-    "key": "3KAA-",
-    "value": "A",
-    "seedIndex": 3479
-  },
-  {
-    "key": "257K-",
-    "value": "7",
-    "seedIndex": 3480
   },
   {
     "key": "5TKA-",
@@ -5698,11 +6708,6 @@
     "key": "26AA-",
     "value": "A",
     "seedIndex": 3497
-  },
-  {
-    "key": "336T-",
-    "value": "T",
-    "seedIndex": 3499
   },
   {
     "key": "2448-",
@@ -5750,11 +6755,6 @@
     "seedIndex": 3530
   },
   {
-    "key": "67TJ-",
-    "value": "J",
-    "seedIndex": 3539
-  },
-  {
     "key": "49JJ-",
     "value": "J",
     "seedIndex": 3553
@@ -5770,11 +6770,6 @@
     "seedIndex": 3556
   },
   {
-    "key": "348T-",
-    "value": "T",
-    "seedIndex": 3564
-  },
-  {
     "key": "8JJQ-",
     "value": "Q",
     "seedIndex": 3566
@@ -5783,11 +6778,6 @@
     "key": "445J-",
     "value": "J",
     "seedIndex": 3576
-  },
-  {
-    "key": "369Q-",
-    "value": "9",
-    "seedIndex": 3582
   },
   {
     "key": "669A-",
@@ -5820,24 +6810,9 @@
     "seedIndex": 3606
   },
   {
-    "key": "479J-",
-    "value": "J",
-    "seedIndex": 3611
-  },
-  {
     "key": "559Q-",
     "value": "Q",
     "seedIndex": 3628
-  },
-  {
-    "key": "38QK-",
-    "value": "Q",
-    "seedIndex": 3629
-  },
-  {
-    "key": "339K-",
-    "value": "K",
-    "seedIndex": 3631
   },
   {
     "key": "9TTA-",
@@ -5845,24 +6820,9 @@
     "seedIndex": 3635
   },
   {
-    "key": "8QAA-",
-    "value": "A",
-    "seedIndex": 3637
-  },
-  {
-    "key": "39JA-",
-    "value": "J",
-    "seedIndex": 3644
-  },
-  {
     "key": "59JJ-",
     "value": "J",
     "seedIndex": 3648
-  },
-  {
-    "key": "8TQK-",
-    "value": "K",
-    "seedIndex": 3653
   },
   {
     "key": "889J-",
@@ -5880,26 +6840,6 @@
     "seedIndex": 3659
   },
   {
-    "key": "569Q-",
-    "value": "Q",
-    "seedIndex": 3660
-  },
-  {
-    "key": "377T-",
-    "value": "T",
-    "seedIndex": 3662
-  },
-  {
-    "key": "34KK-",
-    "value": "K",
-    "seedIndex": 3664
-  },
-  {
-    "key": "899T-",
-    "value": "T",
-    "seedIndex": 3670
-  },
-  {
     "key": "9JJK-",
     "value": "J",
     "seedIndex": 3675
@@ -5910,29 +6850,9 @@
     "seedIndex": 3679
   },
   {
-    "key": "599Q-",
-    "value": "9",
-    "seedIndex": 3687
-  },
-  {
-    "key": "279T-",
-    "value": "T",
-    "seedIndex": 3695
-  },
-  {
     "key": "66QA-",
     "value": "A",
     "seedIndex": 3700
-  },
-  {
-    "key": "7JKA-",
-    "value": "K",
-    "seedIndex": 3703
-  },
-  {
-    "key": "689J-",
-    "value": "J",
-    "seedIndex": 3708
   },
   {
     "key": "27QA-",
@@ -5950,11 +6870,6 @@
     "seedIndex": 3714
   },
   {
-    "key": "289K-",
-    "value": "9",
-    "seedIndex": 3728
-  },
-  {
     "key": "559T-",
     "value": "T",
     "seedIndex": 3729
@@ -5968,26 +6883,6 @@
     "key": "338J-",
     "value": "J",
     "seedIndex": 3734
-  },
-  {
-    "key": "368T-",
-    "value": "T",
-    "seedIndex": 3738
-  },
-  {
-    "key": "478T-",
-    "value": "T",
-    "seedIndex": 3749
-  },
-  {
-    "key": "69JA-",
-    "value": "J",
-    "seedIndex": 3751
-  },
-  {
-    "key": "6QKA-",
-    "value": "A",
-    "seedIndex": 3755
   },
   {
     "key": "2JQQ-",
@@ -6010,19 +6905,9 @@
     "seedIndex": 3772
   },
   {
-    "key": "5TQQ-",
-    "value": "Q",
-    "seedIndex": 3773
-  },
-  {
     "key": "38JQ-",
     "value": "Q",
     "seedIndex": 3811
-  },
-  {
-    "key": "4689-",
-    "value": "9",
-    "seedIndex": 3813
   },
   {
     "key": "688Q-",
@@ -6050,11 +6935,6 @@
     "seedIndex": 3853
   },
   {
-    "key": "9TQA-",
-    "value": "A",
-    "seedIndex": 3862
-  },
-  {
     "key": "3447-",
     "value": "7",
     "seedIndex": 3863
@@ -6065,24 +6945,9 @@
     "seedIndex": 3877
   },
   {
-    "key": "2679-",
-    "value": "9",
-    "seedIndex": 3888
-  },
-  {
-    "key": "268A-",
-    "value": "A",
-    "seedIndex": 3891
-  },
-  {
     "key": "68QQ-",
     "value": "Q",
     "seedIndex": 3897
-  },
-  {
-    "key": "37QA-",
-    "value": "A",
-    "seedIndex": 3899
   },
   {
     "key": "7TKK-",
@@ -6115,11 +6980,6 @@
     "seedIndex": 3942
   },
   {
-    "key": "356K-",
-    "value": "6",
-    "seedIndex": 3943
-  },
-  {
     "key": "4466-",
     "value": "6",
     "seedIndex": 3959
@@ -6135,19 +6995,9 @@
     "seedIndex": 3963
   },
   {
-    "key": "6JKA-",
-    "value": "K",
-    "seedIndex": 3968
-  },
-  {
     "key": "77JJ-",
     "value": "J",
     "seedIndex": 3974
-  },
-  {
-    "key": "456K-",
-    "value": "K",
-    "seedIndex": 3981
   },
   {
     "key": "2279-",
@@ -6160,19 +7010,9 @@
     "seedIndex": 3994
   },
   {
-    "key": "2346-",
-    "value": "6",
-    "seedIndex": 4004
-  },
-  {
     "key": "226Q-",
     "value": "Q",
     "seedIndex": 4007
-  },
-  {
-    "key": "3368-",
-    "value": "8",
-    "seedIndex": 4008
   },
   {
     "key": "399T-",
@@ -6183,26 +7023,6 @@
     "key": "2339-",
     "value": "9",
     "seedIndex": 4011
-  },
-  {
-    "key": "57JA-",
-    "value": "A",
-    "seedIndex": 4015
-  },
-  {
-    "key": "223A-",
-    "value": "A",
-    "seedIndex": 4016
-  },
-  {
-    "key": "6QQK-",
-    "value": "K",
-    "seedIndex": 4027
-  },
-  {
-    "key": "567Q-",
-    "value": "Q",
-    "seedIndex": 4029
   },
   {
     "key": "68TT-",
@@ -6230,49 +7050,14 @@
     "seedIndex": 4063
   },
   {
-    "key": "57QQ-",
-    "value": "Q",
-    "seedIndex": 4069
-  },
-  {
     "key": "3449-",
     "value": "9",
     "seedIndex": 4070
   },
   {
-    "key": "667Q-",
-    "value": "Q",
-    "seedIndex": 4071
-  },
-  {
     "key": "288K-",
     "value": "8",
     "seedIndex": 4077
-  },
-  {
-    "key": "39TQ-",
-    "value": "T",
-    "seedIndex": 4080
-  },
-  {
-    "key": "233J-",
-    "value": "J",
-    "seedIndex": 4093
-  },
-  {
-    "key": "678T-",
-    "value": "T",
-    "seedIndex": 4101
-  },
-  {
-    "key": "2358-",
-    "value": "8",
-    "seedIndex": 4111
-  },
-  {
-    "key": "568K-",
-    "value": "K",
-    "seedIndex": 4136
   },
   {
     "key": "99JA-",
@@ -6290,29 +7075,14 @@
     "seedIndex": 4163
   },
   {
-    "key": "445A-",
-    "value": "A",
-    "seedIndex": 4170
-  },
-  {
     "key": "8TTA-",
     "value": "A",
     "seedIndex": 4172
   },
   {
-    "key": "599K-",
-    "value": "9",
-    "seedIndex": 4176
-  },
-  {
     "key": "336J-",
     "value": "J",
     "seedIndex": 4189
-  },
-  {
-    "key": "99KK-",
-    "value": "K",
-    "seedIndex": 4192
   },
   {
     "key": "7QKK-",
@@ -6343,11 +7113,6 @@
     "key": "359K-",
     "value": "9",
     "seedIndex": 4246
-  },
-  {
-    "key": "58TK-",
-    "value": "T",
-    "seedIndex": 4249
   },
   {
     "key": "224K-",
@@ -6385,19 +7150,9 @@
     "seedIndex": 4287
   },
   {
-    "key": "689T-",
-    "value": "T",
-    "seedIndex": 4288
-  },
-  {
     "key": "25TK-",
     "value": "T",
     "seedIndex": 4290
-  },
-  {
-    "key": "355T-",
-    "value": "T",
-    "seedIndex": 4292
   },
   {
     "key": "4557-",
@@ -6425,39 +7180,14 @@
     "seedIndex": 4324
   },
   {
-    "key": "3699-",
-    "value": "9",
-    "seedIndex": 4342
-  },
-  {
     "key": "449J-",
     "value": "J",
     "seedIndex": 4353
   },
   {
-    "key": "238Q-",
-    "value": "Q",
-    "seedIndex": 4360
-  },
-  {
-    "key": "3TJA-",
-    "value": "J",
-    "seedIndex": 4362
-  },
-  {
     "key": "26QQ-",
     "value": "Q",
     "seedIndex": 4367
-  },
-  {
-    "key": "677K-",
-    "value": "K",
-    "seedIndex": 4369
-  },
-  {
-    "key": "56AA-",
-    "value": "A",
-    "seedIndex": 4385
   },
   {
     "key": "7TQQ-",
@@ -6468,21 +7198,6 @@
     "key": "5667-",
     "value": "7",
     "seedIndex": 4393
-  },
-  {
-    "key": "378Q-",
-    "value": "8",
-    "seedIndex": 4396
-  },
-  {
-    "key": "44QK-",
-    "value": "K",
-    "seedIndex": 4397
-  },
-  {
-    "key": "478Q-",
-    "value": "8",
-    "seedIndex": 4413
   },
   {
     "key": "477A-",
@@ -6520,29 +7235,14 @@
     "seedIndex": 4453
   },
   {
-    "key": "3346-",
-    "value": "6",
-    "seedIndex": 4462
-  },
-  {
     "key": "247K-",
     "value": "7",
     "seedIndex": 4463
   },
   {
-    "key": "3TJQ-",
-    "value": "Q",
-    "seedIndex": 4470
-  },
-  {
     "key": "6KAA-",
     "value": "A",
     "seedIndex": 4482
-  },
-  {
-    "key": "28TT-",
-    "value": "T",
-    "seedIndex": 4535
   },
   {
     "key": "9KAA-",
@@ -6558,11 +7258,6 @@
     "key": "JJJA-",
     "value": "A",
     "seedIndex": 4550
-  },
-  {
-    "key": "2238-",
-    "value": "8",
-    "seedIndex": 4551
   },
   {
     "key": "556J-",
@@ -6585,34 +7280,14 @@
     "seedIndex": 4580
   },
   {
-    "key": "4TJQ-",
-    "value": "Q",
-    "seedIndex": 4587
-  },
-  {
-    "key": "346A-",
-    "value": "A",
-    "seedIndex": 4604
-  },
-  {
     "key": "223K-",
     "value": "K",
     "seedIndex": 4615
   },
   {
-    "key": "3TJK-",
-    "value": "J",
-    "seedIndex": 4624
-  },
-  {
     "key": "88QQ-",
     "value": "Q",
     "seedIndex": 4639
-  },
-  {
-    "key": "7JAA-",
-    "value": "A",
-    "seedIndex": 4640
   },
   {
     "key": "338A-",
@@ -6623,16 +7298,6 @@
     "key": "77QK-",
     "value": "K",
     "seedIndex": 4642
-  },
-  {
-    "key": "24JJ-",
-    "value": "J",
-    "seedIndex": 4643
-  },
-  {
-    "key": "59TT-",
-    "value": "T",
-    "seedIndex": 4645
   },
   {
     "key": "2KAA-",
@@ -6650,29 +7315,9 @@
     "seedIndex": 4663
   },
   {
-    "key": "56TA-",
-    "value": "A",
-    "seedIndex": 4677
-  },
-  {
-    "key": "28JQ-",
-    "value": "Q",
-    "seedIndex": 4686
-  },
-  {
-    "key": "6JAA-",
-    "value": "A",
-    "seedIndex": 4689
-  },
-  {
     "key": "999A-",
     "value": "A",
     "seedIndex": 4691
-  },
-  {
-    "key": "3349-",
-    "value": "9",
-    "seedIndex": 4692
   },
   {
     "key": "3488-",
@@ -6680,54 +7325,14 @@
     "seedIndex": 4693
   },
   {
-    "key": "458Q-",
-    "value": "Q",
-    "seedIndex": 4695
-  },
-  {
-    "key": "79KA-",
-    "value": "A",
-    "seedIndex": 4702
-  },
-  {
-    "key": "34TQ-",
-    "value": "Q",
-    "seedIndex": 4718
-  },
-  {
     "key": "44TK-",
     "value": "K",
     "seedIndex": 4724
   },
   {
-    "key": "38TT-",
-    "value": "T",
-    "seedIndex": 4738
-  },
-  {
     "key": "299Q-",
     "value": "9",
     "seedIndex": 4739
-  },
-  {
-    "key": "49AA-",
-    "value": "A",
-    "seedIndex": 4752
-  },
-  {
-    "key": "TTQQ-",
-    "value": "Q",
-    "seedIndex": 4757
-  },
-  {
-    "key": "79TJ-",
-    "value": "J",
-    "seedIndex": 4765
-  },
-  {
-    "key": "334J-",
-    "value": "J",
-    "seedIndex": 4766
   },
   {
     "key": "225A-",
@@ -6750,24 +7355,9 @@
     "seedIndex": 4795
   },
   {
-    "key": "2469-",
-    "value": "9",
-    "seedIndex": 4796
-  },
-  {
     "key": "37TT-",
     "value": "T",
     "seedIndex": 4801
-  },
-  {
-    "key": "99JK-",
-    "value": "K",
-    "seedIndex": 4803
-  },
-  {
-    "key": "6TTQ-",
-    "value": "T",
-    "seedIndex": 4807
   },
   {
     "key": "3JAA-",
@@ -6785,34 +7375,9 @@
     "seedIndex": 4841
   },
   {
-    "key": "258J-",
-    "value": "J",
-    "seedIndex": 4844
-  },
-  {
-    "key": "89QK-",
-    "value": "K",
-    "seedIndex": 4849
-  },
-  {
-    "key": "4799-",
-    "value": "9",
-    "seedIndex": 4866
-  },
-  {
     "key": "2688-",
     "value": "8",
     "seedIndex": 4872
-  },
-  {
-    "key": "246T-",
-    "value": "T",
-    "seedIndex": 4873
-  },
-  {
-    "key": "699Q-",
-    "value": "9",
-    "seedIndex": 4881
   },
   {
     "key": "2248-",
@@ -6830,11 +7395,6 @@
     "seedIndex": 4902
   },
   {
-    "key": "3389-",
-    "value": "9",
-    "seedIndex": 4920
-  },
-  {
     "key": "399A-",
     "value": "9",
     "seedIndex": 4923
@@ -6843,11 +7403,6 @@
     "key": "77QA-",
     "value": "A",
     "seedIndex": 4936
-  },
-  {
-    "key": "239Q-",
-    "value": "Q",
-    "seedIndex": 4941
   },
   {
     "key": "6TJJ-",
@@ -6863,11 +7418,6 @@
     "key": "4477-",
     "value": "7",
     "seedIndex": 4949
-  },
-  {
-    "key": "46QQ-",
-    "value": "Q",
-    "seedIndex": 4953
   },
   {
     "key": "447A-",
@@ -6920,19 +7470,9 @@
     "seedIndex": 5073
   },
   {
-    "key": "566K-",
-    "value": "K",
-    "seedIndex": 5084
-  },
-  {
     "key": "77TJ-",
     "value": "J",
     "seedIndex": 5086
-  },
-  {
-    "key": "3669-",
-    "value": "9",
-    "seedIndex": 5101
   },
   {
     "key": "8JKK-",
@@ -6940,23 +7480,13 @@
     "seedIndex": 5119
   },
   {
-    "key": "8TQQ-",
-    "value": "Q",
-    "seedIndex": 5130
-  },
-  {
     "key": "2499-",
     "value": "9",
     "seedIndex": 5150
   },
   {
-    "key": "22TJ-",
-    "value": "J",
-    "seedIndex": 5176
-  },
-  {
     "key": "8TTQ-",
-    "value": "Q",
+    "value": "T",
     "seedIndex": 5177
   },
   {
@@ -6970,29 +7500,9 @@
     "seedIndex": 5204
   },
   {
-    "key": "2579-",
-    "value": "9",
-    "seedIndex": 5207
-  },
-  {
-    "key": "47TK-",
-    "value": "T",
-    "seedIndex": 5231
-  },
-  {
-    "key": "247A-",
-    "value": "A",
-    "seedIndex": 5238
-  },
-  {
     "key": "4TJJ-",
     "value": "J",
     "seedIndex": 5244
-  },
-  {
-    "key": "477J-",
-    "value": "J",
-    "seedIndex": 5257
   },
   {
     "key": "224Q-",
@@ -7005,39 +7515,9 @@
     "seedIndex": 5292
   },
   {
-    "key": "2JQK-",
-    "value": "K",
-    "seedIndex": 5301
-  },
-  {
-    "key": "23JJ-",
-    "value": "J",
-    "seedIndex": 5303
-  },
-  {
-    "key": "28TJ-",
-    "value": "J",
-    "seedIndex": 5304
-  },
-  {
-    "key": "58TT-",
-    "value": "T",
-    "seedIndex": 5310
-  },
-  {
-    "key": "2TKK-",
-    "value": "K",
-    "seedIndex": 5319
-  },
-  {
     "key": "666A-",
     "value": "A",
     "seedIndex": 5325
-  },
-  {
-    "key": "457Q-",
-    "value": "Q",
-    "seedIndex": 5331
   },
   {
     "key": "33KA-",
@@ -7045,19 +7525,9 @@
     "seedIndex": 5384
   },
   {
-    "key": "2247-",
-    "value": "7",
-    "seedIndex": 5386
-  },
-  {
     "key": "JQKK-",
     "value": "K",
     "seedIndex": 5395
-  },
-  {
-    "key": "779J-",
-    "value": "J",
-    "seedIndex": 5404
   },
   {
     "key": "33JQ-",
@@ -7065,39 +7535,9 @@
     "seedIndex": 5421
   },
   {
-    "key": "4JJK-",
-    "value": "J",
-    "seedIndex": 5423
-  },
-  {
-    "key": "25KK-",
-    "value": "K",
-    "seedIndex": 5425
-  },
-  {
-    "key": "5TTK-",
-    "value": "T",
-    "seedIndex": 5426
-  },
-  {
-    "key": "77KA-",
-    "value": "A",
-    "seedIndex": 5427
-  },
-  {
-    "key": "368A-",
-    "value": "A",
-    "seedIndex": 5452
-  },
-  {
     "key": "5JKK-",
     "value": "K",
     "seedIndex": 5463
-  },
-  {
-    "key": "69JQ-",
-    "value": "Q",
-    "seedIndex": 5492
   },
   {
     "key": "244J-",
@@ -7110,34 +7550,14 @@
     "seedIndex": 5521
   },
   {
-    "key": "456T-",
-    "value": "T",
-    "seedIndex": 5526
-  },
-  {
-    "key": "2266-",
-    "value": "6",
-    "seedIndex": 5529
-  },
-  {
     "key": "355K-",
     "value": "K",
     "seedIndex": 5550
   },
   {
-    "key": "34TK-",
-    "value": "K",
-    "seedIndex": 5557
-  },
-  {
     "key": "2QAA-",
     "value": "A",
     "seedIndex": 5570
-  },
-  {
-    "key": "2599-",
-    "value": "9",
-    "seedIndex": 5578
   },
   {
     "key": "89TT-",
@@ -7150,16 +7570,6 @@
     "seedIndex": 5597
   },
   {
-    "key": "5899-",
-    "value": "9",
-    "seedIndex": 5623
-  },
-  {
-    "key": "3467-",
-    "value": "7",
-    "seedIndex": 5624
-  },
-  {
     "key": "88JJ-",
     "value": "J",
     "seedIndex": 5629
@@ -7170,24 +7580,9 @@
     "seedIndex": 5630
   },
   {
-    "key": "234T-",
-    "value": "T",
-    "seedIndex": 5651
-  },
-  {
     "key": "48AA-",
     "value": "A",
     "seedIndex": 5652
-  },
-  {
-    "key": "78TA-",
-    "value": "A",
-    "seedIndex": 5657
-  },
-  {
-    "key": "668T-",
-    "value": "T",
-    "seedIndex": 5663
   },
   {
     "key": "25JJ-",
@@ -7200,19 +7595,9 @@
     "seedIndex": 5723
   },
   {
-    "key": "3667-",
-    "value": "7",
-    "seedIndex": 5749
-  },
-  {
     "key": "2223-",
     "value": "3",
     "seedIndex": 5785
-  },
-  {
-    "key": "2677-",
-    "value": "7",
-    "seedIndex": 5787
   },
   {
     "key": "2224-",
@@ -7225,24 +7610,9 @@
     "seedIndex": 5825
   },
   {
-    "key": "358T-",
-    "value": "T",
-    "seedIndex": 5834
-  },
-  {
-    "key": "29QK-",
-    "value": "Q",
-    "seedIndex": 5853
-  },
-  {
     "key": "66JK-",
     "value": "K",
     "seedIndex": 5886
-  },
-  {
-    "key": "36JQ-",
-    "value": "Q",
-    "seedIndex": 5894
   },
   {
     "key": "334A-",
@@ -7255,18 +7625,8 @@
     "seedIndex": 5946
   },
   {
-    "key": "38KA-",
-    "value": "K",
-    "seedIndex": 5947
-  },
-  {
-    "key": "333A-",
-    "value": "A",
-    "seedIndex": 5952
-  },
-  {
     "key": "2KKA-",
-    "value": "A",
+    "value": "K",
     "seedIndex": 5956
   },
   {
@@ -7280,19 +7640,9 @@
     "seedIndex": 6007
   },
   {
-    "key": "235J-",
-    "value": "J",
-    "seedIndex": 6030
-  },
-  {
     "key": "888K-",
     "value": "K",
     "seedIndex": 6033
-  },
-  {
-    "key": "277T-",
-    "value": "T",
-    "seedIndex": 6036
   },
   {
     "key": "244A-",
@@ -7308,11 +7658,6 @@
     "key": "6TKK-",
     "value": "K",
     "seedIndex": 6047
-  },
-  {
-    "key": "2JAA-",
-    "value": "A",
-    "seedIndex": 6060
   },
   {
     "key": "33JJ-",
@@ -7335,11 +7680,6 @@
     "seedIndex": 6104
   },
   {
-    "key": "377A-",
-    "value": "A",
-    "seedIndex": 6105
-  },
-  {
     "key": "45AA-",
     "value": "A",
     "seedIndex": 6116
@@ -7350,29 +7690,14 @@
     "seedIndex": 6128
   },
   {
-    "key": "2278-",
-    "value": "8",
-    "seedIndex": 6131
-  },
-  {
     "key": "6TQQ-",
     "value": "Q",
     "seedIndex": 6154
   },
   {
-    "key": "488Q-",
-    "value": "8",
-    "seedIndex": 6163
-  },
-  {
     "key": "2267-",
     "value": "7",
     "seedIndex": 6168
-  },
-  {
-    "key": "588T-",
-    "value": "T",
-    "seedIndex": 6179
   },
   {
     "key": "3355-",
@@ -7383,16 +7708,6 @@
     "key": "2226-",
     "value": "6",
     "seedIndex": 6192
-  },
-  {
-    "key": "366A-",
-    "value": "A",
-    "seedIndex": 6217
-  },
-  {
-    "key": "46TJ-",
-    "value": "J",
-    "seedIndex": 6237
   },
   {
     "key": "6QQA-",
@@ -7408,11 +7723,6 @@
     "key": "55TA-",
     "value": "A",
     "seedIndex": 6287
-  },
-  {
-    "key": "455J-",
-    "value": "J",
-    "seedIndex": 6336
   },
   {
     "key": "366T-",
@@ -7450,24 +7760,9 @@
     "seedIndex": 6425
   },
   {
-    "key": "39JJ-",
-    "value": "J",
-    "seedIndex": 6440
-  },
-  {
-    "key": "778Q-",
-    "value": "Q",
-    "seedIndex": 6477
-  },
-  {
     "key": "688K-",
     "value": "8",
     "seedIndex": 6519
-  },
-  {
-    "key": "29JK-",
-    "value": "J",
-    "seedIndex": 6521
   },
   {
     "key": "8QKK-",
@@ -7490,34 +7785,9 @@
     "seedIndex": 6667
   },
   {
-    "key": "446Q-",
-    "value": "Q",
-    "seedIndex": 6681
-  },
-  {
     "key": "899K-",
     "value": "K",
     "seedIndex": 6692
-  },
-  {
-    "key": "3445-",
-    "value": "5",
-    "seedIndex": 6703
-  },
-  {
-    "key": "3359-",
-    "value": "9",
-    "seedIndex": 6708
-  },
-  {
-    "key": "2TAA-",
-    "value": "A",
-    "seedIndex": 6712
-  },
-  {
-    "key": "458J-",
-    "value": "J",
-    "seedIndex": 6743
   },
   {
     "key": "55KA-",
@@ -7530,21 +7800,6 @@
     "seedIndex": 6815
   },
   {
-    "key": "2344-",
-    "value": "4",
-    "seedIndex": 6819
-  },
-  {
-    "key": "2335-",
-    "value": "5",
-    "seedIndex": 6846
-  },
-  {
-    "key": "77JQ-",
-    "value": "Q",
-    "seedIndex": 6852
-  },
-  {
     "key": "2334-",
     "value": "4",
     "seedIndex": 6908
@@ -7553,11 +7808,6 @@
     "key": "255K-",
     "value": "5",
     "seedIndex": 6932
-  },
-  {
-    "key": "3466-",
-    "value": "6",
-    "seedIndex": 6968
   },
   {
     "key": "6TTK-",
@@ -7570,11 +7820,6 @@
     "seedIndex": 7003
   },
   {
-    "key": "44JK-",
-    "value": "K",
-    "seedIndex": 7011
-  },
-  {
     "key": "888J-",
     "value": "J",
     "seedIndex": 7016
@@ -7583,11 +7828,6 @@
     "key": "22QA-",
     "value": "A",
     "seedIndex": 7031
-  },
-  {
-    "key": "556T-",
-    "value": "T",
-    "seedIndex": 7034
   },
   {
     "key": "57AA-",
@@ -7665,11 +7905,6 @@
     "seedIndex": 7241
   },
   {
-    "key": "8TJJ-",
-    "value": "J",
-    "seedIndex": 7260
-  },
-  {
     "key": "8889-",
     "value": "9",
     "seedIndex": 7266
@@ -7685,18 +7920,8 @@
     "seedIndex": 7306
   },
   {
-    "key": "79QK-",
-    "value": "K",
-    "seedIndex": 7346
-  },
-  {
-    "key": "3477-",
-    "value": "7",
-    "seedIndex": 7358
-  },
-  {
     "key": "9JJA-",
-    "value": "A",
+    "value": "J",
     "seedIndex": 7388
   },
   {
@@ -7715,34 +7940,14 @@
     "seedIndex": 7451
   },
   {
-    "key": "4588-",
-    "value": "8",
-    "seedIndex": 7463
-  },
-  {
-    "key": "TTKA-",
-    "value": "A",
-    "seedIndex": 7468
-  },
-  {
     "key": "2JJA-",
     "value": "J",
     "seedIndex": 7479
   },
   {
-    "key": "336A-",
-    "value": "A",
-    "seedIndex": 7485
-  },
-  {
     "key": "2369-",
     "value": "9",
     "seedIndex": 7525
-  },
-  {
-    "key": "4556-",
-    "value": "6",
-    "seedIndex": 7533
   },
   {
     "key": "557J-",
@@ -7755,34 +7960,14 @@
     "seedIndex": 7576
   },
   {
-    "key": "667K-",
-    "value": "K",
-    "seedIndex": 7603
-  },
-  {
     "key": "22JJ-",
     "value": "J",
     "seedIndex": 7628
   },
   {
-    "key": "8QQA-",
-    "value": "Q",
-    "seedIndex": 7639
-  },
-  {
-    "key": "7KAA-",
-    "value": "A",
-    "seedIndex": 7645
-  },
-  {
     "key": "6679-",
     "value": "9",
     "seedIndex": 7682
-  },
-  {
-    "key": "557Q-",
-    "value": "Q",
-    "seedIndex": 7711
   },
   {
     "key": "66TT-",
@@ -7805,21 +7990,6 @@
     "seedIndex": 7792
   },
   {
-    "key": "3TJJ-",
-    "value": "J",
-    "seedIndex": 7824
-  },
-  {
-    "key": "37QQ-",
-    "value": "Q",
-    "seedIndex": 7832
-  },
-  {
-    "key": "28JJ-",
-    "value": "J",
-    "seedIndex": 7875
-  },
-  {
     "key": "226K-",
     "value": "6",
     "seedIndex": 7914
@@ -7828,11 +7998,6 @@
     "key": "37JJ-",
     "value": "J",
     "seedIndex": 7920
-  },
-  {
-    "key": "447J-",
-    "value": "J",
-    "seedIndex": 7945
   },
   {
     "key": "5567-",
@@ -7855,11 +8020,6 @@
     "seedIndex": 8045
   },
   {
-    "key": "35AA-",
-    "value": "A",
-    "seedIndex": 8075
-  },
-  {
     "key": "799A-",
     "value": "A",
     "seedIndex": 8078
@@ -7870,19 +8030,9 @@
     "seedIndex": 8109
   },
   {
-    "key": "37KK-",
-    "value": "K",
-    "seedIndex": 8162
-  },
-  {
     "key": "666K-",
     "value": "K",
     "seedIndex": 8171
-  },
-  {
-    "key": "4QQK-",
-    "value": "K",
-    "seedIndex": 8177
   },
   {
     "key": "558J-",
@@ -7900,19 +8050,9 @@
     "seedIndex": 8243
   },
   {
-    "key": "558A-",
-    "value": "A",
-    "seedIndex": 8263
-  },
-  {
     "key": "344T-",
     "value": "T",
     "seedIndex": 8311
-  },
-  {
-    "key": "3799-",
-    "value": "9",
-    "seedIndex": 8333
   },
   {
     "key": "899Q-",
@@ -7960,11 +8100,6 @@
     "seedIndex": 8689
   },
   {
-    "key": "446T-",
-    "value": "T",
-    "seedIndex": 8773
-  },
-  {
     "key": "2389-",
     "value": "9",
     "seedIndex": 8782
@@ -7980,19 +8115,9 @@
     "seedIndex": 8875
   },
   {
-    "key": "3379-",
-    "value": "9",
-    "seedIndex": 8882
-  },
-  {
     "key": "2577-",
     "value": "7",
     "seedIndex": 8978
-  },
-  {
-    "key": "6799-",
-    "value": "9",
-    "seedIndex": 8989
   },
   {
     "key": "6TTA-",
@@ -8020,11 +8145,6 @@
     "seedIndex": 9074
   },
   {
-    "key": "99TA-",
-    "value": "A",
-    "seedIndex": 9143
-  },
-  {
     "key": "5558-",
     "value": "8",
     "seedIndex": 9237
@@ -8035,11 +8155,6 @@
     "seedIndex": 9269
   },
   {
-    "key": "5TTQ-",
-    "value": "T",
-    "seedIndex": 9385
-  },
-  {
     "key": "47KK-",
     "value": "K",
     "seedIndex": 9389
@@ -8048,16 +8163,6 @@
     "key": "QKKA-",
     "value": "A",
     "seedIndex": 9589
-  },
-  {
-    "key": "339Q-",
-    "value": "Q",
-    "seedIndex": 9633
-  },
-  {
-    "key": "377Q-",
-    "value": "7",
-    "seedIndex": 9634
   },
   {
     "key": "3388-",
@@ -8085,11 +8190,6 @@
     "seedIndex": 9800
   },
   {
-    "key": "8TTK-",
-    "value": "T",
-    "seedIndex": 9803
-  },
-  {
     "key": "8JQQ-",
     "value": "Q",
     "seedIndex": 9829
@@ -8105,19 +8205,9 @@
     "seedIndex": 9948
   },
   {
-    "key": "55TJ-",
-    "value": "J",
-    "seedIndex": 9982
-  },
-  {
     "key": "KKAA-",
     "value": "A",
     "seedIndex": 9992
-  },
-  {
-    "key": "699A-",
-    "value": "9",
-    "seedIndex": 10015
   },
   {
     "key": "47QQ-",
@@ -8130,19 +8220,9 @@
     "seedIndex": 10069
   },
   {
-    "key": "228J-",
-    "value": "J",
-    "seedIndex": 10101
-  },
-  {
     "key": "99JJ-",
     "value": "J",
     "seedIndex": 10168
-  },
-  {
-    "key": "2TQQ-",
-    "value": "Q",
-    "seedIndex": 10189
   },
   {
     "key": "449K-",
@@ -8153,21 +8233,6 @@
     "key": "4TTA-",
     "value": "T",
     "seedIndex": 10291
-  },
-  {
-    "key": "44TT-",
-    "value": "T",
-    "seedIndex": 10303
-  },
-  {
-    "key": "44JQ-",
-    "value": "Q",
-    "seedIndex": 10305
-  },
-  {
-    "key": "3889-",
-    "value": "9",
-    "seedIndex": 10318
   },
   {
     "key": "5568-",
@@ -8200,24 +8265,9 @@
     "seedIndex": 10801
   },
   {
-    "key": "29QQ-",
-    "value": "Q",
-    "seedIndex": 10933
-  },
-  {
-    "key": "2566-",
-    "value": "6",
-    "seedIndex": 10994
-  },
-  {
     "key": "447Q-",
     "value": "Q",
     "seedIndex": 11024
-  },
-  {
-    "key": "233Q-",
-    "value": "Q",
-    "seedIndex": 11163
   },
   {
     "key": "3556-",
@@ -8233,21 +8283,6 @@
     "key": "779Q-",
     "value": "Q",
     "seedIndex": 11632
-  },
-  {
-    "key": "TQAA-",
-    "value": "A",
-    "seedIndex": 11753
-  },
-  {
-    "key": "JKKA-",
-    "value": "A",
-    "seedIndex": 11866
-  },
-  {
-    "key": "55KK-",
-    "value": "K",
-    "seedIndex": 11887
   },
   {
     "key": "35KK-",
@@ -8310,11 +8345,6 @@
     "seedIndex": 12926
   },
   {
-    "key": "5QQA-",
-    "value": "Q",
-    "seedIndex": 13090
-  },
-  {
     "key": "6668-",
     "value": "8",
     "seedIndex": 13499
@@ -8358,11 +8388,6 @@
     "key": "222J-",
     "value": "J",
     "seedIndex": 14797
-  },
-  {
-    "key": "39QQ-",
-    "value": "Q",
-    "seedIndex": 14890
   },
   {
     "key": "5577-",
@@ -8445,11 +8470,6 @@
     "seedIndex": 17913
   },
   {
-    "key": "23TT-",
-    "value": "T",
-    "seedIndex": 17990
-  },
-  {
     "key": "33KK-",
     "value": "K",
     "seedIndex": 18002
@@ -8458,11 +8478,6 @@
     "key": "4446-",
     "value": "6",
     "seedIndex": 18139
-  },
-  {
-    "key": "57KK-",
-    "value": "K",
-    "seedIndex": 18175
   },
   {
     "key": "888Q-",
@@ -8483,5 +8498,150 @@
     "key": "55JJ-",
     "value": "J",
     "seedIndex": 19783
+  },
+  {
+    "key": "QQQA-",
+    "value": "A",
+    "seedIndex": 20358
+  },
+  {
+    "key": "3336-",
+    "value": "6",
+    "seedIndex": 21285
+  },
+  {
+    "key": "2225-",
+    "value": "5",
+    "seedIndex": 21349
+  },
+  {
+    "key": "3399-",
+    "value": "9",
+    "seedIndex": 23528
+  },
+  {
+    "key": "6699-",
+    "value": "9",
+    "seedIndex": 24458
+  },
+  {
+    "key": "555A-",
+    "value": "A",
+    "seedIndex": 25571
+  },
+  {
+    "key": "555J-",
+    "value": "J",
+    "seedIndex": 25632
+  },
+  {
+    "key": "TTAA-",
+    "value": "A",
+    "seedIndex": 26077
+  },
+  {
+    "key": "2255-",
+    "value": "5",
+    "seedIndex": 26244
+  },
+  {
+    "key": "222K-",
+    "value": "K",
+    "seedIndex": 26371
+  },
+  {
+    "key": "99TT-",
+    "value": "T",
+    "seedIndex": 27278
+  },
+  {
+    "key": "999J-",
+    "value": "J",
+    "seedIndex": 27541
+  },
+  {
+    "key": "666T-",
+    "value": "T",
+    "seedIndex": 28216
+  },
+  {
+    "key": "2227-",
+    "value": "7",
+    "seedIndex": 28308
+  },
+  {
+    "key": "888T-",
+    "value": "T",
+    "seedIndex": 29654
+  },
+  {
+    "key": "333J-",
+    "value": "J",
+    "seedIndex": 29688
+  },
+  {
+    "key": "444T-",
+    "value": "T",
+    "seedIndex": 30453
+  },
+  {
+    "key": "777Q-",
+    "value": "Q",
+    "seedIndex": 30729
+  },
+  {
+    "key": "KKKA-",
+    "value": "A",
+    "seedIndex": 31190
+  },
+  {
+    "key": "TTTA-",
+    "value": "A",
+    "seedIndex": 32298
+  },
+  {
+    "key": "3339-",
+    "value": "9",
+    "seedIndex": 38827
+  },
+  {
+    "key": "999T-",
+    "value": "T",
+    "seedIndex": 39945
+  },
+  {
+    "key": "4448-",
+    "value": "8",
+    "seedIndex": 39986
+  },
+  {
+    "key": "4449-",
+    "value": "9",
+    "seedIndex": 42103
+  },
+  {
+    "key": "555Q-",
+    "value": "Q",
+    "seedIndex": 43755
+  },
+  {
+    "key": "JJJQ-",
+    "value": "Q",
+    "seedIndex": 59526
+  },
+  {
+    "key": "888A-",
+    "value": "A",
+    "seedIndex": 62654
+  },
+  {
+    "key": "4447-",
+    "value": "7",
+    "seedIndex": 62963
+  },
+  {
+    "key": "333K-",
+    "value": "K",
+    "seedIndex": 90289
   }
 ]
