@@ -7,6 +7,8 @@ import { findMaxIndex, loadModel, predictModel, toModelName } from "./model-help
 import { TrainingSample, trainModel } from "./train-policy-model";
 import { randomNumberGenerator } from "../common/RandomNumberGenerator";
 
+// import { vals as tmpVals } from "./tmp2";
+
 const { floor } = Math;
 
 function toKey(s: GameState) {
@@ -113,6 +115,11 @@ async function bootstrapModel(
 
   const NUM_RUNS = 1000;
   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
+  // if (mn === "360") {
+  //   tmpVals.forEach((item) => {
+  //     cache.set(item.key, { seedIndex: item.seedIndex, value: item.value });
+  //   });
+  // }
 
   for (let i = 0; i < 100_000; i++) {
     const seed = i.toString();
@@ -191,19 +198,27 @@ async function main() {
   const numberOfPlayers = args.at(-1) ? parseInt(args.at(-1)!, 10) : 3;
   for (let numberOfCards = 3; numberOfCards <= 7; numberOfCards++) {
     for (let playerIndex = numberOfPlayers - 1; playerIndex >= 0; playerIndex--) {
+      if (playerIndex === 0 && numberOfCards === 7) continue;
       const highestPlayedIndices = calcHighestPlayedIndices(numberOfPlayers, numberOfCards, playerIndex);
       for (const highestPlayedIndex of highestPlayedIndices) {
+        // if (playerIndex === 2) continue;
         const data = await bootstrapModel(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
         if (!data || data.length === 0) continue;
         const modelName = toModelName(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
+        writeValuations(data, `data/valuations-${modelName}.json`);
         // const filename = `data/valuations-${modelName}.json`;
         // const data = readValuations(filename);
-        writeValuations(data, `data/valuations-${modelName}.json`);
+        // await new Promise((resolve) => {
+        //   tf.tidy(() => {
+        //     trainModel(modelName, numberOfCards, data).then(resolve);
+        //   });
+        // });
         await trainModel(modelName, numberOfCards, data);
       }
     }
   }
 }
+
 main();
 // bootstrapModel(3, 4, 2);
 
@@ -211,3 +226,6 @@ main();
 // const filename = `data/valuations-${modelName}.json`;
 // const data = readValuations(filename);
 // await trainModel(modelName, 6, data);
+
+// const filename = `data/valuations-${modelName}.json`;
+// const data = readValuations(filename);
