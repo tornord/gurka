@@ -73,7 +73,7 @@ export function calcHighestPlayedIndices(numberOfPlayers: number, numberOfCards:
   return [...Array(playerIndex)].map((_, i) => i);
 }
 
-function readValuations(filename: string): TrainingSample[] {
+export function readValuations(filename: string): TrainingSample[] {
   return JSON.parse(fs.readFileSync(filename, "utf8"));
 }
 
@@ -142,6 +142,9 @@ export function simulateSeed(
       }
     }
   });
+  if (runs.some((r) => r === 0)) {
+    return true;
+  }
   const mi = findMaxIndex(vals.map((v, ii) => v / runs[ii]));
   cache.set(k, { seedIndex: Number(seed), value: cards[mi] });
   const mn = toModelName(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);

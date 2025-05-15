@@ -1,6 +1,12 @@
 import fs from "fs";
 
-import { calcHighestPlayedIndices, loadModels, policyNetworkCalcFactory, simulateSeed } from "./bootstrap-helpers";
+import {
+  calcHighestPlayedIndices,
+  loadModels,
+  policyNetworkCalcFactory,
+  readValuations,
+  simulateSeed,
+} from "./bootstrap-helpers";
 import { TrainingSample, trainModel } from "./train-policy-model";
 import { toModelName } from "./model-helpers";
 
@@ -41,6 +47,16 @@ async function bootstrapModel(
 
   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
 
+  const filename = `data/valuations-${mn}.json`;
+  if (fs.existsSync(filename)) {
+    const data = readValuations(filename);
+    for (const v of data) {
+      cache.set(v.key, { seedIndex: v.seedIndex, value: v.value });
+    }
+  }
+
+  let writeTimestamp: number = Date.now() / 1000;
+
   for (let i = 0; i < 100_000; i++) {
     const seed = i.toString();
     const cont = simulateSeed(
@@ -53,6 +69,13 @@ async function bootstrapModel(
       policyNetworkCalc
     );
     if (!cont) break;
+    if (Date.now() / 1000 - writeTimestamp > 60) {
+      const data = Array.from(cache.entries()).map(
+        ([k, v]) => ({ key: k, value: v.value, seedIndex: v.seedIndex } as TrainingSample)
+      );
+      writeValuations(data, `data/valuations-${mn}.json`);
+      writeTimestamp = Date.now() / 1000;
+    }
   }
 
   const vals = Array.from(cache.entries()); //.sort((a, b) => a[1] - b[1]);
@@ -109,6 +132,15 @@ main();
 //   for (const v of vals330) {
 //     simulateSeed(v.seedIndex.toString(), 4, 3, 0, null, cache, policyNetworkCalc);
 //   }
+// }
+
+// mainSingle();
+
+// async function mainSingle() {
+//   const { models, policyLookups } = await loadModels(3, 7);
+//   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
+//   const policyNetworkCalc = policyNetworkCalcFactory(3, 7, 2, policyLookups, models);
+//   simulateSeed("653", 3, 7, 2, 0, cache, policyNetworkCalc);
 // }
 
 // mainSingle();
