@@ -105,10 +105,10 @@ export function simulateSeed(
   cache: Map<string, { seedIndex: number; value: string }>,
   policyNetworkCalc: (state: GameState, moves: number[]) => number,
   numRuns: number = 1000
-) {
+): undefined {
   const t0 = performance.now();
   const rng0 = randomNumberGenerator(seed);
-  const s0 = generateRandomGameState(seed, phase.numberOfPlayers, phase.numberOfCards, phase.playerIndex);
+  const s0 = generateRandomGameState(seed, phase.numberOfPlayers, phase.numberOfCards, 0);
   for (let j = 0; j < phase.playerIndex; j++) {
     const ms = s0.possibleMoves();
     const m = ms[ms.length === 1 ? 0 : 1 + floor(rng0() * (ms.length - 1))];
@@ -116,13 +116,13 @@ export function simulateSeed(
   }
 
   if (phase.highestPlayedIndex !== null && s0.highestPlayedIndex !== phase.highestPlayedIndex) {
-    return true;
+    return;
   }
 
   const k = toKey(s0);
-  if (cache.has(k)) return true;
+  if (cache.has(k)) return;
   const moves = s0.possibleMoves();
-  if (moves.length === 1) return true;
+  if (moves.length === 1) return;
   const vals = moves.map(() => 0);
   const runs = moves.map(() => 0);
   const cards = moves.map((m) => cardToString(s0.players[phase.playerIndex].cards[m]));
@@ -133,7 +133,7 @@ export function simulateSeed(
         const s = s0.clone();
         s.playCard(moves[m]);
         const v = valuateMonteCarlo(s, rngr, 1, phase.playerIndex, true, policyNetworkCalc);
-        if (v === null) return true;
+        if (v === null) return;
         vals[m] += v.value;
         runs[m]++;
       }
@@ -142,11 +142,11 @@ export function simulateSeed(
   const t1 = performance.now();
   const elapsed = Math.round(t1 - t0);
   if (runs.some((r) => r === 0)) {
-    return true;
+    return;
   }
   const mi = findMaxIndex(vals.map((v, ii) => v / runs[ii]));
   cache.set(k, { seedIndex: Number(seed), value: cards[mi] });
-  const mn = phase.getModelName();
+  const mn = phase.toString();
   const pad = (s: string, n: number) => (n > 0 ? s.padStart(n) : s.padEnd(-n));
   // eslint-disable-next-line no-console
   console.log(
@@ -155,5 +155,4 @@ export function simulateSeed(
       -7
     )} ${cards[mi]} ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
   );
-  return cache.size < 5000;
 }

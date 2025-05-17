@@ -6,7 +6,7 @@ export class GamePhase {
     public readonly highestPlayedIndex: number | null
   ) {}
 
-  getModelName() {
+  toString() {
     return toModelName(this.numberOfPlayers, this.numberOfCards, this.playerIndex, this.highestPlayedIndex);
   }
 }
