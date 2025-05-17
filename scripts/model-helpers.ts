@@ -13,15 +13,6 @@ function base64ToArrayBuffer(base64: string) {
   return bytes.buffer;
 }
 
-export function toModelName(
-  numberOfPlayers: number,
-  numberOfCards: number,
-  playerIndex: number,
-  highestPlayedIndex: number | null
-) {
-  return `${numberOfPlayers}${numberOfCards}${playerIndex}${highestPlayedIndex === null ? "" : highestPlayedIndex}`;
-}
-
 interface Model {
   modelTopology: any; // eslint-disable-line @typescript-eslint/no-explicit-any
   weightSpecs: any; // eslint-disable-line @typescript-eslint/no-explicit-any

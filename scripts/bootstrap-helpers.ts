@@ -3,7 +3,8 @@ import fs from "fs";
 import * as tf from "@tensorflow/tfjs-node-gpu";
 
 import { cardToString, cardValue, GameState, generateRandomGameState, valuateMonteCarlo } from "../common/card-game";
-import { findMaxIndex, loadModel, predictModel, toModelName } from "./model-helpers";
+import { findMaxIndex, loadModel, predictModel } from "./model-helpers";
+import { GamePhase, toModelName } from "../common/game-phase";
 import { randomNumberGenerator } from "../common/RandomNumberGenerator";
 import { TrainingSample } from "./train-policy-model";
 
@@ -17,9 +18,7 @@ export function toKey(s: GameState) {
 }
 
 export function policyNetworkCalcFactory(
-  numberOfPlayers: number,
-  numberOfCards: number,
-  playerIndex: number,
+  phase: GamePhase,
   policyLookups: Record<string, Record<string, string>>,
   models: Record<string, tf.LayersModel>
 ) {
@@ -29,11 +28,11 @@ export function policyNetworkCalcFactory(
     let idxHighestPlayed: number | null = null;
     if (
       state.highestPlayedIndex !== -1 &&
-      numberOfPlayers > 2 &&
+      phase.numberOfPlayers > 2 &&
       idx > 1 &&
-      !(numberOfCards === 3 && playerIndex === numberOfPlayers - 1)
+      !(phase.numberOfCards === 3 && phase.playerIndex === phase.numberOfPlayers - 1)
     ) {
-      const n = numberOfPlayers;
+      const n = phase.numberOfPlayers;
       const idxDiff = (state.playerIndex + n - state.highestPlayedIndex) % n;
       if (idxDiff < 0 || idx - idxDiff < 0) {
         throw new Error(`idxDiff: ${idxDiff} idx: ${idx}`);
@@ -77,14 +76,14 @@ export function readValuations(filename: string): TrainingSample[] {
   return JSON.parse(fs.readFileSync(filename, "utf8"));
 }
 
-export async function loadModels(numberOfPlayers: number, numberOfCards: number) {
+export async function loadModels(phase: GamePhase) {
   const models: Record<string, tf.LayersModel> = {};
   const policyLookups: Record<string, Record<string, string>> = {};
-  for (let iCard = 3; iCard <= numberOfCards; iCard++) {
-    for (let iPlayer = 0; iPlayer < numberOfPlayers; iPlayer++) {
-      const highestPlayedIndices = calcHighestPlayedIndices(numberOfPlayers, numberOfCards, iPlayer);
+  for (let iCard = 3; iCard <= phase.numberOfCards; iCard++) {
+    for (let iPlayer = 0; iPlayer < phase.numberOfPlayers; iPlayer++) {
+      const highestPlayedIndices = calcHighestPlayedIndices(phase.numberOfPlayers, phase.numberOfCards, iPlayer);
       for (const iHighestPlayed of highestPlayedIndices) {
-        const modelName = toModelName(numberOfPlayers, iCard, iPlayer, iHighestPlayed);
+        const modelName = toModelName(phase.numberOfPlayers, iCard, iPlayer, iHighestPlayed);
         let filename = `./data/model-${modelName}.json`;
         if (!fs.existsSync(filename)) continue;
         const modelJson = JSON.parse(fs.readFileSync(filename, "utf8"));
@@ -102,23 +101,21 @@ export async function loadModels(numberOfPlayers: number, numberOfCards: number)
 
 export function simulateSeed(
   seed: string,
-  numberOfPlayers: number,
-  numberOfCards: number,
-  playerIndex: number,
-  highestPlayedIndex: number | null,
+  phase: GamePhase,
   cache: Map<string, { seedIndex: number; value: string }>,
-  policyNetworkCalc: (state: GameState, moves: number[]) => number
+  policyNetworkCalc: (state: GameState, moves: number[]) => number,
+  numRuns: number = 1000
 ) {
-  const NUM_RUNS = 1000;
+  const t0 = performance.now();
   const rng0 = randomNumberGenerator(seed);
-  const s0 = generateRandomGameState(seed, numberOfPlayers, numberOfCards, 0);
-  for (let j = 0; j < playerIndex; j++) {
+  const s0 = generateRandomGameState(seed, phase.numberOfPlayers, phase.numberOfCards, phase.playerIndex);
+  for (let j = 0; j < phase.playerIndex; j++) {
     const ms = s0.possibleMoves();
     const m = ms[ms.length === 1 ? 0 : 1 + floor(rng0() * (ms.length - 1))];
     s0.playCard(m);
   }
 
-  if (highestPlayedIndex !== null && s0.highestPlayedIndex !== highestPlayedIndex) {
+  if (phase.highestPlayedIndex !== null && s0.highestPlayedIndex !== phase.highestPlayedIndex) {
     return true;
   }
 
@@ -128,31 +125,35 @@ export function simulateSeed(
   if (moves.length === 1) return true;
   const vals = moves.map(() => 0);
   const runs = moves.map(() => 0);
-  const cards = moves.map((m) => cardToString(s0.players[playerIndex].cards[m]));
+  const cards = moves.map((m) => cardToString(s0.players[phase.playerIndex].cards[m]));
   tf.tidy(() => {
-    for (let j = 0; j < NUM_RUNS; j++) {
+    for (let j = 0; j < numRuns; j++) {
       for (let m = 0; m < moves.length; m++) {
         const rngr = randomNumberGenerator(`${seed}${j}`);
         const s = s0.clone();
         s.playCard(moves[m]);
-        const v = valuateMonteCarlo(s, rngr, 1, playerIndex, true, policyNetworkCalc);
+        const v = valuateMonteCarlo(s, rngr, 1, phase.playerIndex, true, policyNetworkCalc);
         if (v === null) return true;
         vals[m] += v.value;
         runs[m]++;
       }
     }
   });
+  const t1 = performance.now();
+  const elapsed = Math.round(t1 - t0);
   if (runs.some((r) => r === 0)) {
     return true;
   }
   const mi = findMaxIndex(vals.map((v, ii) => v / runs[ii]));
   cache.set(k, { seedIndex: Number(seed), value: cards[mi] });
-  const mn = toModelName(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
+  const mn = phase.getModelName();
+  const pad = (s: string, n: number) => (n > 0 ? s.padStart(n) : s.padEnd(-n));
   // eslint-disable-next-line no-console
   console.log(
-    `${mn.padEnd(4)} ${cache.size.toString().padStart(5)} ${seed.padStart(5)} ${k.padEnd(10)} ${cards
-      .join("")
-      .padEnd(7)} ${cards[mi]} ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
+    `${pad(mn, 4)} ${pad(cache.size.toString(), 4)} ${pad(seed, 5)} ${pad(elapsed.toString(), 5)} ${pad(k, -8)} ${pad(
+      cards.join(""),
+      -7
+    )} ${cards[mi]} ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
   );
   return cache.size < 5000;
 }

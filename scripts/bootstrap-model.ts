@@ -8,7 +8,7 @@ import {
   simulateSeed,
 } from "./bootstrap-helpers";
 import { TrainingSample, trainModel } from "./train-policy-model";
-import { toModelName } from "./model-helpers";
+import { GamePhase } from "../common/game-phase";
 
 // async function valuate(s: GameState, model: tf.LayersModel) {
 //   const key = toKey(s);
@@ -20,14 +20,9 @@ function writeValuations(data: TrainingSample[], filename: string) {
   fs.writeFileSync(filename, JSON.stringify(data, null, 2));
 }
 
-async function bootstrapModel(
-  numberOfPlayers: number,
-  numberOfCards: number,
-  playerIndex: number,
-  highestPlayedIndex: number | null = null
-) {
-  const { models, policyLookups } = await loadModels(numberOfPlayers, numberOfCards);
-  const mn = toModelName(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
+async function bootstrapModel(phase: GamePhase) {
+  const { models, policyLookups } = await loadModels(phase);
+  const mn = phase.getModelName();
   const mdl = models[mn];
   if (mdl) {
     // eslint-disable-next-line no-console
@@ -37,13 +32,7 @@ async function bootstrapModel(
   // eslint-disable-next-line no-console
   console.log(`Starting bootstrap for ${mn}`);
 
-  const policyNetworkCalc = policyNetworkCalcFactory(
-    numberOfPlayers,
-    numberOfCards,
-    playerIndex,
-    policyLookups,
-    models
-  );
+  const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, models);
 
   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
 
@@ -59,15 +48,7 @@ async function bootstrapModel(
 
   for (let i = 0; i < 100_000; i++) {
     const seed = i.toString();
-    const cont = simulateSeed(
-      seed,
-      numberOfPlayers,
-      numberOfCards,
-      playerIndex,
-      highestPlayedIndex,
-      cache,
-      policyNetworkCalc
-    );
+    const cont = simulateSeed(seed, phase, cache, policyNetworkCalc);
     if (!cont) break;
     if (Date.now() / 1000 - writeTimestamp > 60) {
       const data = Array.from(cache.entries()).map(
@@ -91,9 +72,10 @@ async function main() {
       const highestPlayedIndices = calcHighestPlayedIndices(numberOfPlayers, numberOfCards, playerIndex);
       for (const highestPlayedIndex of highestPlayedIndices) {
         // if (playerIndex === 2) continue;
-        const data = await bootstrapModel(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
+        const phase = new GamePhase(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
+        const data = await bootstrapModel(phase);
         if (!data || data.length === 0) continue;
-        const modelName = toModelName(numberOfPlayers, numberOfCards, playerIndex, highestPlayedIndex);
+        const modelName = phase.getModelName();
         writeValuations(data, `data/valuations-${modelName}.json`);
         // const filename = `data/valuations-${modelName}.json`;
         // const data = readValuations(filename);
@@ -118,29 +100,38 @@ main();
 
 // const filename = `data/valuations-${modelName}.json`;
 // const data = readValuations(filename);
-// function getVals(modelName: string) {
-//   const filename = `./data/valuations-${modelName}.json`;
-//   const res = JSON.parse(fs.readFileSync(filename, "utf8"));
-//   return res.filter((v: any) => "Q".split("").includes(v.key.slice(2, 3)) && v.value !== v.key.slice(2, 3));
-// }
+
+async function mainSingle() {
+  const phase = new GamePhase(5, 3, 0, null);
+  const getVals = (modelName: string) => {
+    const filename = `./data/valuations-${modelName}.json`;
+    const res = JSON.parse(fs.readFileSync(filename, "utf8"));
+    return res.filter((v: any) => v.key.slice(2, 3) !== v.value);
+  };
+  const { models, policyLookups } = await loadModels(phase);
+  const cache: Map<string, { seedIndex: number; value: string }> = new Map();
+  const policyNetworkCalc = policyNetworkCalcFactory(
+    phase,
+    policyLookups,
+    models
+  );
+  const vals = getVals(phase.getModelName());
+  for (const v of vals) {
+    simulateSeed(v.seedIndex.toString(), phase, cache, policyNetworkCalc, 3000);
+  }
+}
 
 // async function mainSingle() {
-//   const { models, policyLookups } = await loadModels(4, 3);
+//   const phase = new GamePhase(4, 3, 0, null);
+//   const { models, policyLookups } = await loadModels(phase);
 //   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
-//   const policyNetworkCalc = policyNetworkCalcFactory(4, 3, 0, policyLookups, models);
-//   const vals330 = getVals("430");
-//   for (const v of vals330) {
-//     simulateSeed(v.seedIndex.toString(), 4, 3, 0, null, cache, policyNetworkCalc);
+//   const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, models);
+//   const t1 = performance.now();
+//   for (let i = 0; i < 10; i++) {
+//     simulateSeed(i.toString(), phase, cache, policyNetworkCalc, 1000);
 //   }
-// }
-
-// mainSingle();
-
-// async function mainSingle() {
-//   const { models, policyLookups } = await loadModels(3, 7);
-//   const cache: Map<string, { seedIndex: number; value: string }> = new Map();
-//   const policyNetworkCalc = policyNetworkCalcFactory(3, 7, 2, policyLookups, models);
-//   simulateSeed("653", 3, 7, 2, 0, cache, policyNetworkCalc);
+//   const t2 = performance.now();
+//   console.log(`${(t2 - t1).toFixed(0)}`); // eslint-disable-line no-console
 // }
 
 // mainSingle();
