@@ -1,5 +1,6 @@
 // https://en.wikipedia.org/wiki/Cucumber_(card_game)
 
+import { GamePhase } from "./game-phase";
 import { randomNumberGenerator } from "./RandomNumberGenerator";
 
 const { floor, max } = Math;
@@ -146,23 +147,35 @@ export class GameState {
       }
     }
     const ids = nonLowests.filter((d) => d !== -1);
-    if (player.cards.length === 2) return ids;
-    if (player.cards.length === 3) {
-      const nextPlayerIndex = (this.playerIndex + 1) % this.players.length;
-      const isLast = this.players[nextPlayerIndex].cards.length < player.cards.length;
-      if (isLast) {
-        return [ids[0]];
-      }
-      if (this.players.length === 2) {
-        if (this.highestPlayedValue === -1) {
-          return [ids.at(-1)!];
+    if (ids.length > 0) {
+      if (player.cards.length === 2) return ids;
+      if (player.cards.length === 3) {
+        const np = this.players.length;
+        if (np >= 3) {
+          const idx = this.calcPositionIndex();
+          const im = ids.at(-1)!;
+          const v = cardValue(player.cards[im]);
+          if (idx === 0) {
+            if (!(v === 10 && np <= 4) && !(v === 11 && np <= 5)) return [im];
+          } else if (idx === 1) {
+            if (!(v === 11 && np <= 5) && !(v === 12 && np <= 3)) return [im];
+          }
         }
-        if (this.players[nextPlayerIndex].cards.length < player.cards.length && ids.length >= 1) {
+        const nextPlayerIndex = (this.playerIndex + 1) % this.players.length;
+        const isLast = this.players[nextPlayerIndex].cards.length < player.cards.length;
+        if (isLast) {
           return [ids[0]];
+        }
+        if (this.players.length === 2) {
+          if (this.highestPlayedValue === -1) {
+            return [ids.at(-1)!];
+          }
+          if (this.players[nextPlayerIndex].cards.length < player.cards.length && ids.length >= 1) {
+            return [ids[0]];
+          }
         }
       }
     }
-
     return cardValue(player.cards[0]) < this.highestPlayedValue ? [0, ...ids] : ids;
   }
 
@@ -330,48 +343,47 @@ export function generateRandomGameState(
 
 export function valuateSpecial(
   seedIndex: number,
-  numberOfPlayers: number,
-  numberOfCards: number,
-  playerIndex: number,
-  cache: Record<string, string> | null = null
+  phase: GamePhase,
+  numPlayedCards: number
+  // cache: Record<string, string> | null = null
 ) {
   const seed = seedIndex.toString();
-  const s = generateRandomGameState(seed, numberOfPlayers, numberOfCards, 0);
+  const s = generateRandomGameState(seed, phase.numberOfPlayers, phase.numberOfCards, 0);
   const rng0 = randomNumberGenerator(seed);
-  for (let i = 0; i < playerIndex; i++) {
+  for (let i = 0; i < numPlayedCards; i++) {
     const ms = s.possibleMoves();
     const m = ms[floor(rng0() * ms.length)];
     s.playCard(m);
   }
-  const p0cs = s.players[0].playedCards.map(cardToString).join("");
-  const p1cs = s.players[1].cards.map(cardToString).join("");
-  const key = `${p1cs}-${p0cs}`;
-  if (cache && cache[key]) {
-    return { state: null, valuation: cache[key], moves: null, key };
-  }
-  const ms = s.possibleMoves();
-  if (ms.length === 1) {
-    return { state: s, valuation: 0, moves: null, key };
-  }
-  let bestMove: string | null = null;
-  let bestValuation: number | null = null;
-  const values = [];
-  for (let i = 0; i < ms.length; i++) {
-    const rng1 = randomNumberGenerator(`${seed}x`);
-    const m = ms[i];
-    const c = cardToString(s.players[s.playerIndex].cards[m]);
-    const ss = s.clone();
-    ss.playCard(m);
-    const x = valuateMonteCarlo(ss, rng1, 1000, s.playerIndex, true);
-    values.push(`${c}: ${x!.value}`);
-    if (bestValuation === null || x!.value > bestValuation) {
-      bestValuation = x!.value;
-      bestMove = c;
-    }
-  }
-  if (cache) {
-    cache[key] = bestMove!;
-  }
+  // const p0cs = s.players[0].playedCards.map(cardToString).join("");
+  // const p1cs = s.players[1].cards.map(cardToString).join("");
+  // const key = `${p1cs}-${p0cs}`;
+  // if (cache && cache[key]) {
+  //   return { state: null, valuation: cache[key], moves: null, key };
+  // }
+  // const ms = s.possibleMoves();
+  // if (ms.length === 1) {
+  //   return { state: s, valuation: 0, moves: null, key };
+  // }
+  // let bestMove: string | null = null;
+  // let bestValuation: number | null = null;
+  // const values = [];
+  // for (let i = 0; i < ms.length; i++) {
+  //   const rng1 = randomNumberGenerator(`${seed}x`);
+  //   const m = ms[i];
+  //   const c = cardToString(s.players[s.playerIndex].cards[m]);
+  //   const ss = s.clone();
+  //   ss.playCard(m);
+  //   const x = valuateMonteCarlo(ss, rng1, 1000, s.playerIndex, true);
+  //   values.push(`${c}: ${x!.value}`);
+  //   if (bestValuation === null || x!.value > bestValuation) {
+  //     bestValuation = x!.value;
+  //     bestMove = c;
+  //   }
+  // }
+  // if (cache) {
+  //   cache[key] = bestMove!;
+  // }
   // console.log(bestMove, bestValuation, values); // eslint-disable-line no-console
-  return { state: s, valuation: bestValuation, moves: values, key };
+  return s;
 }

@@ -3,7 +3,7 @@ import fs from "fs";
 import * as tf from "@tensorflow/tfjs-node-gpu";
 
 import { cardFromString, cardToString } from "../common/card-game";
-import { cardsToInput, findMaxIndex, loadModel, predictModel, toJson, toModelName } from "./model-helpers";
+import { cardsToInput, findMaxIndex, loadModel, predictModel, toJson } from "./model-helpers";
 
 const { floor } = Math;
 

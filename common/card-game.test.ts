@@ -289,38 +289,50 @@ describe("card-game", () => {
     });
 
     describe("possibleMoves", () => {
-      const generateState = (cards: string, highest: string) => {
+      const generateState = (
+        cards: string,
+        highest: string,
+        numPlayers: number = 2,
+        playerIndex: number | null = null
+      ) => {
         const rng = randomNumberGenerator("X");
         const randomSuit = () => (rng() < 0.25 ? 0 : rng() < 0.5 ? 1 : rng() < 0.75 ? 2 : 3);
         const deck = new Deck();
+        const ps = [];
+        if (highest !== "") {
+          ps.push(new Player(deck.nextCards(rng, cards.length - 1)));
+        }
+        if (playerIndex === null) {
+          playerIndex = highest === "" ? 0 : 1;
+        }
+        for (let i = 1; i < playerIndex; i++) {
+          ps.push(new Player(deck.nextCards(rng, cards.length - 1)));
+        }
         const p = new Player(cards.split("").map((d) => cardFromString(d) + 13 * randomSuit()));
-        const res = new GameState(deck, [p], 0);
-        res.highestPlayedValue = highest === "" ? -1 : cardFromString(highest);
-        return res;
-      };
-      const generateState2 = (cards: string, highest: string) => {
-        const rng = randomNumberGenerator("X");
-        const randomSuit = () => (rng() < 0.25 ? 0 : rng() < 0.5 ? 1 : rng() < 0.75 ? 2 : 3);
-        const deck = new Deck();
-        const p1 = new Player(deck.nextCards(rng, 2), [cardFromString(highest)]);
-        const p2 = new Player(cards.split("").map((d) => cardFromString(d) + 13 * randomSuit()));
-        const res = new GameState(deck, [p1, p2], 1);
+        ps.push(p);
+        const n = ps.length;
+        for (let i = n; i < numPlayers; i++) {
+          ps.push(new Player(deck.nextCards(rng, cards.length)));
+        }
+
+        const res = new GameState(deck, ps, playerIndex);
+        res.highestPlayedIndex = highest === "" ? -1 : 0;
         res.highestPlayedValue = highest === "" ? -1 : cardFromString(highest);
         return res;
       };
 
       test("various situations", () => {
-        expect(generateState("234", "").possibleMoves()).toEqual([1, 2]);
+        expect(generateState("234", "").possibleMoves()).toEqual([2]);
         expect(generateState("J", "").possibleMoves()).toEqual([]);
         expect(generateState("JJ", "").possibleMoves()).toEqual([1]);
-        expect(generateState("345", "2").possibleMoves()).toEqual([1, 2]);
+        expect(generateState("345", "2").possibleMoves()).toEqual([1]);
         expect(generateState("3345", "2").possibleMoves()).toEqual([1, 2, 3]);
-        expect(generateState("579", "8").possibleMoves()).toEqual([0, 2]);
+        expect(generateState("579", "8").possibleMoves()).toEqual([2]);
         expect(generateState("334Q", "J").possibleMoves()).toEqual([0, 3]);
         expect(generateState("334Q", "K").possibleMoves()).toEqual([0]);
         expect(generateState("334Q", "A").possibleMoves()).toEqual([0]);
         expect(generateState("79", "7").possibleMoves()).toEqual([1]);
-        expect(generateState("34K", "Q").possibleMoves()).toEqual([0, 2]);
+        expect(generateState("34K", "Q").possibleMoves()).toEqual([2]);
         expect(generateState("333", "2").possibleMoves()).toEqual([1]);
         expect(generateState("333444", "2").possibleMoves()).toEqual([1, 3]);
         expect(generateState("333444", "4").possibleMoves()).toEqual([0, 3]);
@@ -328,15 +340,33 @@ describe("card-game", () => {
         expect(generateState("KA", "A").possibleMoves()).toEqual([0]);
         expect(generateState("AA", "A").possibleMoves()).toEqual([0]);
         expect(generateState("55", "5").possibleMoves()).toEqual([1]);
-        expect(generateState("TJQ", "T").possibleMoves()).toEqual([1, 2]);
+        expect(generateState("TJQ", "T").possibleMoves()).toEqual([1]);
         expect(generateState("778899", "8").possibleMoves()).toEqual([0, 2, 4]);
-        expect(generateState("2QK", "").possibleMoves()).toEqual([1, 2]);
-        expect(generateState("2QK", "7").possibleMoves()).toEqual([0, 1, 2]);
+        expect(generateState("2QK", "").possibleMoves()).toEqual([2]);
+        expect(generateState("2QK", "7").possibleMoves()).toEqual([1]);
         expect(generateState("KA", "K").possibleMoves()).toEqual([1]);
         expect(generateState("3T", "9").possibleMoves()).toEqual([1]);
-        expect(generateState("5QA", "K").possibleMoves()).toEqual([0, 2]);
-        expect(generateState2("5QA", "K").possibleMoves()).toEqual([2]);
-        expect(generateState2("2TJ", "9").possibleMoves()).toEqual([1]);
+        expect(generateState("5QA", "K").possibleMoves()).toEqual([2]);
+        expect(generateState("5QA", "K").possibleMoves()).toEqual([2]);
+        expect(generateState("2TJ", "9").possibleMoves()).toEqual([1]);
+        expect(generateState("2TJ", "", 3).possibleMoves()).toEqual([2]);
+        expect(generateState("2TA", "", 3).possibleMoves()).toEqual([2]);
+        expect(generateState("2TQ", "").possibleMoves()).toEqual([2]);
+        expect(generateState("2TQ", "", 3).possibleMoves()).toEqual([1, 2]);
+        expect(generateState("2JQ", "", 4).possibleMoves()).toEqual([1, 2]);
+        expect(generateState("2TJ", "", 2).possibleMoves()).toEqual([2]);
+        expect(generateState("2TQ", "", 5).possibleMoves()).toEqual([2]);
+        expect(generateState("2TK", "", 5).possibleMoves()).toEqual([1, 2]);
+        expect(generateState("2TA", "", 5).possibleMoves()).toEqual([2]);
+        expect(generateState("2TQ", "T", 5).possibleMoves()).toEqual([2]);
+        expect(generateState("2TK", "T", 5).possibleMoves()).toEqual([0, 1, 2]);
+        expect(generateState("2TA", "T", 5).possibleMoves()).toEqual([2]);
+        expect(generateState("2TQ", "T", 4).possibleMoves()).toEqual([2]);
+        expect(generateState("2TK", "T", 4).possibleMoves()).toEqual([0, 1, 2]);
+        expect(generateState("2TA", "T", 4).possibleMoves()).toEqual([2]);
+        expect(generateState("2TQ", "T", 3).possibleMoves()).toEqual([2]);
+        expect(generateState("2TK", "T", 3).possibleMoves()).toEqual([0, 1, 2]);
+        expect(generateState("2TA", "T", 3).possibleMoves()).toEqual([0, 1, 2]);
       });
 
       test("5 players with random three cards each", () => {
