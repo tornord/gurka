@@ -7,23 +7,17 @@ import {
   readValuations,
   simulateSeed,
 } from "./bootstrap-helpers";
-import { TrainingSample, trainModel } from "./train-policy-model";
+import { TrainingSample, trainModel, ValueDict } from "./train-policy-model";
 import { GamePhase } from "../common/game-phase";
-
-// async function valuate(s: GameState, model: tf.LayersModel) {
-//   const key = toKey(s);
-//   const prediction = await predictModel(model, key);
-//   return prediction;
-// }
 
 function writeValuations(data: TrainingSample[], filename: string) {
   fs.writeFileSync(filename, JSON.stringify(data, null, 2));
 }
 
 async function bootstrapModel(phase: GamePhase) {
-  const { models, policyLookups } = await loadModels(phase);
+  const { policyModels, policyLookups } = await loadModels(phase);
   const mn = phase.toString();
-  const mdl = models[mn];
+  const mdl = policyModels[mn];
   if (mdl) {
     // eslint-disable-next-line no-console
     console.log(`Model ${mn} already exists`);
@@ -32,15 +26,15 @@ async function bootstrapModel(phase: GamePhase) {
   // eslint-disable-next-line no-console
   console.log(`Starting bootstrap for ${mn}`);
 
-  const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, models);
+  const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, policyModels);
 
-  const cache: Map<string, { seedIndex: number; value: string }> = new Map();
+  const cache: Map<string, { seedIndex: number; values: ValueDict }> = new Map();
 
   const filename = `data/valuations-${mn}.json`;
   if (fs.existsSync(filename)) {
     const data = readValuations(filename);
     for (const v of data) {
-      cache.set(v.key, { seedIndex: v.seedIndex, value: v.value });
+      cache.set(v.key, { seedIndex: v.seedIndex, values: v.values });
     }
   }
 
@@ -52,7 +46,7 @@ async function bootstrapModel(phase: GamePhase) {
     if (cache.size >= 5000) break;
     if (Date.now() / 1000 - writeTimestamp > 60) {
       const data = Array.from(cache.entries()).map(
-        ([k, v]) => ({ key: k, value: v.value, seedIndex: v.seedIndex } as TrainingSample)
+        ([k, v]) => ({ key: k, values: v.values, seedIndex: v.seedIndex } as TrainingSample)
       );
       writeValuations(data, `data/valuations-${mn}.json`);
       writeTimestamp = Date.now() / 1000;
@@ -60,7 +54,7 @@ async function bootstrapModel(phase: GamePhase) {
   }
 
   const vals = Array.from(cache.entries()); //.sort((a, b) => a[1] - b[1]);
-  return vals.map(([k, v]) => ({ key: k, value: v.value, seedIndex: v.seedIndex } as TrainingSample));
+  return vals.map(([k, v]) => ({ key: k, values: v.values, seedIndex: v.seedIndex } as TrainingSample));
 }
 
 async function main() {
@@ -98,9 +92,9 @@ async function mainSingle1() {
     const res = JSON.parse(fs.readFileSync(filename, "utf8"));
     return res.filter((v: any) => v.key.slice(2, 3) !== v.value && v.key.slice(2, 3) === "A");
   };
-  const { models, policyLookups } = await loadModels(phase);
-  const cache: Map<string, { seedIndex: number; value: string }> = new Map();
-  const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, models);
+  const { policyModels, policyLookups } = await loadModels(phase);
+  const cache: Map<string, { seedIndex: number; values: ValueDict }> = new Map();
+  const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, policyModels);
   const vals = getVals(phase.toString());
   for (const v of vals) {
     simulateSeed(v.seedIndex.toString(), phase, cache, policyNetworkCalc, 10000);
@@ -109,9 +103,9 @@ async function mainSingle1() {
 
 async function mainSingle2() {
   const phase = new GamePhase(5, 3, 3, null);
-  const { models, policyLookups } = await loadModels(phase);
-  const cache: Map<string, { seedIndex: number; value: string }> = new Map();
-  const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, models);
+  const { policyModels, policyLookups } = await loadModels(phase);
+  const cache: Map<string, { seedIndex: number; values: ValueDict }> = new Map();
+  const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, policyModels);
   const t1 = performance.now();
   for (let i = 0; i < 10; i++) {
     simulateSeed(i.toString(), phase, cache, policyNetworkCalc, 1000);

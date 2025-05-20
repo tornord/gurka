@@ -3,7 +3,15 @@ import fs from "fs";
 import * as tf from "@tensorflow/tfjs-node-gpu";
 
 import { cardFromString, cardToString } from "../common/card-game";
-import { cardsToInput, findMaxIndex, loadModel, predictModel, toJson } from "./model-helpers";
+import {
+  cardsToInput as cardsToInput,
+  findMaxIndex,
+  loadModel,
+  predictModel,
+  toJson,
+  valuesToOutput,
+} from "./model-helpers";
+import { valueDictToString } from "./bootstrap-helpers";
 
 const { floor } = Math;
 
@@ -17,33 +25,31 @@ function buildModel(numInputFeatures: number, numHiddenUnits: number[]) {
   return model;
 }
 
+export type ValueDict = Record<string, number>;
+
 export interface TrainingSample {
   seedIndex: number;
   key: string;
-  value: string;
+  values: ValueDict;
 }
+
+const sqr = (x: number) => x * x;
 
 function testModel(model: tf.LayersModel, testData: TrainingSample[]) {
   let totalError = 0;
   for (let i = 0; i < testData.length; i++) {
-    const { key, value } = testData[i];
+    const { key, values } = testData[i];
     const prediction = predictModel(model, key);
+    const expected = valuesToOutput(values);
     const maxIndex = findMaxIndex(prediction);
-    // let maxValue = -Infinity;
-    // let maxIndex = -1;
-    // for (let j = 0; j < prediction.length; j++) {
-    //   if (prediction[j] > maxValue) {
-    //     maxValue = prediction[j];
-    //     maxIndex = j;
-    //   }
-    // }
+    const e = prediction.reduce((sum, d, idx) => sum + sqr(d - expected[idx]), 0);
+    const pc = cardToString(maxIndex);
     if (i < 20) {
-      console.log(`Input ${key}: expect ${value}, predict ${cardToString(maxIndex)}`); // eslint-disable-line no-console
+      console.log(`Input ${key}: expected [${valueDictToString(values)}], prediction [${pc}], error ${e.toFixed(4)}`); // eslint-disable-line no-console
     }
-    const e = cardFromString(value) === maxIndex ? 0 : 1;
     totalError += e;
-    if (e === 1) {
-      console.log(`Diff Input ${key}: expect ${value}, predict ${cardToString(maxIndex)}`); // eslint-disable-line no-console
+    if (e > 0.15 && expected[maxIndex] < 0.5) {
+      console.log(`Diff Input ${key}: expected [${valueDictToString(values)}], prediction [${pc}]`); // eslint-disable-line no-console
     }
   }
   console.log(`Total error: ${(totalError / testData.length).toFixed(2)}`); // eslint-disable-line no-console
@@ -60,11 +66,7 @@ function shuffle(data: TrainingSample[]) {
   return res;
 }
 
-export async function trainModel(
-  modelName: string,
-  numberOfCards: number,
-  data: TrainingSample[] | null = null
-) {
+export async function trainModel(modelName: string, numberOfCards: number, data: TrainingSample[] | null = null) {
   if (data === null) {
     data = JSON.parse(fs.readFileSync(`data/valuations-${modelName}.json`, "utf8")) as TrainingSample[];
   }
@@ -83,7 +85,7 @@ export async function trainModel(
     [NUM_SAMPLES, NUM_INPUT_FEATURES]
   );
   const ys = tf.tensor2d(
-    trainData.map((v) => cardsToInput(v.value, 0)),
+    trainData.map((v) => valuesToOutput(v.values)),
     [NUM_SAMPLES, 13]
   );
   const us = [2 * NUM_INPUT_FEATURES];

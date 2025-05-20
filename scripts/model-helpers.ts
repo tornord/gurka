@@ -2,6 +2,7 @@ import fs from "fs";
 
 import * as tf from "@tensorflow/tfjs";
 import { cardFromString } from "../common/card-game";
+import { ValueDict } from "./train-policy-model";
 
 function base64ToArrayBuffer(base64: string) {
   const binaryString = Buffer.from(base64, "base64").toString("binary");
@@ -43,7 +44,7 @@ export async function loadModel(modelJson: Model) {
 }
 
 export async function toJson(model: tf.LayersModel, name: string) {
-  const ws = model.getNamedWeights();
+  const ws = (model as unknown as { getNamedWeights: () => tf.NamedTensorMap }).getNamedWeights();
   const { data: weightData, specs: weightSpecs } = await tf.io.encodeWeights(ws);
   const modelTopology = model.toJSON(null, false);
   return { name, modelTopology, weightSpecs, weightData: Buffer.from(weightData).toString("base64") }; // new Buffer(weightData).toString("base64") };
@@ -54,7 +55,7 @@ export async function writeModel(model: tf.LayersModel, name: string) {
   fs.writeFileSync(`data/model-${name}.json`, JSON.stringify(json, null, 2));
 }
 
-export function cardsToInput(cards: string, fillValue: number = -1): number[] {
+export function cardsToInput(cards: string, fillValue: number = 0): number[] {
   const cs = cards.replace(/-/g, "").split("");
   const inputs: number[][] = [];
   for (const token of cs) {
@@ -64,6 +65,24 @@ export function cardsToInput(cards: string, fillValue: number = -1): number[] {
     inputs.push(oneHot);
   }
   return inputs.flat();
+}
+
+const LOGISTIC_SCALE = 8;
+const logistic = (x: number) => 1 / (1 + Math.exp(-x * LOGISTIC_SCALE));
+
+export function valuesToOutput(values: ValueDict): number[] {
+  const maxValue = Math.max(...Object.values(values));
+  const vs = new Array(13).fill(null);
+  let s = 0;
+  for (const [card, value] of Object.entries(values)) {
+    const v = logistic(value - maxValue);
+    vs[cardFromString(card)] = v;
+    s += v;
+  }
+  for (let i = 0; i < vs.length; i++) {
+    vs[i] = vs[i] === null ? 0 : vs[i] / s;
+  }
+  return vs;
 }
 
 export function predictModel(model: tf.LayersModel, cards: string): number[] {

@@ -2,11 +2,18 @@ import fs from "fs";
 
 import * as tf from "@tensorflow/tfjs-node-gpu";
 
-import { cardToString, cardValue, GameState, generateRandomGameState, valuateMonteCarlo } from "../common/card-game";
+import {
+  cardFromString,
+  cardToString,
+  cardValue,
+  GameState,
+  generateRandomGameState,
+  valuateMonteCarlo,
+} from "../common/card-game";
 import { findMaxIndex, loadModel, predictModel } from "./model-helpers";
 import { GamePhase, toModelName } from "../common/game-phase";
+import { TrainingSample, ValueDict } from "./train-policy-model";
 import { randomNumberGenerator } from "../common/RandomNumberGenerator";
-import { TrainingSample } from "./train-policy-model";
 
 const { floor } = Math;
 
@@ -19,8 +26,8 @@ export function toKey(s: GameState) {
 
 export function policyNetworkCalcFactory(
   phase: GamePhase,
-  policyLookups: Record<string, Record<string, string>>,
-  models: Record<string, tf.LayersModel>
+  policyLookups: Record<string, Record<string, ValueDict>>,
+  policyModels: Record<string, tf.LayersModel>
 ) {
   return (state: GameState, moves: number[]) => {
     const player = state.players[state.playerIndex];
@@ -42,24 +49,31 @@ export function policyNetworkCalcFactory(
     const modelName = toModelName(state.players.length, player.cards.length, idx, idxHighestPlayed);
     const k = toKey(state);
     const policyLookup = policyLookups[modelName];
+    const cs = moves.map((d) => cardValue(player.cards[d]));
     if (policyLookup) {
       const p = policyLookup[k];
       if (p) {
-        const md: Record<string, number> = {};
+        let vm = null;
+        let cim = null;
         for (let i = 0; i < moves.length; i++) {
-          const m = moves[i];
-          const c = cardToString(player.cards[m]);
-          md[c] = m;
+          const ci = moves[i];
+          const c = cs[i];
+          const s = cardToString(c);
+          if (!p[s]) continue;
+          const v = p[s];
+          if (vm === null || v >= vm) {
+            vm = v;
+            cim = ci;
+          }
         }
-        return md[p];
+        return cim;
       }
     }
-    const model = models[modelName];
+    const model = policyModels[modelName];
     if (!model) {
       throw new Error(`Model ${modelName} not found`);
     }
     const p = predictModel(model, k);
-    const cs = moves.map((d) => cardValue(player.cards[d]));
     const mi = findMaxIndex(cs.map((c) => p[c]));
     return moves[mi];
   };
@@ -76,33 +90,54 @@ export function readValuations(filename: string): TrainingSample[] {
   return JSON.parse(fs.readFileSync(filename, "utf8"));
 }
 
+export function valueDictToString(values: ValueDict) {
+  return Object.entries(values)
+    .map(([card, value]) => `${card}: ${value.toFixed(2)}`)
+    .join(", ");
+}
+
+export function maxValueDictMove(values: ValueDict) {
+  let ci = null;
+  let m = null;
+  for (const [card, value] of Object.entries(values)) {
+    const c = cardFromString(card);
+    if (ci === null || m === null || value > m || (value === m && c > ci)) {
+      m = value;
+      ci = c;
+    }
+  }
+  return ci;
+}
+
 export async function loadModels(phase: GamePhase) {
-  const models: Record<string, tf.LayersModel> = {};
-  const policyLookups: Record<string, Record<string, string>> = {};
+  const policyModels: Record<string, tf.LayersModel> = {};
+  const policyLookups: Record<string, Record<string, ValueDict>> = {};
   for (let iCard = 3; iCard <= phase.numberOfCards; iCard++) {
     for (let iPlayer = 0; iPlayer < phase.numberOfPlayers; iPlayer++) {
       const highestPlayedIndices = calcHighestPlayedIndices(phase.numberOfPlayers, phase.numberOfCards, iPlayer);
       for (const iHighestPlayed of highestPlayedIndices) {
         const modelName = toModelName(phase.numberOfPlayers, iCard, iPlayer, iHighestPlayed);
         let filename = `./data/model-${modelName}.json`;
-        if (!fs.existsSync(filename)) continue;
-        const modelJson = JSON.parse(fs.readFileSync(filename, "utf8"));
-        const model = await loadModel(modelJson);
-        models[modelName] = model;
+        if (fs.existsSync(filename)) {
+          const modelJson = JSON.parse(fs.readFileSync(filename, "utf8"));
+          const model = await loadModel(modelJson);
+          policyModels[modelName] = model;
+        }
         filename = `./data/valuations-${modelName}.json`;
-        if (!fs.existsSync(filename)) continue;
-        const dict = Object.fromEntries(readValuations(filename).map((d: TrainingSample) => [d.key, d.value]));
-        policyLookups[modelName] = dict;
+        if (fs.existsSync(filename)) {
+          const dict = Object.fromEntries(readValuations(filename).map((d: TrainingSample) => [d.key, d.values]));
+          policyLookups[modelName] = dict;
+        }
       }
     }
   }
-  return { models, policyLookups };
+  return { policyModels, policyLookups };
 }
 
 export function simulateSeed(
   seed: string,
   phase: GamePhase,
-  cache: Map<string, { seedIndex: number; value: string }>,
+  cache: Map<string, { seedIndex: number; values: ValueDict }>,
   policyNetworkCalc: (state: GameState, moves: number[]) => number,
   numRuns: number = 1000
 ): undefined {
@@ -123,7 +158,7 @@ export function simulateSeed(
   if (cache.has(k)) return;
   const moves = s0.possibleMoves();
   if (moves.length === 1) return;
-  const vals = moves.map(() => 0);
+  const totVals = moves.map(() => 0);
   const runs = moves.map(() => 0);
   const cards = moves.map((m) => cardToString(s0.players[phase.playerIndex].cards[m]));
   tf.tidy(() => {
@@ -134,7 +169,7 @@ export function simulateSeed(
         s.playCard(moves[m]);
         const v = valuateMonteCarlo(s, rngr, 1, phase.playerIndex, true, policyNetworkCalc);
         if (v === null) return;
-        vals[m] += v.value;
+        totVals[m] += v.value;
         runs[m]++;
       }
     }
@@ -144,8 +179,10 @@ export function simulateSeed(
   if (runs.some((r) => r === 0)) {
     return;
   }
-  const mi = findMaxIndex(vals.map((v, ii) => v / runs[ii]));
-  cache.set(k, { seedIndex: Number(seed), value: cards[mi] });
+  const values = totVals.map((v, ii) => v / runs[ii]);
+  const valueDict: ValueDict = Object.fromEntries(cards.map((c, ii) => [c, values[ii]]));
+  const mi = findMaxIndex(values);
+  cache.set(k, { seedIndex: Number(seed), values: valueDict });
   const mn = phase.toString();
   const pad = (s: string, n: number) => (n > 0 ? s.padStart(n) : s.padEnd(-n));
   // eslint-disable-next-line no-console
@@ -153,6 +190,6 @@ export function simulateSeed(
     `${pad(mn, 4)} ${pad(cache.size.toString(), 4)} ${pad(seed, 5)} ${pad(elapsed.toString(), 5)} ${pad(k, -8)} ${pad(
       cards.join(""),
       -7
-    )} ${cards[mi]} ${vals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
+    )} ${cards[mi]} ${totVals.map((d, ii) => (d / runs[ii]).toFixed(2).padStart(6)).join(" ")}`
   );
 }
