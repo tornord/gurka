@@ -29,7 +29,7 @@ export function policyNetworkCalcFactory(
   policyLookups: Record<string, Record<string, ValueDict>>,
   policyModels: Record<string, tf.LayersModel>
 ) {
-  return (state: GameState, moves: number[]) => {
+  return (state: GameState, moves: number[]): number => {
     const player = state.players[state.playerIndex];
     const idx = state.calcPositionIndex();
     let idxHighestPlayed: number | null = null;
@@ -66,7 +66,7 @@ export function policyNetworkCalcFactory(
             cim = ci;
           }
         }
-        return cim;
+        return cim!;
       }
     }
     const model = policyModels[modelName];

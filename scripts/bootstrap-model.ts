@@ -102,14 +102,14 @@ async function mainSingle1() {
 }
 
 async function mainSingle2() {
-  const phase = new GamePhase(5, 3, 3, null);
+  const phase = new GamePhase(2, 6, 0, null);
   const { policyModels, policyLookups } = await loadModels(phase);
   const cache: Map<string, { seedIndex: number; values: ValueDict }> = new Map();
   const policyNetworkCalc = policyNetworkCalcFactory(phase, policyLookups, policyModels);
   const t1 = performance.now();
-  for (let i = 0; i < 10; i++) {
-    simulateSeed(i.toString(), phase, cache, policyNetworkCalc, 1000);
-  }
+  // for (let i = 0; i < 10; i++) {
+    simulateSeed((2341).toString(), phase, cache, policyNetworkCalc, 5000);
+  // }
   const t2 = performance.now();
   console.log(`${(t2 - t1).toFixed(0)}`); // eslint-disable-line no-console
 }
