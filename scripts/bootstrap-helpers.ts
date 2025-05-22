@@ -29,7 +29,7 @@ export function policyNetworkCalcFactory(
   policyLookups: Record<string, Record<string, ValueDict>>,
   policyModels: Record<string, tf.LayersModel>
 ) {
-  return (state: GameState, moves: number[]) => {
+  return (state: GameState, moves: number[]): number => {
     const player = state.players[state.playerIndex];
     const idx = state.calcPositionIndex();
     let idxHighestPlayed: number | null = null;
@@ -66,7 +66,7 @@ export function policyNetworkCalcFactory(
             cim = ci;
           }
         }
-        return cim;
+        return cim!;
       }
     }
     const model = policyModels[modelName];
@@ -162,16 +162,20 @@ export function simulateSeed(
   const runs = moves.map(() => 0);
   const cards = moves.map((m) => cardToString(s0.players[phase.playerIndex].cards[m]));
   tf.tidy(() => {
-    for (let j = 0; j < numRuns; j++) {
-      for (let m = 0; m < moves.length; m++) {
+    for (let m = 0; m < moves.length; m++) {
+      let vt = 0;
+      let rt = 0;
+      for (let j = 0; j < numRuns; j++) {
         const rngr = randomNumberGenerator(`${seed}${j}`);
         const s = s0.clone();
         s.playCard(moves[m]);
         const v = valuateMonteCarlo(s, rngr, 1, phase.playerIndex, true, policyNetworkCalc);
-        if (v === null) return;
-        totVals[m] += v.value;
-        runs[m]++;
+        if (v === null) continue;
+        vt += v.value;
+        rt++;
       }
+      totVals[m] = vt;
+      runs[m] = rt;
     }
   });
   const t1 = performance.now();
